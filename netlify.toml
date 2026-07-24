@@ -1,0 +1,14 @@
+# Static site: the repo root is the publish directory. No build step.
+[build]
+  publish = "."
+  command = "echo 'static site — nothing to build'"
+
+# Long cache for dated archives (immutable once published); index stays fresh.
+[[headers]]
+  for = "/ai-digest-*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
