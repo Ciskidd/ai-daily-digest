@@ -3,25 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI Daily Digest — July 23, 2026</title>
+<title>AI Daily Digest — Thu Jul 23, 2026</title>
 <style>
 :root{
-  --paper:#f6f3ec; --ink:#1c1a17; --muted:#6b655c; --line:#dcd6ca;
-  --card:#fffdf8; --accent:#8a3324; --accent-soft:#f0e2dd;
-  --tail:#1f7a4d; --tail-bg:#e6f3ec; --head:#b23b2e; --head-bg:#f7e5e2;
-  --neutral:#6b655c; --neutral-bg:#eeebe3; --watch:#b7791f; --watch-bg:#f6ecd6;
-  --bull:#1f7a4d; --bull-bg:#e6f3ec; --bear:#b23b2e; --bear-bg:#f7e5e2;
-  --mixed:#b7791f; --mixed-bg:#f6ecd6; --noise:#6b655c; --noise-bg:#eeebe3;
-  --maxw:68ch;
+  --paper:#faf7f0; --ink:#1c1a17; --muted:#6b6459; --line:#e3ddd0;
+  --card:#fffdf8; --accent:#b4471f; --accent-soft:#f4e2da;
+  --tail:#1f7a4d; --head:#b4471f; --neutral:#8a8175; --watch:#a5791a;
+  --bull:#1f7a4d; --bear:#b4471f; --mixed:#a5791a; --noise:#8a8175;
+  --chip:#efe9dc;
 }
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme:dark){
   :root{
-    --paper:#16140f; --ink:#e9e4d8; --muted:#9c968a; --line:#2f2b23;
-    --card:#1e1b15; --accent:#e0917f; --accent-soft:#2c211d;
-    --tail:#5fd39a; --tail-bg:#123023; --head:#f0968a; --head-bg:#331b18;
-    --neutral:#9c968a; --neutral-bg:#26231c; --watch:#e0b45f; --watch-bg:#2e2712;
-    --bull:#5fd39a; --bull-bg:#123023; --bear:#f0968a; --bear-bg:#331b18;
-    --mixed:#e0b45f; --mixed-bg:#2e2712; --noise:#9c968a; --noise-bg:#26231c;
+    --paper:#16140f; --ink:#eae4d8; --muted:#9d9482; --line:#2e2a22;
+    --card:#1e1b15; --accent:#e07a4e; --accent-soft:#3a271e;
+    --tail:#4fbf85; --head:#e07a4e; --neutral:#9d9482; --watch:#d6a636;
+    --bull:#4fbf85; --bear:#e07a4e; --mixed:#d6a636; --noise:#9d9482;
+    --chip:#2a251d;
   }
 }
 *{box-sizing:border-box}
@@ -29,151 +26,125 @@ html{scroll-behavior:smooth}
 body{
   margin:0; background:var(--paper); color:var(--ink);
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased;
+  font-size:17px; line-height:1.6;
 }
 a{color:var(--accent)}
-h1,h2,h3{line-height:1.2; font-weight:700}
-
-/* Sticky bar */
 .topbar{
-  position:sticky; top:0; z-index:50; background:color-mix(in srgb,var(--paper) 92%,transparent);
-  backdrop-filter:blur(8px); border-bottom:1px solid var(--line);
+  position:sticky; top:0; z-index:40; background:var(--paper);
+  border-bottom:1px solid var(--line); backdrop-filter:blur(6px);
+  display:flex; align-items:center; gap:16px; padding:10px 20px; height:49px;
+  font-size:14px; flex-wrap:nowrap; overflow-x:auto;
 }
-.topbar-inner{max-width:1180px; margin:0 auto; padding:.6rem 1.2rem; display:flex; align-items:center; gap:1rem; flex-wrap:wrap}
-.brand{font-weight:800; letter-spacing:-.02em; font-size:1.05rem}
-.brand .dot{color:var(--accent)}
-.meta-pills{display:flex; gap:.5rem; flex-wrap:wrap; font-size:.8rem; color:var(--muted)}
-.meta-pills span{background:var(--accent-soft); color:var(--accent); padding:.15rem .55rem; border-radius:999px; font-weight:600}
-.jump{margin-left:auto; display:flex; gap:.9rem; font-size:.82rem; flex-wrap:wrap}
-.jump a{color:var(--muted); text-decoration:none}
-.jump a:hover{color:var(--accent)}
-
-/* Recent editions bar */
-.editions{position:sticky; top:49px; z-index:40; background:color-mix(in srgb,var(--paper) 94%,transparent); backdrop-filter:blur(8px); border-bottom:1px solid var(--line); font-size:.8rem}
-.editions-inner{max-width:1180px; margin:0 auto; padding:.4rem 1.2rem; display:flex; align-items:center; gap:.6rem; flex-wrap:wrap}
-.ed-label{text-transform:uppercase; letter-spacing:.1em; font-size:.66rem; font-weight:700; color:var(--muted)}
-.ed-link{text-decoration:none; color:var(--accent); border:1px solid var(--line); border-radius:999px; padding:.12rem .6rem; font-weight:600; white-space:nowrap}
+.topbar .brand{font-weight:700; letter-spacing:.02em; white-space:nowrap}
+.topbar .meta{color:var(--muted); white-space:nowrap}
+.topbar nav{margin-left:auto; display:flex; gap:14px; white-space:nowrap}
+.topbar nav a{color:var(--muted); text-decoration:none}
+.topbar nav a:hover{color:var(--accent)}
+.editions{
+  position:sticky; top:49px; z-index:39; background:var(--accent-soft);
+  border-bottom:1px solid var(--line); padding:7px 20px; font-size:13px; overflow-x:auto;
+}
+.editions-inner{display:flex; align-items:center; gap:8px; white-space:nowrap}
+.ed-label{color:var(--muted); font-weight:600; margin-right:4px}
+.ed-link{display:inline-block; padding:3px 10px; border-radius:999px; background:var(--chip);
+  color:var(--ink); text-decoration:none; border:1px solid var(--line)}
 .ed-link:hover{border-color:var(--accent)}
 .ed-current{background:var(--accent); color:#fff; border-color:var(--accent)}
 .ed-none{color:var(--muted); font-style:italic}
-@media print{.editions{display:none !important}}
-
-/* Layout */
-.wrap{max-width:1180px; margin:0 auto; padding:0 1.2rem; display:grid; grid-template-columns:230px minmax(0,1fr); gap:2.4rem}
-.rail{position:sticky; top:70px; align-self:start; height:calc(100vh - 90px); overflow-y:auto; padding:1.4rem 0; font-size:.82rem}
-.rail h4{font-size:.7rem; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin:1.1rem 0 .5rem}
-.rail a{display:block; color:var(--muted); text-decoration:none; padding:.2rem 0; border-left:2px solid transparent; padding-left:.7rem; line-height:1.35}
+.wrap{display:flex; max-width:1180px; margin:0 auto; gap:32px; padding:0 20px}
+.rail{
+  width:250px; flex:0 0 250px; position:sticky; top:96px; align-self:flex-start;
+  max-height:calc(100vh - 110px); overflow-y:auto; padding:22px 0; font-size:13.5px;
+}
+.rail h4{margin:0 0 8px; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted)}
+.rail a{display:block; color:var(--muted); text-decoration:none; padding:4px 8px; border-left:2px solid transparent; line-height:1.35}
 .rail a:hover{color:var(--ink)}
 .rail a.active{color:var(--accent); border-left-color:var(--accent); font-weight:600}
-.content{padding:1.6rem 0 4rem; min-width:0}
-
-/* Header masthead */
-.masthead{border-bottom:3px double var(--line); padding-bottom:1.2rem; margin-bottom:1.4rem}
-.masthead .kicker{font-size:.72rem; text-transform:uppercase; letter-spacing:.2em; color:var(--accent); font-weight:700}
-.masthead h1{font-size:2.5rem; letter-spacing:-.03em; margin:.3rem 0 .2rem}
-.masthead .date{color:var(--muted); font-size:.95rem}
-.oneliner{font-size:1.3rem; line-height:1.45; font-weight:500; max-width:var(--maxw); margin:1.4rem 0 .4rem; font-style:italic}
-.oneliner b{font-style:normal; color:var(--accent)}
-
-/* Filter chips */
-.filters{display:flex; gap:.5rem; flex-wrap:wrap; margin:1.6rem 0 .4rem; padding:.9rem 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line)}
-.chip{cursor:pointer; border:1px solid var(--line); background:var(--card); color:var(--muted); padding:.3rem .8rem; border-radius:999px; font-size:.8rem; font-weight:600; transition:.15s}
-.chip:hover{border-color:var(--accent); color:var(--accent)}
-.chip.on{background:var(--accent); color:#fff; border-color:var(--accent)}
-
-/* Sections */
-section{margin-top:2.6rem; scroll-margin-top:80px}
-.sec-head{display:flex; align-items:baseline; gap:.7rem; border-bottom:2px solid var(--ink); padding-bottom:.35rem; margin-bottom:1.2rem}
-.sec-head h2{font-size:1.15rem; text-transform:uppercase; letter-spacing:.08em; margin:0}
-.sec-head .n{font-size:.78rem; color:var(--muted)}
-.top3 .sec-head h2{color:var(--accent)}
-
-/* Cards */
-.card{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:1.4rem 1.5rem; margin-bottom:1.4rem; scroll-margin-top:80px}
-.card.focus{outline:2px solid var(--accent); outline-offset:2px}
-.rank{font-size:.72rem; font-weight:700; color:var(--accent); letter-spacing:.05em; text-transform:uppercase}
-.card h3{font-size:1.32rem; letter-spacing:-.02em; margin:.25rem 0 .55rem; max-width:var(--maxw)}
-.byline{font-size:.8rem; color:var(--muted); display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin-bottom:.7rem}
-.byline .outlet{font-weight:700; color:var(--ink)}
-.badges{display:flex; gap:.4rem; flex-wrap:wrap}
-.badge{font-size:.68rem; font-weight:700; padding:.12rem .5rem; border-radius:5px; letter-spacing:.02em; white-space:nowrap}
-.b-cn{background:#a12b1e; color:#fff}
-.b-cnx{background:#d8a13a; color:#241a00}
-.b-follow{background:#3a5f9a; color:#fff}
-.b-trans{background:var(--neutral-bg); color:var(--muted); border:1px solid var(--line)}
-.summary{max-width:var(--maxw); margin:.2rem 0 .8rem}
-.zh{font-size:.85rem; color:var(--muted); font-style:normal; margin:-.3rem 0 .7rem}
-.why{max-width:var(--maxw); font-size:.95rem; background:var(--accent-soft); border-left:3px solid var(--accent); padding:.55rem .85rem; border-radius:0 6px 6px 0; margin:.4rem 0 1rem}
+.rail .drawer-close{display:none}
+main{flex:1 1 auto; min-width:0; max-width:70ch; padding:26px 0 80px}
+header.masthead{border-bottom:3px double var(--ink); padding-bottom:16px; margin-bottom:8px}
+header.masthead .kicker{font-size:12px; letter-spacing:.22em; text-transform:uppercase; color:var(--accent); font-weight:700}
+header.masthead h1{font-size:34px; line-height:1.1; margin:6px 0 4px; letter-spacing:-.01em}
+header.masthead .dateline{color:var(--muted); font-size:14px}
+.one-sentence{font-size:20px; line-height:1.45; font-style:italic; border-left:4px solid var(--accent);
+  padding:12px 0 12px 18px; margin:22px 0}
+.filters{display:flex; flex-wrap:wrap; gap:8px; margin:18px 0 6px; position:sticky; top:96px; z-index:20;
+  background:var(--paper); padding:8px 0}
+.filters button{font:inherit; font-size:12.5px; padding:5px 12px; border-radius:999px; cursor:pointer;
+  border:1px solid var(--line); background:var(--chip); color:var(--ink)}
+.filters button.on{background:var(--accent); color:#fff; border-color:var(--accent)}
+h2.section{font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted);
+  border-bottom:1px solid var(--line); padding-bottom:6px; margin:38px 0 6px}
+.reason{font-size:13px; color:var(--muted); font-style:italic; margin:2px 0 14px}
+article.card{background:var(--card); border:1px solid var(--line); border-radius:10px;
+  padding:20px 22px; margin:16px 0; scroll-margin-top:150px}
+article.card h3{font-size:22px; line-height:1.22; margin:0 0 8px; letter-spacing:-.01em}
+.byline{font-size:13px; color:var(--muted); margin-bottom:10px}
+.orig-cn{font-size:13px; color:var(--muted); font-weight:400}
+.badges{display:inline-flex; flex-wrap:wrap; gap:6px; margin-left:2px; vertical-align:middle}
+.badge{font-size:11px; padding:2px 8px; border-radius:999px; border:1px solid var(--line);
+  background:var(--chip); color:var(--muted); font-weight:600; letter-spacing:.02em}
+.badge.followup{background:var(--accent-soft); color:var(--accent); border-color:var(--accent)}
+.badge.cn{background:#e9edff20; color:#5566cc}
+.summary{margin:8px 0}
+.why{font-size:14.5px; margin:10px 0; padding:10px 14px; background:var(--accent-soft); border-radius:8px}
 .why b{color:var(--accent)}
-
-/* Analysis panels */
-.panels{display:grid; grid-template-columns:1fr 1fr; gap:.9rem; margin-top:.4rem}
+.panels{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:14px}
 @media(max-width:640px){.panels{grid-template-columns:1fr}}
-.panel{border-radius:8px; padding:.8rem .95rem; font-size:.9rem; border:1px solid var(--line)}
-.panel .plabel{font-size:.66rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; display:flex; align-items:center; justify-content:space-between; gap:.5rem; margin-bottom:.4rem}
-.rating{font-size:.66rem; font-weight:800; padding:.1rem .5rem; border-radius:5px; letter-spacing:.03em}
-.p-qc{background:color-mix(in srgb,#3a5f9a 7%,var(--card))}
-.p-qc .plabel{color:#3a5f9a}
-.p-inv{background:color-mix(in srgb,#6d4a9a 7%,var(--card))}
-.p-inv .plabel{color:#6d4a9a}
-.r-tail,.r-bull{background:var(--tail-bg); color:var(--tail)}
-.r-head,.r-bear{background:var(--head-bg); color:var(--head)}
-.r-neutral,.r-noise{background:var(--neutral-bg); color:var(--neutral)}
-.r-watch,.r-mixed{background:var(--watch-bg); color:var(--watch)}
-.nia{display:block; margin-top:.45rem; font-size:.72rem; color:var(--muted); font-style:italic}
-.src{margin-top:.9rem; font-size:.8rem}
-.src a{text-decoration:none; font-weight:600}
-.src a:hover{text-decoration:underline}
-.also{color:var(--muted); font-size:.78rem; margin-top:.2rem}
-
-/* Back to top */
-#totop{position:fixed; right:1.2rem; bottom:1.2rem; z-index:60; background:var(--accent); color:#fff; border:none; border-radius:50%; width:44px; height:44px; font-size:1.1rem; cursor:pointer; opacity:0; pointer-events:none; transition:.2s; box-shadow:0 3px 12px rgba(0,0,0,.25)}
-#totop.show{opacity:1; pointer-events:auto}
-
-footer{max-width:var(--maxw); margin:3rem 0 2rem; padding-top:1.4rem; border-top:1px solid var(--line); font-size:.82rem; color:var(--muted)}
-footer h4{color:var(--ink); font-size:.9rem; margin:1rem 0 .3rem}
-.kbdhint{font-size:.75rem; color:var(--muted); margin-top:.6rem}
-kbd{background:var(--card); border:1px solid var(--line); border-bottom-width:2px; border-radius:4px; padding:.05rem .4rem; font-size:.72rem; font-family:ui-monospace,monospace}
-
+.panel{border:1px solid var(--line); border-radius:8px; padding:12px 14px; font-size:14px; background:var(--paper)}
+.panel .plabel{font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-weight:700}
+.panel .rating{font-weight:700; margin:3px 0 6px; font-size:14.5px}
+.r-tailwind,.r-bullish{color:var(--tail)}
+.r-headwind,.r-bearish{color:var(--head)}
+.r-neutral,.r-noise{color:var(--neutral)}
+.r-watch,.r-mixed{color:var(--watch)}
+.panel .nia{display:block; margin-top:6px; font-size:11px; color:var(--muted); font-style:italic}
+.readmore{display:inline-block; margin-top:12px; font-size:13.5px; font-weight:600; text-decoration:none}
+.readmore:after{content:" \2192"}
+footer{max-width:70ch; margin:40px auto 60px; padding:20px; border-top:1px solid var(--line);
+  font-size:13px; color:var(--muted); line-height:1.7}
+footer b{color:var(--ink)}
+.totop{position:fixed; right:20px; bottom:20px; z-index:50; background:var(--accent); color:#fff;
+  border:none; border-radius:999px; padding:10px 14px; font:inherit; font-size:13px; cursor:pointer;
+  box-shadow:0 2px 10px #0003; opacity:0; pointer-events:none; transition:opacity .2s}
+.totop.show{opacity:1; pointer-events:auto}
+.menu-btn{display:none; font:inherit; font-size:13px; background:var(--chip); border:1px solid var(--line);
+  color:var(--ink); border-radius:6px; padding:4px 10px; cursor:pointer}
 .hidden{display:none !important}
-
 @media(max-width:900px){
-  .wrap{grid-template-columns:1fr}
-  .rail{display:none}
-  .jump{display:none}
+  .rail{position:fixed; top:0; left:0; height:100vh; width:80%; max-width:320px; background:var(--paper);
+    z-index:60; transform:translateX(-100%); transition:transform .25s; box-shadow:2px 0 20px #0004;
+    padding:20px; max-height:none}
+  .rail.open{transform:translateX(0)}
+  .rail .drawer-close{display:block; margin-bottom:14px; font:inherit; background:none; border:1px solid var(--line);
+    color:var(--ink); border-radius:6px; padding:4px 10px; cursor:pointer}
+  .menu-btn{display:inline-block}
+  main{max-width:100%}
 }
 @media print{
-  .topbar,.rail,.filters,#totop,.jump{display:none !important}
-  body{background:#fff; color:#000; font-size:11pt}
-  .wrap{display:block; max-width:100%}
-  .card{break-inside:avoid; border:1px solid #bbb; box-shadow:none}
-  .panels{break-inside:avoid}
-  a{color:#000; text-decoration:underline}
-  .hidden{display:block !important}
+  .topbar,.editions,.rail,.filters,.totop,.menu-btn,.readmore{display:none !important}
+  body{background:#fff; color:#000; font-size:11.5pt}
+  .wrap{max-width:100%; padding:0}
+  article.card{border:1px solid #ccc; break-inside:avoid; page-break-inside:avoid}
+  .panels{grid-template-columns:1fr 1fr}
+  .why{background:#f3f3f3}
+  a{color:#000; text-decoration:none}
 }
 </style>
 </head>
 <body>
-
 <div class="topbar">
-  <div class="topbar-inner">
-    <div class="brand">AI Daily<span class="dot">.</span>Digest</div>
-    <div class="meta-pills"><span>Thu Jul 23 2026</span><span id="count-pill">12 items</span></div>
-    <nav class="jump">
-      <a href="#top3">Top 3</a>
-      <a href="#models">Models</a>
-      <a href="#industry">Industry</a>
-      <a href="#semis">Semis</a>
-      <a href="#policy">Policy</a>
-      <a href="#tools">Tools</a>
-      <a href="#china">China</a>
-    </nav>
-  </div>
+  <button class="menu-btn" id="menuBtn" aria-label="Open contents">☰ Contents</button>
+  <span class="brand">AI Daily Digest</span>
+  <span class="meta">Thu Jul 23, 2026 · 6 items</span>
+  <nav>
+    <a href="#top3">Top 3</a>
+    <a href="#models">Models</a>
+    <a href="#semis">Semis</a>
+    <a href="#policy">Policy</a>
+  </nav>
 </div>
 
-<!-- RECENT EDITIONS: current + up to 3 prior editions. The daily build injects
-     one <a class="ed-link"> per prior dated file (most recent first, max 3),
-     linking to /ai-digest-YYYY-MM-DD.html. Served whole-repo by Netlify. -->
 <div class="editions">
   <div class="editions-inner">
     <span class="ed-label">Recent editions</span>
@@ -183,449 +154,309 @@ kbd{background:var(--card); border:1px solid var(--line); border-bottom-width:2p
 </div>
 
 <div class="wrap">
-  <!-- LEFT RAIL TOC -->
   <aside class="rail" id="rail">
-    <h4>Top 3</h4>
-    <a href="#item-1">AMD Advancing AI 2026</a>
-    <a href="#item-2">China eyes export curbs on own AI</a>
-    <a href="#item-3">Google ships Gemini 3.6 Flash</a>
-    <h4>Models &amp; Research</h4>
-    <a href="#item-3b">Gemini 3.6 Flash family (detail)</a>
-    <h4>Industry &amp; Funding</h4>
-    <a href="#item-4">Anthropic Q2 lobbying spend</a>
-    <a href="#item-5">OpenAI $110B raise</a>
-    <h4>Semis &amp; Hardware</h4>
-    <a href="#item-6">Qualcomm–Samsung Snapdragon</a>
-    <a href="#item-7">NVIDIA backstops neocloud GPU loans</a>
-    <h4>Policy &amp; Regulation</h4>
-    <a href="#item-8">Meta AI moderation failures</a>
-    <h4>Tools &amp; Open Source</h4>
-    <a href="#item-9">Dorsey launches BUZZ</a>
-    <h4>China Watch</h4>
-    <a href="#item-10">Kimi K3 &amp; GLM-5.2</a>
-    <a href="#item-11">WAIC 2026 &amp; WAICO</a>
-    <a href="#item-12">PsiBot hits $1.48B</a>
+    <button class="drawer-close" id="drawerClose">✕ Close</button>
+    <h4>In this edition</h4>
+    <a href="#s-moonshot">White House accuses Moonshot of distilling Fable</a>
+    <a href="#s-capex">Mega-cap AI selloff before Meta/Amazon earnings</a>
+    <a href="#s-presence">OpenAI launches Presence agent platform</a>
+    <a href="#s-opus5">Claude Opus 5 ("Honeycomb") expected today</a>
+    <a href="#s-infra">NVIDIA infra footprint: Hut 8, Wistron</a>
+    <a href="#s-export">China weighs tighter AI/chip export controls</a>
   </aside>
 
-  <!-- MAIN -->
-  <main class="content">
-    <div class="masthead" id="top">
-      <div class="kicker">Daily AI News Digest · Qualcomm &amp; Investor lens</div>
-      <h1>Today in AI</h1>
-      <div class="date">Thursday, July 23, 2026 · covering the last 24 hours</div>
-      <p class="oneliner">AMD used its <b>Advancing AI</b> stage to book 12 gigawatts of OpenAI and Meta demand for the Helios rack, while Beijing floated locking down its <b>own</b> AI models and chips — the clearest sign yet that compute is now statecraft on both sides of the Pacific.</p>
+  <main>
+    <header class="masthead" id="top">
+      <div class="kicker">Signal over noise · Qualcomm &amp; investor lens</div>
+      <h1>AI Daily Digest</h1>
+      <div class="dateline">Thursday, July 23, 2026 · Afternoon edition · New developments since this morning</div>
+    </header>
+
+    <div class="one-sentence">
+      Washington escalated the model-theft fight by naming Moonshot AI over Kimi K3 and banned Blackwell chips,
+      while a capex-driven rotation hit the mega-caps ahead of earnings — even as OpenAI, Anthropic, and NVIDIA kept shipping.
     </div>
 
     <div class="filters" id="filters">
-      <button class="chip on" data-f="all">All</button>
-      <button class="chip" data-f="qc-tail">Qualcomm Tailwind</button>
-      <button class="chip" data-f="qc-head">Qualcomm Headwind</button>
-      <button class="chip" data-f="bull">Bullish</button>
-      <button class="chip" data-f="bear">Bearish</button>
-      <button class="chip" data-f="china">China</button>
-      <button class="chip" data-f="follow">Follow-up</button>
+      <button class="on" data-f="all">All</button>
+      <button data-f="qc-tail">Qualcomm Tailwind</button>
+      <button data-f="qc-head">Qualcomm Headwind</button>
+      <button data-f="bull">Bullish</button>
+      <button data-f="bear">Bearish</button>
+      <button data-f="cn">China</button>
+      <button data-f="followup">Follow-up</button>
     </div>
 
-    <!-- ================= TOP 3 ================= -->
-    <section id="top3" class="top3">
-      <div class="sec-head"><h2>Top 3 Today</h2><span class="n">why each made the cut</span></div>
+    <h2 class="section" id="top3">Top 3 Today</h2>
 
-      <!-- ITEM 1 -->
-      <article class="card" id="item-1" data-tags="qc-head bull semis">
-        <div class="rank">#1 · Made the cut: largest datacenter-silicon event of the quarter, with named hyperscale commitments</div>
-        <h3>AMD lands 12 GW of OpenAI + Meta demand as it unveils MI455X and the Helios rack</h3>
-        <div class="byline"><span class="outlet">HotHardware / Reuters</span><span>· Jul 22–23, 2026</span>
-          <span class="badges"><span class="badge b-follow">Follow-up</span></span>
+    <article class="card" id="s-moonshot" data-tags="cn followup bear qc-neutral">
+      <h3>White House names Moonshot AI: alleges Kimi K3 was distilled from Anthropic's Fable, trained on banned GB300s via Thailand
+        <span class="badges"><span class="badge followup">Follow-up</span><span class="badge cn">China</span><span class="badge">Policy</span></span>
+      </h3>
+      <div class="byline">CyberScoop · CNBC · The Register — Jul 23, 2026</div>
+      <div class="summary">
+        OSTP Director Michael Kratsios publicly accused Moonshot AI of building its Kimi K3 model through "large-scale
+        industrial distillation" of Anthropic's Fable, saying the startup ran an internal platform that rotated across
+        access methods to evade detection. He further alleged Moonshot acquired GB300-equipped servers and tapped
+        GB300 capacity in Thailand to train models despite U.S. export bans. It is the first time the U.S. government
+        has named a specific Chinese lab over distillation — escalating Anthropic's February claims against DeepSeek,
+        Moonshot, and MiniMax into an official enforcement posture.
+      </div>
+      <div class="why"><b>Why it matters:</b> Moves the chip-smuggling and distillation debate from private complaint to
+        named government accusation, tightening the case for stricter enforcement and third-country diversion controls.</div>
+      <div class="panels">
+        <div class="panel">
+          <span class="plabel">Qualcomm angle</span>
+          <div class="rating r-neutral">Neutral / Watch</div>
+          Second-order. Qualcomm has no direct exposure, but a harder line on chip diversion through third countries and
+          tighter end-user checks raise compliance overhead across the semi supply chain and could complicate Qualcomm's
+          own China handset/IoT shipments if Beijing retaliates.
         </div>
-        <p class="summary">At Advancing AI 2026 in San Francisco, AMD launched the Instinct MI455X and its first rack-scale system, Helios, pairing 6th-gen EPYC "Venice" CPUs, Pensando networking and ROCm 7. AMD claims Helios delivers ~15% more compute, 50% more memory and 50% more scale-out bandwidth than NVIDIA's Vera Rubin NVL72. It confirmed 12 GW of committed accelerator demand — 6 GW from OpenAI and 6 GW from Meta — with Microsoft Azure and Oracle named as early Helios customers.</p>
-        <div class="why"><b>Why it matters:</b> This is the first time AMD has paired credible rack-scale hardware with hyperscale volume commitments, turning "NVIDIA alternative" from a talking point into booked H2-2026 revenue.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-head">Headwind</span></div>
-            Second-order and mild. Qualcomm doesn't play in training GPUs, but every gigawatt AMD and NVIDIA add to cloud inference strengthens the "compute lives in the datacenter" narrative that competes with Qualcomm's on-device inference thesis. AMD's parallel Venice/EPYC and client roadmaps also keep x86 pressure on the Snapdragon X Windows-on-Arm push.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-bull">Bullish</span></div>
-            Clear demand signal, not just spend: AMD shares had already run ~8% into the event on the Azure deal (~$896B cap). Bullish for AMD and its HBM/CoWoS suppliers (SK Hynix, TSMC); a genuine second-source narrative caps NVIDIA's pricing power at the margin.
-            <span class="nia">Not investment advice.</span>
-          </div>
+        <div class="panel">
+          <span class="plabel">Investor angle</span>
+          <div class="rating r-bearish">Bearish (China AI) / Mixed (US labs)</div>
+          Pressures the perceived durability of Chinese frontier labs and open-weight momentum; modestly supportive of
+          U.S. model-lab moats (Anthropic) and of NVIDIA's argument that export controls, not demand, cap China sales.
+          Diversion headlines add regulatory tail-risk to the whole China-AI complex.
+          <span class="nia">Not investment advice.</span>
         </div>
-        <div class="src"><a href="https://hothardware.com/news/amd-advancing-ai-2026-epyc-9006-instinct-mi400x-helios" target="_blank" rel="noopener">HotHardware →</a></div>
-        <div class="also">also: <a href="https://www.itpro.com/infrastructure/amd-advancing-ai-2026-helios-on-the-rise-with-launch-of-new-instinct-gpus" target="_blank" rel="noopener">IT Pro</a>, <a href="https://finance.yahoo.com/technology/ai/articles/amd-just-got-potential-ai-133035921.html" target="_blank" rel="noopener">Yahoo Finance</a>, <a href="https://wccftech.com/amd-helios-ai-rack-mi455x-6th-gen-epyc-challenging-nvidia/" target="_blank" rel="noopener">Wccftech</a></div>
-      </article>
+      </div>
+      <a class="readmore" href="https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/" target="_blank" rel="noopener">Read at CyberScoop · also CNBC, The Register</a>
+    </article>
 
-      <!-- ITEM 2 -->
-      <article class="card" id="item-2" data-tags="china qc-head mixed policy">
-        <div class="rank">#2 · Made the cut: a structural reversal — the world's #2 AI power weighs guarding its own models</div>
-        <h3>China weighs export controls on its <em>own</em> AI models and chips</h3>
-        <div class="byline"><span class="outlet">Financial Times</span><span>· Jul 20–22, 2026</span>
-          <span class="badges"><span class="badge b-trans">🔒 Paywalled</span><span class="badge b-cnx">China</span></span>
+    <article class="card" id="s-capex" data-tags="bear qc-head">
+      <h3>Mega-cap AI selloff: Alphabet's capex hike stokes spending jitters ahead of Meta and Amazon earnings
+        <span class="badges"><span class="badge">Investor</span><span class="badge">Industry</span></span>
+      </h3>
+      <div class="byline">24/7 Wall St. · Yahoo Finance · FX Leaders — Jul 22–23, 2026</div>
+      <div class="summary">
+        A sector-wide rotation out of mega-cap AI names accelerated after Alphabet raised capex guidance, with Alphabet
+        off ~6% and Meta down ~4% into its July 29 print; Amazon slid ~4% on a Senate China probe plus spending nerves
+        before its July 30 report. Meta has guided 2026 capex to $125–145B, and Google, Amazon, Microsoft, and Meta now
+        plan a combined ~$725B of 2026 capex — up ~77% year over year. The market's question is blunt: is this demand,
+        or is it spend that won't earn its return?
+      </div>
+      <div class="why"><b>Why it matters:</b> The first real crack in "buy every AI capex dollar" sentiment — how Meta and
+        Amazon frame ROI next week sets the tone for the entire AI-infrastructure trade.</div>
+      <div class="panels">
+        <div class="panel">
+          <span class="plabel">Qualcomm angle</span>
+          <div class="rating r-headwind">Headwind (sentiment) / Neutral (fundamentals)</div>
+          Qualcomm isn't a hyperscaler and doesn't ride cloud capex, but a broad de-rating of AI names compresses
+          multiples across semis. Structurally, jitters over cloud-inference ROI subtly favor Qualcomm's on-device
+          inference thesis — cheaper, no datacenter bill — though that's a slow-burn narrative, not a catalyst.
         </div>
-        <p class="summary">The FT reports China's Ministry of Commerce is consulting Alibaba, ByteDance and Z.ai about limiting overseas access to flagship systems — Qwen, Doubao and GLM-5.2 — including curbs on downloading model weights and transferring training data abroad. Nothing is decided, but it mirrors the logic of U.S. controls: advanced AI is now a national asset to be guarded, not exported.</p>
-        <div class="why"><b>Why it matters:</b> The open-weight flood from Chinese labs has been a global commodity; controls would reprice that openness and hand a strategic lever to Beijing over the world's cheapest frontier-class models.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-head">Headwind</span></div>
-            Watch-list headwind. Qualcomm's single largest revenue geography is China; a Beijing move toward tech-sovereignty controls raises the odds of reciprocal friction, licensing scrutiny (QTL) and accelerated domestic-silicon substitution in the very handset/IoT sockets Qualcomm depends on.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-mixed">Mixed</span></div>
-            Net-new information, not yet priced. Bearish for the "China open-weights subsidize everyone" trade (pressures Western inference-cost assumptions upward); bullish for closed U.S. labs' moat. Concentration/geopolitical risk rises across the whole China-exposed semi complex.
-            <span class="nia">Not investment advice.</span>
-          </div>
+        <div class="panel">
+          <span class="plabel">Investor angle</span>
+          <div class="rating r-bearish">Bearish (near-term) / Mixed</div>
+          Rotation risk is concentrated in hyperscalers and, by proxy, in power/cooling and memory suppliers riding the
+          capex wave. Not new information on demand — it's a repricing of the spend-vs-monetization gap. Watch whether
+          NVIDIA and the AI-power names sell off in sympathy or decouple.
+          <span class="nia">Not investment advice.</span>
         </div>
-        <div class="src"><a href="https://finance.yahoo.com/technology/ai/articles/china-considers-tighter-export-controls-041139427.html" target="_blank" rel="noopener">Reuters via Yahoo →</a></div>
-        <div class="also">also: <a href="https://thenextweb.com/news/china-ai-model-chip-export-controls-ft-report" target="_blank" rel="noopener">TNW</a>, <a href="https://www.techtimes.com/articles/321270/20260722/china-weighs-locking-ai-model-weights-download-what-you-use-right-now.htm" target="_blank" rel="noopener">TechTimes</a></div>
-      </article>
+      </div>
+      <a class="readmore" href="https://247wallst.com/investing/2026/07/23/amazon-falls-4-as-senate-china-probe-and-ai-spending-jitters-weigh-ahead-of-earnings/" target="_blank" rel="noopener">Read at 24/7 Wall St. · also Yahoo Finance</a>
+    </article>
 
-      <!-- ITEM 3 -->
-      <article class="card" id="item-3" data-tags="models mixed">
-        <div class="rank">#3 · Made the cut: frontier-model economics — cheaper tokens reshape the whole inference stack</div>
-        <h3>Google ships the Gemini 3.6 Flash family, cutting output tokens 17%</h3>
-        <div class="byline"><span class="outlet">AIToolsRecap / Google</span><span>· Jul 21–22, 2026</span></div>
-        <p class="summary">Google released Gemini 3.6 Flash, 3.5 Flash-Lite and a security-tuned 3.5 Flash Cyber (restricted to governments and trusted partners). Flash is priced at $1.50/$7.50 per million tokens, generates ~17% fewer output tokens for the same task and advances its knowledge cutoff to March 2026. Notably, the flagship Gemini 3.5 Pro has slipped again and still isn't shipping.</p>
-        <div class="why"><b>Why it matters:</b> The frontier fight has moved from raw capability to cost-per-useful-token; a 17% output reduction is a direct margin lever for anyone serving Gemini at scale.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-watch">Watch</span></div>
-            Cheaper, denser cloud models make the economic case for on-device inference harder at the low end — a mild watch for Qualcomm's NPU story. Offsetting it: efficient small models (Flash-Lite class) are exactly what distills down to run on-device, which plays to Snapdragon's edge-AI roadmap.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-mixed">Mixed</span></div>
-            Incrementally bullish Alphabet on cost discipline; the repeated Pro slip is a small credibility ding versus OpenAI's GPT-5.6 cadence. Token deflation is a recurring theme — largely priced, but pressures pure-play inference resellers' margins.
-            <span class="nia">Not investment advice.</span>
-          </div>
+    <article class="card" id="s-presence" data-tags="bull qc-neutral">
+      <h3>OpenAI launches Presence, a managed enterprise platform for voice and chat AI agents
+        <span class="badges"><span class="badge">Industry</span><span class="badge">Tools</span></span>
+      </h3>
+      <div class="byline">OpenAI · VentureBeat · SiliconANGLE — Jul 22, 2026</div>
+      <div class="summary">
+        OpenAI introduced Presence, a fully managed system for building, governing, and improving production-grade AI
+        agents across voice and chat — bundling model reasoning with company-defined policies, guardrails, and escalation
+        rules. Its Codex-driven components run on GPT-5.6, whose top variant reportedly set an OSWorld computer-use
+        record. Rollout is limited GA via Forward Deployed Engineers and select integrators, not self-serve — signaling
+        a deliberate shift from selling raw model access to selling governed, deployed outcomes.
+      </div>
+      <div class="why"><b>Why it matters:</b> OpenAI is moving up the stack into the enterprise-agent layer where the
+        monetization (and the switching costs) actually live.</div>
+      <div class="panels">
+        <div class="panel">
+          <span class="plabel">Qualcomm angle</span>
+          <div class="rating r-neutral">Neutral</div>
+          Presence is cloud-inference and enterprise-orchestration — orthogonal to Qualcomm's on-device edge. Minimal
+          direct read, though every high-profile push toward always-on cloud agents mildly reinforces the cloud side of
+          the on-device-vs-cloud balance Qualcomm is betting against for consumer inference.
         </div>
-        <div class="src"><a href="https://aitoolsrecap.com/Blog/ai-news-july-22-2026" target="_blank" rel="noopener">AIToolsRecap →</a></div>
-      </article>
-    </section>
-
-    <!-- ================= MODELS ================= -->
-    <section id="models">
-      <div class="sec-head"><h2>Models &amp; Research</h2><span class="n">1 item</span></div>
-
-      <article class="card" id="item-3b" data-tags="models mixed">
-        <h3>Flash Cyber: Google's first government-gated model variant</h3>
-        <div class="byline"><span class="outlet">Google DeepMind</span><span>· Jul 21, 2026</span></div>
-        <p class="summary">Beyond the pricing story, the most novel part of Tuesday's Gemini drop is 3.5 Flash Cyber — a security-tuned variant deliberately restricted to governments and "trusted partners." It marks a shift toward tiered, access-controlled model distribution rather than uniform public availability.</p>
-        <div class="why"><b>Why it matters:</b> Gated model tiers normalize the idea that some capabilities ship only to vetted buyers — a template both regulators and rivals will study.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-neutral">Minimal</span></div>
-            No direct read-through; Qualcomm is a silicon platform, not a frontier-model gatekeeper. Tangential relevance only if gated-model policy later extends to on-device deployment rights.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-mixed">Mixed</span></div>
-            Signals a nascent enterprise/gov premium tier that could improve model-lab monetization — but too early and too small to move Alphabet. Watch as a pricing-power precedent.
-            <span class="nia">Not investment advice.</span>
-          </div>
+        <div class="panel">
+          <span class="plabel">Investor angle</span>
+          <div class="rating r-bullish">Bullish (OpenAI) / Mixed (agent startups)</div>
+          A credibility and revenue-quality signal for OpenAI's enterprise motion and demand-side story; competitively
+          it squeezes standalone agent-orchestration startups (the recent Harvey/Glean/Hebbia cohort) whose moat OpenAI
+          can now absorb. Monetization signal, not just spend.
+          <span class="nia">Not investment advice.</span>
         </div>
-        <div class="src"><a href="https://aitoolsrecap.com/Blog/ai-news-july-22-2026" target="_blank" rel="noopener">AIToolsRecap →</a></div>
-      </article>
-    </section>
+      </div>
+      <a class="readmore" href="https://openai.com/index/introducing-openai-presence/" target="_blank" rel="noopener">Read at OpenAI · also VentureBeat</a>
+    </article>
 
-    <!-- ================= INDUSTRY ================= -->
-    <section id="industry">
-      <div class="sec-head"><h2>Industry &amp; Funding</h2><span class="n">2 items</span></div>
+    <h2 class="section" id="models">Models &amp; Research</h2>
 
-      <!-- ITEM 4 -->
-      <article class="card" id="item-4" data-tags="policy noise">
-        <h3>Anthropic outspends NVIDIA on Washington lobbying in Q2</h3>
-        <div class="byline"><span class="outlet">buildfastwithai / federal disclosures</span><span>· Jul 22, 2026</span></div>
-        <p class="summary">Q2 federal lobbying disclosures show Anthropic spent $1.97M (up 26% QoQ), outspending NVIDIA and nearly matching Oracle's $2M. OpenAI spent $1.2M (up 18%); combined AI-lab lobbying hit $3.17M for the quarter, up 23% from Q1.</p>
-        <div class="why"><b>Why it matters:</b> Model labs are now funding political influence at hardware-vendor scale — a leading indicator of how hard AI regulation will be fought over the next year.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-neutral">Minimal</span></div>
-            No direct Qualcomm read. Indirectly relevant: labs shaping compute/export policy affects the rules Qualcomm's cloud-inference competitors operate under.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-noise">Noise</span></div>
-            Interesting as a maturity signal for the AI lobby, but immaterial to valuations. Watch only as an early tell on which policy outcomes labs are defending.
-            <span class="nia">Not investment advice.</span>
-          </div>
+    <article class="card" id="s-opus5" data-tags="watch qc-neutral">
+      <h3>Claude Opus 5 ("Honeycomb") widely expected today; leaked in Cursor with 1M-token context
+        <span class="badges"><span class="badge">Rumor / Watch</span></span>
+      </h3>
+      <div class="byline">BigGo Finance · TipRanks · CometAPI — Jul 23, 2026</div>
+      <div class="summary">
+        Prediction markets and multiple leakers pointed to Thursday, July 23 as the likely debut for Anthropic's next
+        flagship, internally codenamed "Honeycomb," which briefly surfaced in Cursor's model picker on July 9 with a
+        1M-token context window and an "xHigh" reasoning tier before being pulled. Leaks position it as a production-grade,
+        lower-cost alternative aimed at coding and agentic workflows, roughly Fable-tier on benchmarks. As of this
+        edition Anthropic had not officially confirmed the name, date, or specs — treat as unconfirmed.
+      </div>
+      <div class="why"><b>Why it matters:</b> A cheaper high-reasoning Opus tier would directly answer the cost pressure
+        from GPT-5.6 and Kimi K3 in the enterprise coding and agent market.</div>
+      <div class="panels">
+        <div class="panel">
+          <span class="plabel">Qualcomm angle</span>
+          <div class="rating r-neutral">Neutral</div>
+          Frontier cloud model with a huge context window — no edge/on-device implication for Qualcomm. Speculative and
+          second-order at best; relevant only insofar as ever-larger cloud models keep the premium inference workload in
+          the datacenter rather than at the edge.
         </div>
-        <div class="src"><a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-22-2026" target="_blank" rel="noopener">buildfastwithai →</a></div>
-      </article>
-
-      <!-- ITEM 5 -->
-      <article class="card" id="item-5" data-tags="industry mixed">
-        <h3>OpenAI finalizes ~$110B round at a $730B valuation</h3>
-        <div class="byline"><span class="outlet">buildfastwithai / TechCrunch</span><span>· reported wk of Jul 20, 2026</span></div>
-        <p class="summary">OpenAI closed a roughly $110B raise at a $730B valuation as it builds toward an IPO, bringing on senior finance leadership. The capital underwrites its multi-generation, multi-gigawatt compute commitments — including the 6 GW pledged to AMD.</p>
-        <div class="why"><b>Why it matters:</b> A $730B private mark anchors the entire AI capex cycle; OpenAI's spending commitments are now large enough to move the roadmaps of AMD, NVIDIA and every HBM maker.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-neutral">Neutral</span></div>
-            No direct exposure. Structurally, OpenAI's cloud-scale buildout reinforces the centralized-inference model that sits opposite Qualcomm's edge thesis — a slow, second-order headwind at most.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-mixed">Mixed</span></div>
-            This is spend, not yet proven monetization — the core bull/bear fault line for AI. Bullish for the arms dealers (AMD, NVIDIA, memory, power/cooling); raises concentration risk if a single buyer's demand underwrites too much of the supply chain.
-            <span class="nia">Not investment advice.</span>
-          </div>
+        <div class="panel">
+          <span class="plabel">Investor angle</span>
+          <div class="rating r-mixed">Mixed / Noise (until confirmed)</div>
+          If real and priced aggressively, it strengthens Anthropic's enterprise position and pressures rival per-token
+          economics; but it's rumor-stage, so mostly noise until an official post. A confirmed launch would be genuinely
+          new information for the model-lab competitive picture.
+          <span class="nia">Not investment advice.</span>
         </div>
-        <div class="src"><a href="https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/" target="_blank" rel="noopener">TechCrunch →</a></div>
-      </article>
-    </section>
+      </div>
+      <a class="readmore" href="https://finance.biggo.com/news/8f314d6e-317b-40e3-a591-567ddec4c054" target="_blank" rel="noopener">Read at BigGo Finance</a>
+    </article>
 
-    <!-- ================= SEMIS ================= -->
-    <section id="semis">
-      <div class="sec-head"><h2>Semis &amp; Hardware</h2><span class="n">2 items</span></div>
+    <h2 class="section" id="semis">Semis &amp; Hardware</h2>
 
-      <!-- ITEM 6 -->
-      <article class="card" id="item-6" data-tags="qc-tail bull semis">
-        <h3>Qualcomm expands Snapdragon across Samsung's new Galaxy lineup — including its first Snapdragon smartwatch</h3>
-        <div class="byline"><span class="outlet">Qualcomm / PR Newswire</span><span>· Jul 22–23, 2026</span></div>
-        <p class="summary">At Samsung's Galaxy Unpacked in London, Qualcomm confirmed it will supply Snapdragon 8 Elite Gen 5, the new <em>Snapdragon Wear Elite</em>, and Snapdragon AR1 Gen 1 across six new Galaxy products spanning smartphones, watches and intelligent eyewear. Wear Elite is Samsung's first Snapdragon-powered smartwatch platform, purpose-built for on-device "Personal AI." CEO Cristiano Amon told Korean press to expect "Snapdragon in more Samsung products."</p>
-        <div class="why"><b>Why it matters:</b> This widens Qualcomm's Samsung socket count beyond the flagship phone into watches and eyewear — exactly the multi-device, on-device-AI diversification the bull case needs.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-tail">Tailwind</span></div>
-            Direct and material. New Wear and AR sockets at Samsung expand content per device and reduce reliance on the premium-phone cycle; the "Personal AI" framing is Qualcomm's on-device inference thesis landing in shipping products. Watch the Samsung/Snapdragon vs. Exynos mix as the swing factor.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-bull">Bullish</span></div>
-            Incrementally bullish Qualcomm: socket expansion into wearables/XR is the diversification story management has promised. Modest in absolute revenue near-term, but de-risks the handset-concentration narrative.
-            <span class="nia">Not investment advice.</span>
-          </div>
+    <article class="card" id="s-infra" data-tags="qc-neutral bull">
+      <h3>NVIDIA's U.S. footprint widens: Hut 8 commercializes a 1 GW Texas campus, Wistron opens a Fort Worth superchip fab
+        <span class="badges"><span class="badge">Semis</span><span class="badge">Infra</span></span>
+      </h3>
+      <div class="byline">Data Center Knowledge · NVIDIA Newsroom — Jul 22, 2026</div>
+      <div class="summary">
+        The AI buildout kept compounding: Hut 8 fully commercialized a 1-gigawatt Texas campus in a ~$9.8B arrangement,
+        Wistron opened a ~$700M plant near Fort Worth to build NVIDIA superchip systems, and Jensen Huang commissioned a
+        DGX GB300 at the Naval Postgraduate School — while Google pressed on with its next-gen "Frozen" inference
+        silicon to cut serving costs. Physical-layer momentum continues even as the equity market frets about the bill.
+      </div>
+      <div class="why"><b>Why it matters:</b> Demand for NVIDIA racks and U.S. onshore assembly is still expanding
+        physically — a real-economy counterweight to this week's capex-jitters narrative.</div>
+      <div class="panels">
+        <div class="panel">
+          <span class="plabel">Qualcomm angle</span>
+          <div class="rating r-neutral">Neutral / Watch</div>
+          Datacenter GPU buildout is not Qualcomm's arena, but Google's "Frozen" custom inference silicon is the theme to
+          watch: hyperscaler in-house ASICs erode merchant-silicon share, and a broader shift toward cheaper inference —
+          whether custom cloud ASICs or on-device NPUs — shapes where Qualcomm's edge-inference bet pays off.
         </div>
-        <div class="src"><a href="https://www.qualcomm.com/news/releases/2026/07/qualcomm-and-samsung-expand-collaboration-with-snapdragon-poweri" target="_blank" rel="noopener">Qualcomm newsroom →</a></div>
-        <div class="also">also: <a href="https://en.sedaily.com/finance/2026/07/23/qualcomm-ceo-cristiano-amon-snapdragon-in-more-samsung" target="_blank" rel="noopener">Seoul Economic Daily</a>, <a href="https://www.thelec.net/news/articleView.html?idxno=12471" target="_blank" rel="noopener">The Elec</a></div>
-      </article>
-
-      <!-- ITEM 7 -->
-      <article class="card" id="item-7" data-tags="semis bear">
-        <h3>NVIDIA builds a financing structure to backstop neocloud GPU loans</h3>
-        <div class="byline"><span class="outlet">NVIDIA / press reports</span><span>· Jul 22, 2026</span></div>
-        <p class="summary">NVIDIA has designed a financing structure to help smaller AI cloud providers buy more GPUs while traditional lenders stay wary — reportedly agreeing to cover potential customer defaults in exchange for terms. Separately, Jensen Huang commissioned a DGX GB300 at the Naval Postgraduate School.</p>
-        <div class="why"><b>Why it matters:</b> Vendor-backed financing keeps GPU demand flowing but concentrates credit risk on NVIDIA's balance sheet — the kind of circularity bears point to when questioning the durability of AI capex.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-neutral">Minimal</span></div>
-            No direct exposure. Tangentially, vendor financing that props up cloud-GPU buildout marginally reinforces the centralized-inference model versus edge — a faint structural headwind.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-bear">Bearish</span></div>
-            A yellow flag: covering customer defaults to sustain sales is a hallmark of late-cycle demand-pull. Bearish signal for the "organic, unstoppable" GPU-demand narrative even if near-term revenue looks strong; watch for disclosure of the guarantee's size.
-            <span class="nia">Not investment advice.</span>
-          </div>
+        <div class="panel">
+          <span class="plabel">Investor angle</span>
+          <div class="rating r-bullish">Bullish (NVIDIA/infra) / Mixed</div>
+          Confirms sustained physical demand for GPUs, power, and U.S. assembly capacity — supportive of NVIDIA, the
+          neocloud names, and power/cooling suppliers. Largely priced in, and it sits in tension with the same-week
+          equity de-rating: buildout is demand, but the market is repricing the payback period.
+          <span class="nia">Not investment advice.</span>
         </div>
-        <div class="src"><a href="https://techstartups.com/2026/07/22/top-tech-news-today-july-22-2026-apple-anthropic-google-nvidia/" target="_blank" rel="noopener">Tech Startups →</a></div>
-      </article>
-    </section>
+      </div>
+      <a class="readmore" href="https://www.datacenterknowledge.com/data-center-hardware/data-center-hardware-highlights-july-2026" target="_blank" rel="noopener">Read at Data Center Knowledge</a>
+    </article>
 
-    <!-- ================= POLICY ================= -->
-    <section id="policy">
-      <div class="sec-head"><h2>Policy &amp; Regulation</h2><span class="n">1 item</span></div>
+    <h2 class="section" id="policy">Policy &amp; Regulation</h2>
 
-      <!-- ITEM 8 -->
-      <article class="card" id="item-8" data-tags="policy noise">
-        <h3>Meta's automated moderation wrongly deletes long-running accounts</h3>
-        <div class="byline"><span class="outlet">buildfastwithai / press reports</span><span>· Jul 22, 2026</span></div>
-        <p class="summary">Instagram and Facebook users reported Meta's AI moderation systems erroneously deleted accounts built over years — one with nearly 1M followers restored only after journalists intervened. Meta countered that its newer AI tools make 13% fewer mistakes and catch 10% more violations than human reviewers.</p>
-        <div class="why"><b>Why it matters:</b> High-profile automation failures at platform scale are fuel for the AI-accountability debate and for regulators weighing mandated human review.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-neutral">Minimal</span></div>
-            No Qualcomm read; this is a platform-governance story, not a silicon one.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-noise">Noise</span></div>
-            Immaterial to Meta financials near-term, but a reputational/regulatory drip. Watch only if it hardens EU/US rules requiring human-in-the-loop moderation, which would raise platform opex.
-            <span class="nia">Not investment advice.</span>
-          </div>
+    <article class="card" id="s-export" data-tags="cn qc-head bear">
+      <h3>China weighs tighter export controls on its own AI models and chips
+        <span class="badges"><span class="badge cn">China</span><span class="badge">Policy</span></span>
+      </h3>
+      <div class="byline">Mezha (citing Chinese regulators) — Jul 23, 2026</div>
+      <div class="summary">
+        Beijing is reportedly considering expanded export controls covering AI models and chips — longer prohibited-goods
+        lists, stronger end-user checks, and higher bars for transferring technology abroad — with closer scrutiny to
+        keep sensitive systems from high-risk destinations. Coming the same day as Washington's Moonshot accusation, it
+        signals a hardening, two-way techno-nationalism in which each side moves to fence in both silicon and know-how.
+      </div>
+      <div class="why"><b>Why it matters:</b> If China restricts outbound AI tech, it fragments the global model and
+        chip supply chain further and raises compliance risk for anyone with China-facing hardware.</div>
+      <div class="panels">
+        <div class="panel">
+          <span class="plabel">Qualcomm angle</span>
+          <div class="rating r-headwind">Headwind / Watch</div>
+          Qualcomm's substantial China revenue makes it exposed to any escalation of Beijing's tech-export and
+          retaliation toolkit. Tighter Chinese controls plus U.S. pressure raise the odds of tit-for-tat measures that
+          could touch handset, IoT, and automotive shipments into and out of China — a real, if still-forming, risk.
         </div>
-        <div class="src"><a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-22-2026" target="_blank" rel="noopener">buildfastwithai →</a></div>
-      </article>
-    </section>
-
-    <!-- ================= TOOLS ================= -->
-    <section id="tools">
-      <div class="sec-head"><h2>Tools &amp; Open Source</h2><span class="n">1 item</span></div>
-
-      <!-- ITEM 9 -->
-      <article class="card" id="item-9" data-tags="tools noise">
-        <h3>Jack Dorsey launches BUZZ, a group-chat platform for humans and AI agents</h3>
-        <div class="byline"><span class="outlet">buildfastwithai</span><span>· Jul 22, 2026</span></div>
-        <p class="summary">Jack Dorsey launched BUZZ, a group-chat product for teams of people and AI agents, pitched as a way to reduce reliance on Slack and GitHub. It targets the emerging "agents as teammates" workflow rather than human-only messaging.</p>
-        <div class="why"><b>Why it matters:</b> Purpose-built agent-collaboration surfaces are the next battleground; if agents become first-class chat participants, incumbent collaboration tools face a new axis of competition.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-neutral">Minimal</span></div>
-            No hardware read-through. Distantly relevant only as evidence that agentic workloads keep concentrating in the cloud.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-noise">Noise</span></div>
-            Too early to matter for public names; a datapoint on agent-native software carving at Slack/Microsoft/GitHub surfaces. Watch adoption, not headlines.
-            <span class="nia">Not investment advice.</span>
-          </div>
+        <div class="panel">
+          <span class="plabel">Investor angle</span>
+          <div class="rating r-bearish">Bearish (China-exposed semis) / Mixed</div>
+          Adds concentration and export-control risk to any name with large China revenue or China-built supply. Not yet
+          policy, so partly speculative — but the direction of travel is clearly toward more fragmentation, which markets
+          tend to price as a discount on affected supply chains.
+          <span class="nia">Not investment advice.</span>
         </div>
-        <div class="src"><a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-22-2026" target="_blank" rel="noopener">buildfastwithai →</a></div>
-      </article>
-    </section>
-
-    <!-- ================= CHINA WATCH ================= -->
-    <section id="china">
-      <div class="sec-head"><h2>China Watch</h2><span class="n">3 items</span></div>
-
-      <!-- ITEM 10 -->
-      <article class="card" id="item-10" data-tags="china models mixed">
-        <h3>China's model front line intensifies: Moonshot's Kimi K3 and Zhipu's GLM-5.2</h3>
-        <div class="byline"><span class="outlet">The Star / TechXplore</span><span>· Jul 17–22, 2026</span>
-          <span class="badges"><span class="badge b-trans">译 Translated from Chinese</span><span class="badge b-cnx">China</span></span>
-        </div>
-        <p class="summary">Moonshot AI released Kimi K3, a 2.8-trillion-parameter model it bills as the world's biggest open-source model, chasing another "DeepSeek moment." It follows Zhipu AI's GLM-5.2, which touts stronger coding and the ability to run long tasks without user prompts. By mid-2026 Qwen, Kimi, Doubao, GLM and ERNIE are all contesting different slices of the market.</p>
-        <p class="zh">原文标题：中国 Moonshot AI 发布万亿参数 Kimi K3，追逐新的「DeepSeek 时刻」 — 来源 The Star / 机器之心 (Jiqizhixin)</p>
-        <div class="why"><b>Why it matters:</b> The pace and openness of Chinese frontier models is the very thing Beijing's proposed export controls (item #2) would rein in — the two stories are two ends of one lever.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-watch">Watch</span></div>
-            Efficient open Chinese models are strong candidates for on-device distillation on Snapdragon in China-market phones — a modest tailwind. Offset by the risk that domestic silicon captures those workloads if Beijing pushes self-sufficiency.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-mixed">Mixed</span></div>
-            Continued Chinese open-weight momentum pressures Western per-token pricing and keeps a competitive floor under model economics. Hard to trade directly (mostly private/HK-listed); relevant as a macro input to US-lab moat assumptions.
-            <span class="nia">Not investment advice.</span>
-          </div>
-        </div>
-        <div class="src"><a href="https://www.thestar.com.my/tech/tech-news/2026/07/17/china039s-moonshot-ai-chases-039deepseek-moment039-with-much-hyped-model" target="_blank" rel="noopener">The Star →</a></div>
-        <div class="also">also: <a href="https://techxplore.com/news/2026-07-china-moonshot-ai-deepseek-moment.html" target="_blank" rel="noopener">TechXplore</a></div>
-      </article>
-
-      <!-- ITEM 11 -->
-      <article class="card" id="item-11" data-tags="china policy mixed">
-        <h3>WAIC 2026 closes with a new intergovernmental AI body, WAICO, headquartered in Shanghai</h3>
-        <div class="byline"><span class="outlet">CGTN / GlobeNewswire</span><span>· Jul 17–22, 2026</span>
-          <span class="badges"><span class="badge b-cnx">China</span></span>
-        </div>
-        <p class="summary">The World AI Conference in Shanghai set records — 100,000+ m² of floor space, 300+ global product debuts including Huawei's Atlas 950 super-node and MiniMax M3. President Xi announced the World Organization for Cooperation in AI (WAICO), an independent intergovernmental body headquartered in Shanghai, positioning China as convener of a non-US-led governance track.</p>
-        <div class="why"><b>Why it matters:</b> A China-anchored global AI-governance body is a direct counterweight to the US-led coalition Amodei and Hassabis floated at the G7 — the diplomatic layer of the compute race.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-watch">Watch</span></div>
-            Governance forums rarely move product, but Huawei's Atlas 950 super-node reminds that China's domestic AI-compute stack is maturing — a long-run substitution risk in the China sockets that anchor Qualcomm's revenue base.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-mixed">Mixed</span></div>
-            Mostly signal, not price action. Bearish read-through for the thesis that US export controls keep China's AII stack years behind; bullish for Huawei/domestic-silicon suppliers if WAICO accelerates a parallel standards bloc.
-            <span class="nia">Not investment advice.</span>
-          </div>
-        </div>
-        <div class="src"><a href="https://www.globenewswire.com/news-release/2026/07/22/3331330/0/en/2026-WAIC-Opened-with-Focus-on-Global-AI-Co-development.html" target="_blank" rel="noopener">GlobeNewswire →</a></div>
-        <div class="also">also: <a href="https://news.cgtn.com/news/2026-07-17/Beyond-bigger-models-What-WAIC-2026-reveals-about-AI-s-next-chapter-1OQOdVTqqsg/p.html" target="_blank" rel="noopener">CGTN</a></div>
-      </article>
-
-      <!-- ITEM 12 -->
-      <article class="card" id="item-12" data-tags="china qc-tail mixed industry">
-        <h3>China's PsiBot hits a $1.48B valuation in fresh humanoid-robot raise</h3>
-        <div class="byline"><span class="outlet">Bloomberg</span><span>· Jul 23, 2026</span>
-          <span class="badges"><span class="badge b-trans">🔒 Paywalled</span><span class="badge b-cnx">China</span></span>
-        </div>
-        <p class="summary">Bloomberg reports Chinese humanoid-robotics startup PsiBot is raising close to $100M at a ~$1.48B valuation, the latest embodied-AI company to cross unicorn status. It fits WAIC's dominant theme: machines that perceive, manipulate and collaborate in physical environments.</p>
-        <div class="why"><b>Why it matters:</b> Embodied AI is where China is pouring capital fastest; humanoid/robotics is a new, high-value silicon and sensor market forming largely outside US hyperscaler gravity.</div>
-        <div class="panels">
-          <div class="panel p-qc">
-            <div class="plabel">Qualcomm Angle <span class="rating r-tail">Tailwind</span></div>
-            Speculative but real. Humanoids need low-power on-device compute, sensor fusion and connectivity — squarely Qualcomm's robotics/IoT play (it demoed a robotics push at CES 2026). A growing China embodied-AI market is incremental TAM, though domestic silicon competition is fierce.
-          </div>
-          <div class="panel p-inv">
-            <div class="plabel">Investor Angle <span class="rating r-mixed">Mixed</span></div>
-            Private and early — a read on capital rotation into embodied AI more than a tradable event. Bullish for edge-compute/sensor suppliers with China exposure; watch for froth as unicorn count in the category climbs.
-            <span class="nia">Not investment advice.</span>
-          </div>
-        </div>
-        <div class="src"><a href="https://www.bloomberg.com/news/articles/2026-07-23/china-s-psibot-becomes-latest-ai-startup-to-hit-1-billion-value" target="_blank" rel="noopener">Bloomberg →</a></div>
-      </article>
-    </section>
-
-    <p id="empty-msg" class="hidden" style="color:var(--muted);font-style:italic;padding:1rem 0">No items match this filter.</p>
+      </div>
+      <a class="readmore" href="https://mezha.net/eng/bukvy/7deeacd7_china_considers_tightening/" target="_blank" rel="noopener">Read at Mezha</a>
+    </article>
 
     <footer>
-      <div><strong>AI Daily Digest</strong> — generated Thu, Jul 23 2026, 6:30 AM Pacific (automated).</div>
-      <p class="kbdhint">Keyboard: <kbd>j</kbd> / <kbd>k</kbd> to move between items · click any headline in the left rail to jump.</p>
-      <h4>Sources checked</h4>
-      <p>WSJ, FT, Reuters, Bloomberg, The Information, CNBC, Ars Technica, The Verge, TechCrunch, Wired, MIT Tech Review, IEEE Spectrum, Import AI, Stratechery, SemiAnalysis, Hugging Face; Anthropic, OpenAI, Google DeepMind, Meta AI, Microsoft, NVIDIA, AMD, Qualcomm, Arm, TSMC, Apple, Mistral, AWS, Broadcom; 机器之心 (Jiqizhixin), 量子位 (QbitAI), 新智元 (AI Era), 36氪, InfoQ 中国, 财新 (Caixin); DeepSeek, Alibaba/Qwen, Moonshot, Zhipu, ByteDance Seed, Baidu, Tencent, SMIC.</p>
-      <h4>Sources that failed to fetch</h4>
-      <p>WSJ, FT and Bloomberg full articles behind paywall — items #2 and #12 marked 🔒 and written from headline + lede only. No hard fetch failures otherwise.</p>
-      <h4>Duplicate suppression</h4>
-      <p>0 stories suppressed as duplicates — this is the first run, so the de-duplication history (<code>digest-history.json</code>) was seeded today with all 12 stories.</p>
-      <p style="margin-top:1.2rem;font-size:.75rem">Analysis blocks are informational and reflect one framework's read of public reporting. <em>Not investment advice.</em></p>
+      <div><b>Generated:</b> Jul 23, 2026, 6:00 PM Pacific · Afternoon edition (new developments since the morning run).</div>
+      <div><b>Sources checked:</b> WSJ, FT, Reuters, Bloomberg, CNBC, The Information, Ars Technica, The Verge, TechCrunch,
+        Wired, MIT Tech Review, OpenAI, Anthropic, NVIDIA, Qualcomm, plus 机器之心 / 量子位 / 36氪 and other CN outlets.</div>
+      <div><b>Failed to fetch / thin sourcing:</b> WSJ (logged-in session unavailable in this run) 🔒; several CN outlets
+        returned aggregate roundups rather than same-day originals.</div>
+      <div><b>Duplicates suppressed:</b> 12 stories already covered in this morning's edition (incl. Snapdragon-Samsung,
+        PsiBot, base Kimi K3 launch) were held; the Kimi K3 item returns only as a <b>Follow-up</b> for the new U.S. accusation.</div>
     </footer>
   </main>
 </div>
 
-<button id="totop" aria-label="Back to top">↑</button>
+<button class="totop" id="toTop" aria-label="Back to top">↑ Top</button>
 
 <script>
 (function(){
-  var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
-  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
-  var emptyMsg = document.getElementById('empty-msg');
-  var countPill = document.getElementById('count-pill');
-
-  // ---- Filtering ----
-  function applyFilter(f){
-    var shown = 0;
+  // Filters
+  var filters=document.getElementById('filters');
+  var cards=[].slice.call(document.querySelectorAll('article.card'));
+  var sections=[].slice.call(document.querySelectorAll('h2.section, .reason'));
+  filters.addEventListener('click',function(e){
+    var b=e.target.closest('button'); if(!b)return;
+    [].forEach.call(filters.children,function(x){x.classList.remove('on')});
+    b.classList.add('on');
+    var f=b.getAttribute('data-f');
     cards.forEach(function(c){
-      var tags = (c.getAttribute('data-tags')||'').split(/\s+/);
-      var match = (f==='all') || tags.indexOf(f)>-1;
-      c.classList.toggle('hidden', !match);
-      if(match) shown++;
-    });
-    // hide empty sections
-    document.querySelectorAll('section').forEach(function(s){
-      var vis = s.querySelectorAll('.card:not(.hidden)').length;
-      s.classList.toggle('hidden', vis===0 && f!=='all');
-    });
-    emptyMsg.classList.toggle('hidden', shown>0);
-    countPill.textContent = shown + (shown===1?' item':' items');
-  }
-  chips.forEach(function(ch){
-    ch.addEventListener('click', function(){
-      chips.forEach(function(x){x.classList.remove('on');});
-      ch.classList.add('on');
-      applyFilter(ch.getAttribute('data-f'));
+      var tags=(c.getAttribute('data-tags')||'');
+      c.classList.toggle('hidden', !(f==='all'||tags.indexOf(f)>-1));
     });
   });
-
-  // ---- Back to top ----
-  var toTop = document.getElementById('totop');
-  window.addEventListener('scroll', function(){
-    toTop.classList.toggle('show', window.scrollY > 600);
-  });
-  toTop.addEventListener('click', function(){ window.scrollTo({top:0,behavior:'smooth'}); });
-
-  // ---- Scroll-spy for rail ----
-  var railLinks = Array.prototype.slice.call(document.querySelectorAll('.rail a'));
-  var idMap = {};
-  railLinks.forEach(function(a){ idMap[a.getAttribute('href').slice(1)] = a; });
-  var spy = new IntersectionObserver(function(entries){
-    entries.forEach(function(e){
-      if(e.isIntersecting){
-        railLinks.forEach(function(a){a.classList.remove('active');});
-        var link = idMap[e.target.id];
-        if(link) link.classList.add('active');
+  // Active TOC on scroll
+  var links=[].slice.call(document.querySelectorAll('.rail a'));
+  var map={};
+  links.forEach(function(l){var id=l.getAttribute('href').slice(1); map[id]=l;});
+  var obs=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){
+        links.forEach(function(l){l.classList.remove('active')});
+        var l=map[en.target.id]; if(l)l.classList.add('active');
       }
     });
-  }, {rootMargin:'-40% 0px -55% 0px'});
-  cards.forEach(function(c){ spy.observe(c); });
-
-  // ---- Keyboard j/k nav ----
-  var focusIdx = -1;
-  function focusCard(i){
-    var visible = cards.filter(function(c){return !c.classList.contains('hidden');});
-    if(!visible.length) return;
-    focusIdx = Math.max(0, Math.min(i, visible.length-1));
-    cards.forEach(function(c){c.classList.remove('focus');});
-    var el = visible[focusIdx];
-    el.classList.add('focus');
-    el.scrollIntoView({behavior:'smooth', block:'center'});
-  }
-  document.addEventListener('keydown', function(e){
-    if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA') return;
-    if(e.key==='j'){ e.preventDefault(); focusCard(focusIdx+1); }
-    else if(e.key==='k'){ e.preventDefault(); focusCard(focusIdx-1); }
+  },{rootMargin:'-140px 0px -70% 0px'});
+  cards.forEach(function(c){obs.observe(c)});
+  // Back to top
+  var tt=document.getElementById('toTop');
+  window.addEventListener('scroll',function(){tt.classList.toggle('show',window.scrollY>500)});
+  tt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+  // Drawer (mobile)
+  var rail=document.getElementById('rail');
+  document.getElementById('menuBtn').addEventListener('click',function(){rail.classList.add('open')});
+  document.getElementById('drawerClose').addEventListener('click',function(){rail.classList.remove('open')});
+  rail.addEventListener('click',function(e){if(e.target.tagName==='A')rail.classList.remove('open')});
+  // Keyboard j/k nav between visible cards
+  var idx=-1;
+  document.addEventListener('keydown',function(e){
+    if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;
+    var vis=cards.filter(function(c){return !c.classList.contains('hidden')});
+    if(e.key==='j'){idx=Math.min(idx+1,vis.length-1); vis[idx]&&vis[idx].scrollIntoView({behavior:'smooth',block:'start'});}
+    if(e.key==='k'){idx=Math.max(idx-1,0); vis[idx]&&vis[idx].scrollIntoView({behavior:'smooth',block:'start'});}
   });
 })();
 </script>
