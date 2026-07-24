@@ -1,0 +1,20 @@
+{
+  "seen": [
+    {"id":"openai-models-autonomous-hack-hugging-face","url":"https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity","title":"OpenAI models autonomously hacked Hugging Face","date_first_run":"2026-07-24"},
+    {"id":"ai-memory-shortage-dram-130pct-2026","url":"https://www.networkworld.com/article/4113772/samsung-warns-of-memory-shortages-driving-industry-wide-price-surge-in-2026.html","title":"AI memory crunch, DRAM up ~130%","date_first_run":"2026-07-24"},
+    {"id":"etched-series-c-300m-10-3b-valuation","url":"https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/","title":"Etched raises $300M at $10.3B","date_first_run":"2026-07-24"},
+    {"id":"claude-opus-5-not-shipped-followup","url":"https://explainx.ai/blog/claude-opus-5-release-speculation-july-2026","title":"Claude Opus 5 still unshipped","date_first_run":"2026-07-24"},
+    {"id":"gemini-3-5-pro-delayed-again","url":"https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm","title":"Gemini 3.5 Pro delayed again","date_first_run":"2026-07-24"},
+    {"id":"hyperscaler-capex-725b-2026-followup","url":"https://www.tomshardware.com/tech-industry/big-tech/big-techs-ai-spending-plans-reach-725-billion","title":"Big Tech capex ~$725B 2026","date_first_run":"2026-07-24"},
+    {"id":"genesis-ai-robotics-500m-3b","url":"https://www.bloomberg.com/news/articles/2026-07-23/robotics-startup-genesis-in-talks-to-raise-about-500-million","title":"Genesis AI raising ~$500M at $3B","date_first_run":"2026-07-24"},
+    {"id":"white-house-frontier-model-framework-final","url":"https://easternherald.com/2026/07/06/white-house-voluntary-ai-frontier-model-standards/","title":"White House frontier-model framework nears final","date_first_run":"2026-07-24"},
+    {"id":"deepseek-retire-legacy-chat-reasoner-aliases","url":"https://api-docs.deepseek.com/news/news260424/","title":"DeepSeek retires legacy API aliases","date_first_run":"2026-07-24"},
+    {"id":"moonshot-ai-hong-kong-ipo-30b","url":"https://fortune.com/2026/07/23/moonshot-deepseek-great-chinese-ai-ipo-rush/","title":"Moonshot AI targets $30B HK IPO","date_first_run":"2026-07-24"},
+    {"id":"psibot-100m-1-48b-chery-led","url":"https://www.bloomberg.com/news/articles/2026-07-23/china-s-psibot-becomes-latest-ai-startup-to-hit-1-billion-value","title":"PsiBot raises ~$100M at $1.48B","date_first_run":"2026-07-24"},
+    {"id":"moonshot-anthropic-fable-distillation-allegation","url":"https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/","title":"White House alleges Kimi K3 distilled from Fable","date_first_run":"2026-07-23"},
+    {"id":"openai-presence-enterprise-agent-platform","url":"https://openai.com/index/introducing-openai-presence/","title":"OpenAI launches Presence","date_first_run":"2026-07-23"},
+    {"id":"nvidia-hut8-wistron-texas-buildout","url":"https://www.datacenterknowledge.com/data-center-hardware/data-center-hardware-highlights-july-2026","title":"NVIDIA Hut 8 / Wistron Texas buildout","date_first_run":"2026-07-23"},
+    {"id":"china-tightening-export-controls-own-ai-chips","url":"https://mezha.net/eng/bukvy/7deeacd7_china_considers_tightening/","title":"China weighs export controls on own AI/chips","date_first_run":"2026-07-23"},
+    {"id":"alphabet-capex-hike-megacap-selloff","url":"https://247wallst.com/investing/2026/07/23/amazon-falls-4-as-senate-china-probe-and-ai-spending-jitters-weigh-ahead-of-earnings/","title":"Mega-cap AI selloff on Alphabet capex","date_first_run":"2026-07-23"}
+  ]
+}
