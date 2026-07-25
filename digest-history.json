@@ -119,6 +119,72 @@
       "url": "https://cryptobriefing.com/samsung-sk-hynix-us-chip-deals/",
       "title": "Samsung/SK Hynix large US memory supply deals",
       "date_first_run": "2026-07-24"
+    },
+    {
+      "id": "ai-kill-switch-act-lieu-moran-dhs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
+      "title": "Bipartisan AI Kill Switch Act (DHS shutdown authority)",
+      "date_first_run": "2026-07-25"
+    },
+    {
+      "id": "amd-cerebras-disaggregated-inference-helios-wafer",
+      "url": "https://www.axios.com/2026/07/24/amd-cerebras-ai-inference",
+      "title": "AMD-Cerebras disaggregated inference partnership",
+      "date_first_run": "2026-07-25"
+    },
+    {
+      "id": "intel-q2-2026-beat-capex-20b-raise",
+      "url": "https://www.reuters.com/technology/intel-earnings-q2-2026",
+      "title": "Intel beats, raises 2026 capex to $20B",
+      "date_first_run": "2026-07-25"
+    },
+    {
+      "id": "alphabet-first-negative-fcf-5-8b-followup",
+      "url": "https://arstechnica.com/gadgets/2026/07/alphabet-negative-free-cash-flow-ai-capex/",
+      "title": "Alphabet first-ever negative FCF ~-$5.8B (follow-up)",
+      "date_first_run": "2026-07-25"
+    },
+    {
+      "id": "japan-noestra-sovereign-ai-consortium-44-firms",
+      "url": "https://www.ft.com/content/japan-noestra-sovereign-ai-robotics",
+      "title": "Japan Noestra sovereign-AI robotics consortium",
+      "date_first_run": "2026-07-25"
+    },
+    {
+      "id": "billion-dollar-rounds-60pct-vc-320b-2026",
+      "url": "https://news.crunchbase.com/venture/billion-dollar-rounds-2026-concentration/",
+      "title": "Billion-dollar rounds ~60% of VC / $320B",
+      "date_first_run": "2026-07-25"
+    },
+    {
+      "id": "samsung-galaxy-z-fold8-snapdragon-8-elite-gen5",
+      "url": "https://www.news.com.au/technology/samsung-galaxy-unpacked-z-fold8",
+      "title": "Samsung Z Fold8 on Snapdragon 8 Elite Gen 5 + AI glasses",
+      "date_first_run": "2026-07-25"
+    },
+    {
+      "id": "meta-seller-marketplace-ai-ios-app",
+      "url": "https://www.axios.com/2026/07/24/meta-seller-marketplace-ai-app",
+      "title": "Meta launches Seller AI marketplace app",
+      "date_first_run": "2026-07-25"
+    },
+    {
+      "id": "substack-pangram-ai-detection-partnership",
+      "url": "https://www.axios.com/2026/07/24/substack-pangram-ai-detection",
+      "title": "Substack partners with Pangram for AI detection",
+      "date_first_run": "2026-07-25"
+    },
+    {
+      "id": "oracle-1449-security-patches-ai-vuln-discovery",
+      "url": "https://www.theregister.com/2026/07/24/oracle_critical_patch_update/",
+      "title": "Oracle ships 1,449 patches; AI vuln discovery",
+      "date_first_run": "2026-07-25"
+    },
+    {
+      "id": "china-cxmt-ymtc-memory-pricing-power",
+      "url": "https://www.reuters.com/technology/china-memory-chips-cxmt-ymtc-pricing/",
+      "title": "China CXMT/YMTC gain memory pricing power",
+      "date_first_run": "2026-07-25"
     }
   ]
 }
