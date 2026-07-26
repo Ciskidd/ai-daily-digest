@@ -185,6 +185,18 @@
       "url": "https://www.reuters.com/technology/china-memory-chips-cxmt-ymtc-pricing/",
       "title": "China CXMT/YMTC gain memory pricing power",
       "date_first_run": "2026-07-25"
+    },
+    {
+      "id": "moonshot-kimi-k3-open-weights-drop-july27",
+      "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+      "title": "Moonshot AI to release Kimi K3 open weights July 27 - largest open-weight model ever",
+      "date_first_run": "2026-07-26"
+    },
+    {
+      "id": "kimi-k3-drop-reignites-us-distillation-sanctions-fight",
+      "url": "https://thehill.com/policy/technology/5981503-chinese-model-kimi-3-adds-pressure-on-trump-administrations-ai-policy/",
+      "title": "Kimi K3 imminent weights drop reignites US distillation-sanctions fight (35-company letter, Huxiu)",
+      "date_first_run": "2026-07-26"
     }
   ]
 }
