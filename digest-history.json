@@ -187,16 +187,58 @@
       "date_first_run": "2026-07-25"
     },
     {
-      "id": "moonshot-kimi-k3-open-weights-drop-july27",
-      "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
-      "title": "Moonshot AI to release Kimi K3 open weights July 27 - largest open-weight model ever",
-      "date_first_run": "2026-07-26"
+      "id": "moonshot-kimi-k3-open-weights-release",
+      "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+      "title": "Kimi K3 open weights released — largest open model ever",
+      "date_first_run": "2026-07-27"
     },
     {
-      "id": "kimi-k3-drop-reignites-us-distillation-sanctions-fight",
-      "url": "https://thehill.com/policy/technology/5981503-chinese-model-kimi-3-adds-pressure-on-trump-administrations-ai-policy/",
-      "title": "Kimi K3 imminent weights drop reignites US distillation-sanctions fight (35-company letter, Huxiu)",
-      "date_first_run": "2026-07-26"
+      "id": "claude-opus-5-shipped-followup",
+      "url": "https://thursdai.news/releases/2026-07",
+      "title": "Claude Opus 5 ships at $5/$25, Sonnet 5 promo pricing",
+      "date_first_run": "2026-07-27"
+    },
+    {
+      "id": "boston-dynamics-google-gemini-robotics-spot-orbit",
+      "url": "https://thursdai.news/releases/2026-07",
+      "title": "Boston Dynamics integrates Gemini Robotics-ER 1.6 into Spot/Orbit",
+      "date_first_run": "2026-07-27"
+    },
+    {
+      "id": "bigtech-q2-2026-earnings-week-capex-revolt",
+      "url": "https://fortune.com/2026/07/26/big-tech-earnings-meta-microsoft-apple-amazon-market-revolt-ai-spending/",
+      "title": "Big Tech Q2 earnings week amid $725B capex revolt",
+      "date_first_run": "2026-07-27"
+    },
+    {
+      "id": "qualcomm-datacenter-ramp-hyperscaler-focus",
+      "url": "https://www.cnbc.com/2026/06/24/qualcomm-data-center-cpu-meta.html",
+      "title": "Qualcomm data-center ramp in focus ahead of fiscal Q3",
+      "date_first_run": "2026-07-27"
+    },
+    {
+      "id": "nvidia-tsmc-ai-fab-design-manufacturing",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
+      "title": "NVIDIA and TSMC bring AI into the fab",
+      "date_first_run": "2026-07-27"
+    },
+    {
+      "id": "tsmc-july-2026-revenue-45pct-30pct-growth",
+      "url": "https://benzinga.com/z/40278362",
+      "title": "TSMC July revenue +45%, reaffirms >30% 2026 growth",
+      "date_first_run": "2026-07-27"
+    },
+    {
+      "id": "house-letter-lutnick-ai-export-controls-legal-basis",
+      "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition",
+      "title": "House members press Lutnick on AI-chip export legal basis",
+      "date_first_run": "2026-07-27"
+    },
+    {
+      "id": "china-beijing-ai-chip-curbs-alibaba-bytedance-talks",
+      "url": "https://www.benzinga.com/markets/tech/26/07/60569812/alibaba-bytedance-join-regulatory-talks-as-beijing-tightens-grip-with-sweeping-ai-chip-export-curbs-report",
+      "title": "Beijing tightens grip; Alibaba, ByteDance in regulatory talks",
+      "date_first_run": "2026-07-27"
     }
   ]
 }
