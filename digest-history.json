@@ -239,6 +239,72 @@
       "url": "https://www.benzinga.com/markets/tech/26/07/60569812/alibaba-bytedance-join-regulatory-talks-as-beijing-tightens-grip-with-sweeping-ai-chip-export-curbs-report",
       "title": "Beijing tightens grip; Alibaba, ByteDance in regulatory talks",
       "date_first_run": "2026-07-27"
+    },
+    {
+      "id": "nvidia-250b-openai-ohio-datacenter-backstop",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
+      "title": "Nvidia weighs $250B backstop for OpenAI Ohio campus",
+      "date_first_run": "2026-07-28"
+    },
+    {
+      "id": "nvidia-invests-safe-superintelligence-ssi",
+      "url": "https://www.wsj.com/tech/ai/nvidia-bets-on-ilya-sutskevers-new-ai-lab-to-expand-compute-reach-f95596e8",
+      "title": "Nvidia invests in Sutskever's SSI",
+      "date_first_run": "2026-07-28"
+    },
+    {
+      "id": "open-secure-ai-alliance-huggingface-breach",
+      "url": "https://techstartups.com/2026/07/27/nvidia-microsoft-and-palantir-launch-open-secure-ai-alliance-to-help-defend-against-ai-powered-cyberattacks-after-hugging-face-hack/",
+      "title": "Open Secure AI Alliance formed after HF breach",
+      "date_first_run": "2026-07-28"
+    },
+    {
+      "id": "qualcomm-double-digit-price-hikes-september-2026",
+      "url": "https://semiconductorpackagingnews.com/",
+      "title": "Qualcomm plans double-digit chip price hikes from Sept",
+      "date_first_run": "2026-07-28"
+    },
+    {
+      "id": "google-pixel-11-price-hike-ram-crisis",
+      "url": "https://www.theverge.com/",
+      "title": "Google confirms Pixel 11 price hikes on RAM crunch",
+      "date_first_run": "2026-07-28"
+    },
+    {
+      "id": "ai-companies-washington-lobbying-surge-openai-2-22m",
+      "url": "https://www.ft.com/",
+      "title": "AI firms sharply increase Washington lobbying; OpenAI $2.22M H1",
+      "date_first_run": "2026-07-28"
+    },
+    {
+      "id": "monday-com-20pct-layoffs-ai-platform-pivot",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/mondaycom-layoffs",
+      "title": "Monday.com cuts ~20% staff in AI platform pivot",
+      "date_first_run": "2026-07-28"
+    },
+    {
+      "id": "encord-zander-labs-brainwave-robot-training-data",
+      "url": "https://techcrunch.com/",
+      "title": "Encord/Zander Labs test brain-wave data for robot training",
+      "date_first_run": "2026-07-28"
+    },
+    {
+      "id": "elio-21m-ai-sensing-funding",
+      "url": "https://www.photonics.com/",
+      "title": "Elio raises $21M for AI-era sensing hardware",
+      "date_first_run": "2026-07-28"
+    },
+    {
+      "id": "zhipu-1gw-all-domestic-chip-datacenter",
+      "url": "https://winbuzzer.com/2026/07/22/zai-reportedly-starts-chinese-chip-data-center-with-1gw-desi-xcxwbn/",
+      "title": "Zhipu completes 1GW all-domestic-chip data center",
+      "date_first_run": "2026-07-28"
+    },
+    {
+      "id": "baidu-kunlun-m100-inference-chip-waic",
+      "url": "https://seekingalpha.com/news/4521128-chinas-baidu-sets-stage-for-new-ai-chips-at-its-annual-tech-event",
+      "title": "Baidu Kunlun M100 inference chip targets H20",
+      "date_first_run": "2026-07-28"
     }
   ]
 }
