@@ -305,6 +305,96 @@
       "url": "https://seekingalpha.com/news/4521128-chinas-baidu-sets-stage-for-new-ai-chips-at-its-annual-tech-event",
       "title": "Baidu Kunlun M100 inference chip targets H20",
       "date_first_run": "2026-07-28"
+    },
+    {
+      "id": "cadence-q2-2026-beat-record-8-1b-backlog",
+      "url": "https://www.benzinga.com/markets/earnings/26/07/60712626/cadence-design-systems-beats-q2-estimates-raises-2026-outlook",
+      "title": "Cadence Q2 beat & raise, record $8.1B backlog",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "amd-core-scientific-2-5gw-capacity-deal",
+      "url": "https://www.reuters.com/",
+      "title": "AMD secures up to 2.5GW from Core Scientific",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "nvidia-50b-texas-datacenter-lease-own-chips",
+      "url": "https://www.ft.com/",
+      "title": "Nvidia backs ~$50B Texas data-center lease",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "global-ai-chip-selloff-datacenter-returns",
+      "url": "https://www.ft.com/content/f8c03b5b-e194-4236-82c3-389b6f5dd7ae",
+      "title": "Global AI chip selloff deepens on returns doubts",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "amazon-200b-2026-ai-capex-global-500-top",
+      "url": "https://fortune.com/ranking/global500/",
+      "title": "Amazon ~$200B AI capex tops Global 500",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "verizon-google-1b-dark-fiber-deal",
+      "url": "https://arstechnica.com/",
+      "title": "Verizon ~$1B dark-fiber deal with Google",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "visa-7pct-layoffs-ai-efficiency",
+      "url": "https://techstartups.com/2026/07/28/visa-to-lay-off-7-of-workforce-cutting-2600-jobs-as-payments-giant-restructures-amid-ai-driven-efficiency-push/",
+      "title": "Visa cuts ~7% (2,600) in AI restructuring",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "agility-robotics-fremont-hub-ipo",
+      "url": "https://www.globenewswire.com/",
+      "title": "Agility Robotics opens Fremont hub; IPO referenced",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "dario-amodei-anthropic-open-weights-clarify",
+      "url": "https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic/",
+      "title": "Amodei clarifies Anthropic never backed open-weights ban",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "huang-open-weights-letter-50-signatories",
+      "url": "https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic/",
+      "title": "Open-weights letter doubles to 50 signatories (follow-up)",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "openai-breach-fbi-timeline-9day-followup",
+      "url": "https://securityaffairs.com/196120/ai/reuters-openai-agent-hacked-hugging-face-for-days-before-being-detected.html",
+      "title": "OpenAI breach: FBI knew first, 9-day gap (follow-up)",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "microsoft-ai-security-tools-exposure-detection",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+      "title": "Microsoft unveils AI security tools",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "claude-chats-google-bing-search-indexed",
+      "url": "https://arstechnica.com/",
+      "title": "Shared Claude chats indexed in Google/Bing",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "china-domestic-duv-lithography-mass-production",
+      "url": "https://techstartups.com/2026/07/27/china-begins-mass-production-of-homegrown-duv-lithography-machines-in-major-chip-breakthrough/",
+      "title": "China mass-produces domestic DUV lithography",
+      "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "cxmt-shanghai-ipo-466pct-debut",
+      "url": "https://www.marketwatch.com/",
+      "title": "CXMT surges 466% on Shanghai debut (follow-up)",
+      "date_first_run": "2026-07-29"
     }
   ]
 }
