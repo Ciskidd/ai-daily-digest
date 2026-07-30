@@ -395,6 +395,48 @@
       "url": "https://www.marketwatch.com/",
       "title": "CXMT surges 466% on Shanghai debut (follow-up)",
       "date_first_run": "2026-07-29"
+    },
+    {
+      "id": "qualcomm-q3-fy2026-earnings-memory-guidance-price-hikes",
+      "url": "https://www.cnbc.com/2026/07/29/qualcomm-qcom-earnings-report-q3-2026-.html",
+      "title": "Qualcomm Q3 beats revenue, guides light on memory, Sept 1 price hikes",
+      "date_first_run": "2026-07-30"
+    },
+    {
+      "id": "microsoft-q4-fy2026-earnings-azure-43-capex-held",
+      "url": "https://www.cnbc.com/2026/07/29/microsofts-ai-spending-guide-is-music-to-our-ears-quieting-the-bears-for-now.html",
+      "title": "Microsoft +8% on Azure +43%, capex held steady",
+      "date_first_run": "2026-07-30"
+    },
+    {
+      "id": "meta-q2-2026-earnings-margin-collapse-capex-floor-130b",
+      "url": "https://www.home.saxo/content/articles/equities/msft-meta-preview-27072026",
+      "title": "Meta Q2 margin collapse, capex floor lifted to $130B, stock sells off",
+      "date_first_run": "2026-07-30"
+    },
+    {
+      "id": "skhynix-q2-2026-record-profit-557pct-hbm4-miss",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/262060080-sk-hynix-q2-financial-report-profit-surges-why-stock-plunge-tradingkey",
+      "title": "SK Hynix profit +557% record, stock -10% on HBM4 slip",
+      "date_first_run": "2026-07-30"
+    },
+    {
+      "id": "pacing-the-frontier-1200-ai-workers-slowdown-statement",
+      "url": "https://fortune.com/2026/07/29/anthropic-deepmind-openai-meta-washington-ai-slowdown-plan/",
+      "title": "1,200+ AI workers 'Pacing the Frontier' ask Washington for slowdown plan",
+      "date_first_run": "2026-07-30"
+    },
+    {
+      "id": "moonshot-ai-3-5b-round-35b-valuation",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/china-s-moonshot-ai-passes-funding-goal-to-hit-35-billion-value",
+      "title": "Moonshot AI closes $3.5B round at $35B valuation",
+      "date_first_run": "2026-07-30"
+    },
+    {
+      "id": "tencent-hunyuan-angelspec-open-source-speculative-decoding",
+      "url": "https://damodev.csdn.net/6a695381662f9a54cb9571cf.html",
+      "title": "Tencent Hunyuan open-sources AngelSpec speculative-decoding stack",
+      "date_first_run": "2026-07-30"
     }
   ]
 }
