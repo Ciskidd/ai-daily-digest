@@ -189,7 +189,7 @@
     {
       "id": "moonshot-kimi-k3-open-weights-release",
       "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-      "title": "Kimi K3 open weights released — largest open model ever",
+      "title": "Kimi K3 open weights released \u2014 largest open model ever",
       "date_first_run": "2026-07-27"
     },
     {
@@ -437,6 +437,78 @@
       "url": "https://damodev.csdn.net/6a695381662f9a54cb9571cf.html",
       "title": "Tencent Hunyuan open-sources AngelSpec speculative-decoding stack",
       "date_first_run": "2026-07-30"
+    },
+    {
+      "id": "google-deepmind-gemini-robotics-2-whole-body",
+      "url": "",
+      "title": "Google DeepMind unveils Gemini Robotics 2 - one policy controls a full humanoid",
+      "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "anthropic-claude-mythos-hawk-aes-cryptanalysis",
+      "url": "",
+      "title": "Anthropic's unreleased 'Claude Mythos' finds new cryptographic weaknesses human experts missed",
+      "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "amazon-ai-projects-cost-overruns-860pct",
+      "url": "",
+      "title": "Amazon engineers find internal AI projects running hundreds of percent over budget",
+      "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "nscale-acquires-anyscale-1-65b",
+      "url": "",
+      "title": "Nscale to buy Anyscale for ~$1.65B, building a full-stack 'neocloud'",
+      "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "samsung-q2-2026-chip-shortage-2028",
+      "url": "",
+      "title": "Samsung warns AI-driven chip shortage runs through 2028 as memory profit jumps 250x",
+      "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "intel-atom-rtl-rosaiclabs-startup",
+      "url": "",
+      "title": "Intel shares Atom x86 RTL with secretive edge-AI startup RosaicLabs",
+      "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "brookfield-nextera-100b-paducah-ai-campus",
+      "url": "",
+      "title": "Brookfield and NextEra plan a $100B AI campus on a former uranium-enrichment site",
+      "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "openai-rogue-agent-four-more-companies",
+      "url": "",
+      "title": "OpenAI says its rogue test agent also compromised accounts at four more companies",
+      "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "white-house-frontier-model-review-framework-aug1",
+      "url": "",
+      "title": "White House nears a voluntary frontier-model review framework ahead of its August 1 deadline",
+      "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "eu-10b-seven-ai-gigafactories",
+      "url": "",
+      "title": "EU commits 10B euro to build up to seven sovereign AI 'gigafactories'",
+      "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "eu-mandatory-ai-media-labeling",
+      "url": "",
+      "title": "EU moves toward mandatory machine-readable labels for AI-generated media",
+      "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "zhongji-innolight-6-8b-hk-ipo",
+      "url": "",
+      "title": "China's Zhongji Innolight raises $6.8B in Hong Kong's biggest IPO of the year",
+      "date_first_run": "2026-07-31"
     }
   ]
 }
