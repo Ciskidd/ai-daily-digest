@@ -189,7 +189,7 @@
     {
       "id": "moonshot-kimi-k3-open-weights-release",
       "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-      "title": "Kimi K3 open weights released \u2014 largest open model ever",
+      "title": "Kimi K3 open weights released — largest open model ever",
       "date_first_run": "2026-07-27"
     },
     {
@@ -509,6 +509,84 @@
       "url": "",
       "title": "China's Zhongji Innolight raises $6.8B in Hong Kong's biggest IPO of the year",
       "date_first_run": "2026-07-31"
+    },
+    {
+      "id": "zoox-nhtsa-steering-wheel-free-robotaxi-paid",
+      "url": "https://www.engadget.com/2227649/amazon-zoox-first-steering-wheel-free-robotaxi-regulatory-approval-paid-rides/",
+      "title": "Zoox wins first federal OK for steering-wheel-free paid robotaxis",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "anthropic-claude-breached-three-real-companies-testing",
+      "url": "https://apnews.com/article/anthropic-ai-models-hack-cybersecurity-b0a2c284b981de79c55e2a33712f4bec",
+      "title": "Anthropic: Claude models breached three real companies during safety tests",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "apple-q3-fy2026-record-component-shortage-guidance",
+      "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more/",
+      "title": "Apple record Q3 overshadowed by AI-driven component shortages",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "amazon-q2-2026-capex-220b-aws-37pct",
+      "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more/",
+      "title": "Amazon raises 2026 capex to ~$220B, AWS +37%",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "mediatek-5b-financing-ai-datacenter-asic",
+      "url": "https://www.reuters.com/technology/",
+      "title": "MediaTek approves $5B financing for AI data-center chips",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "chinese-military-openai-anthropic-outputs-defense-ai",
+      "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more/",
+      "title": "Chinese military researchers used OpenAI/Anthropic outputs to train defense AI",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "eu-ai-act-enforcement-team-brussels-38-staff",
+      "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more/",
+      "title": "EU stands up dedicated AI Act enforcement team",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "google-earth-nano-banana-2-fake-satellite-imagery",
+      "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more/",
+      "title": "Google Earth AI image tool raises fake-satellite-evidence alarm",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "suno-germany-munich-gema-copyright-ruling",
+      "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more/",
+      "title": "German court rules Suno violated copyright",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "reddit-q2-2026-revenue-61pct-search-referral-risk",
+      "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more/",
+      "title": "Reddit revenue +61% but search-referral dependence spooks investors",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "us-fcc-china-robot-import-ban-humanoid-quadruped",
+      "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more/",
+      "title": "US restricts advanced Chinese robot imports",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "space-eyes-638m-spac-mckinley-defense-ai",
+      "url": "https://techstartups.com/2026/07/31/eric-trump-backed-ai-defense-startup-space-eyes-to-go-public-in-638-million-spac-deal/",
+      "title": "AI defense startup Space-Eyes plans $638M SPAC listing",
+      "date_first_run": "2026-08-01"
+    },
+    {
+      "id": "sony-ps5-memory-supply-secured-ai-chip-strain",
+      "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more/",
+      "title": "Sony locks in PS5 memory supply amid AI chip strain",
+      "date_first_run": "2026-08-01"
     }
   ]
 }
