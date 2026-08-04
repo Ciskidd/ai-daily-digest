@@ -189,7 +189,7 @@
     {
       "id": "moonshot-kimi-k3-open-weights-release",
       "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-      "title": "Kimi K3 open weights released — largest open model ever",
+      "title": "Kimi K3 open weights released \u2014 largest open model ever",
       "date_first_run": "2026-07-27"
     },
     {
@@ -665,6 +665,30 @@
       "url": "https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026",
       "title": "Hugging Face CEO: hold developers accountable for autonomous AI",
       "date_first_run": "2026-08-03"
+    },
+    {
+      "id": "alibaba-qwen3-8-max-2-4t-ga-open-weights",
+      "url": "https://siliconangle.com/2026/08/03/alibaba-debuts-qwen3-8-max-model-2-4t-parameters/",
+      "title": "Alibaba Qwen3.8-Max reaches GA (2.4T MoE)",
+      "date_first_run": "2026-08-04"
+    },
+    {
+      "id": "chips-act-874m-equity-stakes-state-capitalism",
+      "url": "https://www.washingtonpost.com/opinions/2026/08/03/lutnick-hoovering-up-equity-stakes-with-chips-act-is-state-capitalism/",
+      "title": "CHIPS Act $874M for equity in 7 firms",
+      "date_first_run": "2026-08-04"
+    },
+    {
+      "id": "dram-memory-shortage-700pct-antitrust-followup",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond",
+      "title": "Memory: DRAM ~700%, HBM sold out, antitrust suit",
+      "date_first_run": "2026-08-04"
+    },
+    {
+      "id": "xai-grok-market-share-slide-meta-ai-4th",
+      "url": "https://seekingalpha.com/news/4612074-spacexais-grok-continues-to-lose-market-share-meta-ai-climbs-to-fourth-in-us-analysis",
+      "title": "Grok loses share as Meta AI hits #4",
+      "date_first_run": "2026-08-04"
     }
   ]
 }
