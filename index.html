@@ -124,6 +124,10 @@ main{padding:22px 0 80px; min-width:0;}
 .panel.qc-headwind,.panel.inv-bearish{background:var(--red-bg);}
 .panel.qc-watch,.panel.inv-mixed{background:var(--amber-bg);}
 .panel.qc-neutral,.panel.inv-noise{background:var(--gray-bg);}
+.source{margin-top:13px; padding-top:11px; border-top:1px solid var(--line); font-size:13px;}
+.src-link{font-weight:700;}
+.src-also{color:var(--muted);}
+.src-also a{color:var(--muted); text-decoration:underline;}
 footer{border-top:3px double var(--ink); margin-top:40px; padding-top:16px;
   font-size:12.5px; color:var(--muted); max-width:var(--maxw);}
 footer b{color:var(--ink);}
@@ -165,7 +169,7 @@ footer b{color:var(--ink);}
       <h4>In this edition</h4>
       <ul>
         <li class="toc-sec"><a href="#sec-models">Models & Research</a><ul>
-<li><a href="#item-xai-grok-voice-think-fast-2-speech">xAI launches Grok Voice Think Fast 2.0, topping speech-to-speech benchmarks</a></li>
+<li><a href="#item-xai-grok-voice-think-fast-2-speech">xAI&#x27;s Grok Voice Think Fast 2.0 becomes the default voice model today</a></li>
 </ul></li>
 <li class="toc-sec"><a href="#sec-industry">Industry & Funding</a><ul>
 <li><a href="#item-volta-ai-cloud-2-4b-a16z-altimeter-nvidia-dell">Nvidia, Dell back AI-cloud startup Volta at $2.4B; firm lands $10B capacity contract</a></li>
@@ -222,11 +226,11 @@ footer b{color:var(--ink);}
       <h2 class="sec-title">Models & Research</h2>
       
       <article class="card" id="item-xai-grok-voice-think-fast-2-speech" tabindex="-1" data-qc="tailwind" data-inv="mixed" data-tags="qc-tailwind inv-mixed">
-        <h3 class="card-head">xAI launches Grok Voice Think Fast 2.0, topping speech-to-speech benchmarks</h3>
+        <h3 class="card-head">xAI&#x27;s Grok Voice Think Fast 2.0 becomes the default voice model today</h3>
         
-        <div class="meta"><span class="outlet">xAI / Artificial Analysis</span><span class="dot">·</span><span class="time">Aug 4</span> </div>
+        <div class="meta"><span class="outlet">xAI / Artificial Analysis</span><span class="dot">·</span><span class="time">Aug 5 (alias flip)</span> </div>
         
-        <p class="summary">xAI released Grok Voice Think Fast 2.0, which it calls its most capable speech-to-speech model, scoring 82.9% on Artificial Analysis&#x27;s overall speech-to-speech index. That edges out GPT-Realtime-2.1 (79.1%) and Gemini 3.1 Flash (69.5%). The model targets low-latency conversational voice agents.</p>
+        <p class="summary">Effective today, xAI&#x27;s grok-voice-latest alias flips to Grok Voice Think Fast 2.0, which it calls its most capable speech-to-speech model, scoring 82.9% on Artificial Analysis&#x27;s overall index (up from 75.7% for v1.0). That edges out GPT-Realtime-2.1 (79.1%) and Gemini 3.1 Flash (69.5%), with 0.70s time-to-first-audio and 1.5–2x better transcription across 24 languages. Pricing is $0.08 per minute of audio.</p>
         <p class="why"><span class="why-label">Why it matters</span> Real-time voice is becoming the front line of assistant competition, and xAI just took a benchmark lead.</p>
         <div class="panels">
           <div class="panel qc qc-tailwind">
@@ -238,6 +242,7 @@ footer b{color:var(--ink);}
             <p>A benchmark lead sharpens xAI&#x27;s competitive position versus OpenAI and Google in a hot category and is relevant to xAI&#x27;s private valuation, but voice leadership has proven fleeting. Not investment advice.</p>
           </div>
         </div>
+        <div class="source"><a class="src-link" href="https://x.ai/news/grok-voice-think-fast-2" target="_blank" rel="noopener">Read the original ↗</a> <span class="src-also">also: <a href="https://www.testingcatalog.com/spacexai-launches-grok-voice-think-fast-2-0-on-agent-builder/" target="_blank" rel="noopener">Artificial Analysis / TestingCatalog</a></span></div>
       </article>
     </section>
     <section class="sec" id="sec-industry">
@@ -260,13 +265,14 @@ footer b{color:var(--ink);}
             <p>Nvidia and Dell funding a customer whose spend flows back to Nvidia revives the circular-financing optics that already unnerve investors, but the $10B contract is genuine demand. Concentration and vendor-financing risk are the things to watch. Not investment advice.</p>
           </div>
         </div>
+        <div class="source"><a class="src-link" href="https://www.bloomberg.com/news/articles/2026-08-04/nvidia-dell-back-ai-cloud-startup-volta-at-2-4-billion-value" target="_blank" rel="noopener">Read the original ↗</a></div>
       </article>
       <article class="card" id="item-anaconda-acquires-enkrypt-ai-security" tabindex="-1" data-qc="neutral" data-inv="noise" data-tags="qc-neutral inv-noise">
         <h3 class="card-head">Anaconda acquires AI-security startup Enkrypt AI</h3>
         
         <div class="meta"><span class="outlet">Anaconda</span><span class="dot">·</span><span class="time">Aug 4</span> </div>
         
-        <p class="summary">Anaconda acquired Enkrypt AI, folding in pre-deployment red-teaming across 300+ attack categories, runtime guardrails, and NIST/EU AI Act compliance automation into the Anaconda Platform. The deal pushes Anaconda beyond Python packaging into AI governance and security. Terms were not disclosed.</p>
+        <p class="summary">Anaconda acquired Enkrypt AI, folding in pre-deployment red-teaming across 300+ attack categories, runtime guardrails, and NIST/EU AI Act compliance automation into the Anaconda Platform. Enkrypt had scanned 268,000+ tools across 25,000 MCP servers and flagged 143,000+ vulnerabilities affecting 73% of them. The deal, terms undisclosed, follows Anaconda&#x27;s July acquisition of Kilo Code.</p>
         <p class="why"><span class="why-label">Why it matters</span> Enterprise AI spend is shifting toward guardrails and compliance as agents move into production.</p>
         <div class="panels">
           <div class="panel qc qc-neutral">
@@ -278,6 +284,7 @@ footer b{color:var(--ink);}
             <p>A small tuck-in that signals rising enterprise demand for agent security and AI-Act compliance tooling, but not market-moving on its own. Not investment advice.</p>
           </div>
         </div>
+        <div class="source"><a class="src-link" href="https://www.anaconda.com/blog/anaconda-acquires-enkrypt-ai" target="_blank" rel="noopener">Read the original ↗</a> <span class="src-also">also: <a href="https://www.hpcwire.com/aiwire/2026/08/04/anaconda-acquires-enkrypt-ai-to-secure-the-trillion-token-enterprise/" target="_blank" rel="noopener">AIwire</a></span></div>
       </article>
     </section>
     <section class="sec" id="sec-semis">
@@ -300,6 +307,7 @@ footer b{color:var(--ink);}
             <p>A record quarter with data-center revenue up 107% and a marquee Anthropic deal is a strong demand signal for the whole accelerator and HBM stack (AMD, SK Hynix, Micron), even as the after-hours dip shows how much is already priced in. Watch margins as HBM and packaging costs climb. Not investment advice.</p>
           </div>
         </div>
+        <div class="source"><a class="src-link" href="https://newsroom.amd.com/news/amd-2q-2026-earnings/" target="_blank" rel="noopener">Read the original ↗</a> <span class="src-also">also: <a href="https://www.nasdaq.com/press-release/amd-reports-second-quarter-2026-financial-results-2026-08-04" target="_blank" rel="noopener">Nasdaq</a>, <a href="https://www.investing.com/news/company-news/amd-q2-2026-slides-data-center-revenue-doubles-stock-falls-after-hours-93CH-4836240" target="_blank" rel="noopener">Investing.com</a></span></div>
       </article>
     </section>
     <section class="sec" id="sec-policy">
@@ -322,11 +330,12 @@ footer b{color:var(--ink);}
             <p>Clear rules modestly de-risk OpenAI, Anthropic and Google, but incumbents co-authoring thresholds is a moat that disadvantages open-weights and smaller challengers — a regulatory-capture risk to price in. Not investment advice.</p>
           </div>
         </div>
+        <div class="source"><a class="src-link" href="https://www.bloomberg.com/news/articles/2026-08-03/openai-anthropic-google-to-join-white-house-ai-safety-meeting" target="_blank" rel="noopener">Read the original ↗</a> <span class="src-also">also: <a href="https://www.ibj.com/articles/openai-anthropic-google-to-join-white-house-ai-safety-meeting" target="_blank" rel="noopener">Indianapolis Business Journal</a></span></div>
       </article>
       <article class="card" id="item-ninth-circuit-perplexity-comet-amazon-cfaa" tabindex="-1" data-qc="neutral" data-inv="mixed" data-tags="qc-neutral inv-mixed">
         <h3 class="card-head">Ninth Circuit clears Perplexity&#x27;s Comet shopping agent to operate on Amazon</h3>
         
-        <div class="meta"><span class="outlet">Ninth Circuit / reports</span><span class="dot">·</span><span class="time">Aug 4</span> </div>
+        <div class="meta"><span class="outlet">Courthouse News / Ninth Circuit</span><span class="dot">·</span><span class="time">Aug 4</span> </div>
         
         <p class="summary">The Ninth Circuit overturned a lower-court order that had barred Perplexity&#x27;s Comet shopping agent from Amazon.com, holding that it is users — not Perplexity — who &#x27;accessed&#x27; Amazon under the federal computer-fraud statute. The ruling narrows how the CFAA applies to consumer AI agents acting on a user&#x27;s behalf. Amazon had sought to block agentic access to its marketplace.</p>
         <p class="why"><span class="why-label">Why it matters</span> A precedent that agents act as the user, not the vendor, removes a major legal barrier to autonomous shopping and browsing agents.</p>
@@ -340,6 +349,7 @@ footer b{color:var(--ink);}
             <p>The ruling helps Perplexity and agent startups while pressuring Amazon&#x27;s control over its own marketplace, and it sets a CFAA precedent others will lean on. Watch platform pushback via terms-of-service rather than statute. Not investment advice.</p>
           </div>
         </div>
+        <div class="source"><a class="src-link" href="https://www.courthousenews.com/ninth-circuit-lifts-block-on-ai-powered-shopping-assistant/" target="_blank" rel="noopener">Read the original ↗</a> <span class="src-also">also: <a href="https://www.eff.org/deeplinks/2026/08/appeals-court-agrees-eff-building-web-browser-doesnt-violate-cfaa" target="_blank" rel="noopener">EFF</a>, <a href="https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf" target="_blank" rel="noopener">Opinion (PDF)</a></span></div>
       </article>
     </section>
     <section class="sec" id="sec-tools">
@@ -348,9 +358,9 @@ footer b{color:var(--ink);}
       <article class="card" id="item-rust-lang-llm-policy-refine-not-create" tabindex="-1" data-qc="neutral" data-inv="noise" data-tags="qc-neutral inv-noise">
         <h3 class="card-head">Rust project publishes LLM policy: models may refine, not create</h3>
         
-        <div class="meta"><span class="outlet">rust-lang</span><span class="dot">·</span><span class="time">Aug 5</span> </div>
+        <div class="meta"><span class="outlet">Inside Rust Blog</span><span class="dot">·</span><span class="time">Aug 5</span> </div>
         
-        <p class="summary">The rust-lang/rust maintainers published a policy permitting LLMs to &#x27;answer questions, analyze, distill, refine, check, suggest, review&#x27; contributions but not to &#x27;create&#x27; them. It is one of the more explicit stances a major open-source project has taken on AI-generated code. The policy aims to keep human authorship central while allowing AI assistance.</p>
+        <p class="summary">Five Rust teams adopted a policy permitting LLMs to &#x27;answer questions, analyze, distill, refine, check, suggest, review&#x27; contributions but not to &#x27;create&#x27; them, and it bans LLM-generated documentation and non-trivial comments. LLM reviews are advisory only, with human review still required. The move responds to a deluge of low-effort &#x27;slop&#x27; PRs and is one of the more explicit stances a major open-source project has taken on AI-generated code.</p>
         <p class="why"><span class="why-label">Why it matters</span> How flagship open-source projects govern AI-written code will shape norms for the whole ecosystem.</p>
         <div class="panels">
           <div class="panel qc qc-neutral">
@@ -362,6 +372,7 @@ footer b{color:var(--ink);}
             <p>No market impact, but a bellwether for how AI-generated contributions get accepted (or not) across critical open-source infrastructure. Not investment advice.</p>
           </div>
         </div>
+        <div class="source"><a class="src-link" href="https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/" target="_blank" rel="noopener">Read the original ↗</a> <span class="src-also">also: <a href="https://socket.dev/blog/rust-moves-to-restrict-llm-use-in-contributions" target="_blank" rel="noopener">Socket</a></span></div>
       </article>
       <article class="card" id="item-microsoft-project-polaris-copilot-default-maia" tabindex="-1" data-qc="headwind" data-inv="mixed" data-tags="qc-headwind inv-mixed followup">
         <h3 class="card-head">Project Polaris becomes GitHub Copilot&#x27;s default model, running on Microsoft&#x27;s Maia chips</h3>
@@ -380,6 +391,7 @@ footer b{color:var(--ink);}
             <p>Bullish for Microsoft&#x27;s margins and vertical integration and a validation of custom silicon (Maia) versus merchant GPUs, but bearish at the margin for OpenAI&#x27;s Microsoft-linked revenue. Not investment advice.</p>
           </div>
         </div>
+        <div class="source"><a class="src-link" href="https://www.techtimes.com/articles/317596/20260602/github-copilot-replaces-gpt-4-project-polaris-ships-multi-agent-vs-code-build.htm" target="_blank" rel="noopener">Read the original ↗</a> <span class="src-also">also: <a href="https://windowsforum.com/threads/project-polaris-set-as-default-github-copilot-engine-in-august-2026.421826/" target="_blank" rel="noopener">Windows Forum</a></span></div>
       </article>
     </section>
     <footer>
