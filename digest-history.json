@@ -689,6 +689,54 @@
       "url": "https://seekingalpha.com/news/4612074-spacexais-grok-continues-to-lose-market-share-meta-ai-climbs-to-fourth-in-us-analysis",
       "title": "Grok loses share as Meta AI hits #4",
       "date_first_run": "2026-08-04"
+    },
+    {
+      "id": "amd-q2-2026-record-datacenter-mi400-anthropic",
+      "url": "https://ai-daily-digest-cd-e91cf19eb4.netlify.app/ai-digest-2026-08-05.html",
+      "title": "AMD record Q2; DC doubles, MI400, Anthropic 2GW",
+      "date_first_run": "2026-08-05"
+    },
+    {
+      "id": "volta-ai-cloud-2-4b-a16z-altimeter-nvidia-dell",
+      "url": "https://ai-daily-digest-cd-e91cf19eb4.netlify.app/ai-digest-2026-08-05.html",
+      "title": "Volta AI cloud $2.4B; $10B contract",
+      "date_first_run": "2026-08-05"
+    },
+    {
+      "id": "white-house-ai-safety-meeting-frontier-threshold",
+      "url": "https://ai-daily-digest-cd-e91cf19eb4.netlify.app/ai-digest-2026-08-05.html",
+      "title": "White House frontier safety-test meeting",
+      "date_first_run": "2026-08-05"
+    },
+    {
+      "id": "xai-grok-voice-think-fast-2-speech",
+      "url": "https://ai-daily-digest-cd-e91cf19eb4.netlify.app/ai-digest-2026-08-05.html",
+      "title": "xAI Grok Voice Think Fast 2.0",
+      "date_first_run": "2026-08-05"
+    },
+    {
+      "id": "ninth-circuit-perplexity-comet-amazon-cfaa",
+      "url": "https://ai-daily-digest-cd-e91cf19eb4.netlify.app/ai-digest-2026-08-05.html",
+      "title": "9th Cir clears Perplexity Comet on Amazon",
+      "date_first_run": "2026-08-05"
+    },
+    {
+      "id": "anaconda-acquires-enkrypt-ai-security",
+      "url": "https://ai-daily-digest-cd-e91cf19eb4.netlify.app/ai-digest-2026-08-05.html",
+      "title": "Anaconda acquires Enkrypt AI",
+      "date_first_run": "2026-08-05"
+    },
+    {
+      "id": "rust-lang-llm-policy-refine-not-create",
+      "url": "https://ai-daily-digest-cd-e91cf19eb4.netlify.app/ai-digest-2026-08-05.html",
+      "title": "Rust LLM policy: refine not create",
+      "date_first_run": "2026-08-05"
+    },
+    {
+      "id": "microsoft-project-polaris-copilot-default-maia",
+      "url": "https://ai-daily-digest-cd-e91cf19eb4.netlify.app/ai-digest-2026-08-05.html",
+      "title": "Project Polaris default in Copilot (Maia)",
+      "date_first_run": "2026-08-05"
     }
   ]
 }
