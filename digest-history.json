@@ -189,7 +189,7 @@
     {
       "id": "moonshot-kimi-k3-open-weights-release",
       "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-      "title": "Kimi K3 open weights released \u2014 largest open model ever",
+      "title": "Kimi K3 open weights released — largest open model ever",
       "date_first_run": "2026-07-27"
     },
     {
@@ -887,6 +887,42 @@
       "url": "https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026",
       "title": "China AI data centers spread to smaller towns",
       "date_first_run": "2026-08-07"
+    },
+    {
+      "id": "astera-labs-q2-2026-record-scorpio-x-ramp",
+      "url": "https://www.globenewswire.com/news-release/2026/08/04/astera-labs-reports-second-quarter-2026-financial-results.html",
+      "title": "Astera Labs record Q2, Scorpio ramps early",
+      "date_first_run": "2026-08-08"
+    },
+    {
+      "id": "samsung-zhbm-skhynix-hbf-fms2026-memory-bottleneck",
+      "url": "https://www.distillintelligence.com/briefings/semiconductors-ai-chips-2026-08-07",
+      "title": "Memory makers race to break AI bandwidth wall — zHBM/HBF/CXL-PNM",
+      "date_first_run": "2026-08-08"
+    },
+    {
+      "id": "amd-acquires-taalas-inference-silicon",
+      "url": "https://www.distillintelligence.com/link/u1268769/amd-has-agreed-to-acquire-taalas",
+      "title": "AMD acquires inference-chip startup Taalas",
+      "date_first_run": "2026-08-08"
+    },
+    {
+      "id": "spacex-nvidia-exclusive-orbital-datacenters-2027",
+      "url": "https://www.distillintelligence.com/link/a4443609/spacex-goes-all-in-on-nvidia",
+      "title": "SpaceX all-in on Nvidia, orbital data centers 2027",
+      "date_first_run": "2026-08-08"
+    },
+    {
+      "id": "amkor-globalfoundries-record-q2-2026",
+      "url": "https://www.distillintelligence.com/link/u1262341/amkor-record-q2-2026",
+      "title": "Amkor & GlobalFoundries record Q2",
+      "date_first_run": "2026-08-08"
+    },
+    {
+      "id": "vc-funding-roundup-aug6-2026-moove-250m",
+      "url": "https://techstartups.com/2026/08/06/venture-capital-startup-funding-roundup-august-6-2026",
+      "title": "AI VC funding roundup Aug 6 — Moove $250M",
+      "date_first_run": "2026-08-08"
     }
   ]
 }
