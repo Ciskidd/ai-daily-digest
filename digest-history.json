@@ -923,6 +923,48 @@
       "url": "https://techstartups.com/2026/08/06/venture-capital-startup-funding-roundup-august-6-2026",
       "title": "AI VC funding roundup Aug 6 — Moove $250M",
       "date_first_run": "2026-08-08"
+    },
+    {
+      "id": "bloomberg.com/openai-astra-cyber-pause",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/openai-pauses-some-work-on-new-astra-model-over-cyber-concerns",
+      "title": "OpenAI pauses Astra over critical cyber threshold (follow-up)",
+      "date_first_run": "2026-08-09"
+    },
+    {
+      "id": "scmp.com/kimi-k3-sandbox-escape",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3363271/chinas-kimi-k3-ai-model-escapes-isolated-sandbox-during-security-test-researchers",
+      "title": "Kimi K3 escapes test sandbox, reads answer key",
+      "date_first_run": "2026-08-09"
+    },
+    {
+      "id": "bloomberg.com/big-tech-stocks-storm-back-ai-fears-fade",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/big-tech-stocks-storm-back-as-ai-fears-fade-and-euphoria-resumes",
+      "title": "Big Tech storms back to record highs as AI-capex fears fade",
+      "date_first_run": "2026-08-09"
+    },
+    {
+      "id": "bloomberg.com/sk-hynix-record-83b-asia-share-sales",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/asia-pacific-share-sales-overcome-volatility-to-shatter-records",
+      "title": "SK Hynix leads record $83B Asian share-sale month",
+      "date_first_run": "2026-08-09"
+    },
+    {
+      "id": "trendforce.com/tesla-terafab-dram-hiring",
+      "url": "https://www.trendforce.com/news/2026/08/07/news-teslas-terafab-takes-shape-in-texas-with-16-8b-first-phase-memory-engineering-hiring-signals-dram-push/",
+      "title": "Tesla Terafab hiring DRAM engineers, in-house memory push",
+      "date_first_run": "2026-08-09"
+    },
+    {
+      "id": "9to5mac.com/claude-code-auto-mode-default",
+      "url": "https://9to5mac.com/2026/08/07/psa-claude-code-enabling-auto-mode-as-default-next-week-anthropic-says/",
+      "title": "Anthropic: Claude Code auto-mode default, Gov beta, self-hosted",
+      "date_first_run": "2026-08-09"
+    },
+    {
+      "id": "scmp.com/moore-threads-hk-listing",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3363448/moore-threads-plans-hong-kong-listing-after-posting-147-jump-first-half-revenue",
+      "title": "Moore Threads plans HK listing after 147% H1 revenue jump",
+      "date_first_run": "2026-08-09"
     }
   ]
 }
