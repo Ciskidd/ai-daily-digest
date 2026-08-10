@@ -965,6 +965,54 @@
       "url": "https://www.scmp.com/tech/tech-trends/article/3363448/moore-threads-plans-hong-kong-listing-after-posting-147-jump-first-half-revenue",
       "title": "Moore Threads plans HK listing after 147% H1 revenue jump",
       "date_first_run": "2026-08-09"
+    },
+    {
+      "id": "meta-muse-glimmer-30b-open-apache-laptop",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/meta-releases-muse-glimmer-ai-model-people-can-run-on-their-laptop",
+      "title": "Meta releases Muse Glimmer, 30B open model that runs on a laptop",
+      "date_first_run": "2026-08-10"
+    },
+    {
+      "id": "openai-first-device-donut-smart-speaker-loveform",
+      "url": "https://openai.com/news/",
+      "title": "OpenAI first device leaks: donut-shaped ~$350 smart speaker with Jony Ive",
+      "date_first_run": "2026-08-10"
+    },
+    {
+      "id": "atoms-kalanick-physical-ai-1-7b-a16z-tiger",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
+      "title": "Kalanick's Atoms raises $1.7B, week's biggest round",
+      "date_first_run": "2026-08-10"
+    },
+    {
+      "id": "cathedral-160m-military-cyber-sequoia-a16z",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
+      "title": "Cathedral raises $160M for U.S. military cyber",
+      "date_first_run": "2026-08-10"
+    },
+    {
+      "id": "us-federal-5b-15-agencies-ai-research",
+      "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-08-07-ai-washington-report-august-2026-edition",
+      "title": "Administration commits $5B+ across 15+ agencies to embed AI in research",
+      "date_first_run": "2026-08-10"
+    },
+    {
+      "id": "openai-gpt-5-6-luna-default-free-go-think-button",
+      "url": "https://www.gulftoday.ae/news/2026/08/08/openai-introduces-new-chatgpt-updates-to-improve-responses",
+      "title": "OpenAI makes GPT-5.6 Luna default for Free/Go, adds Think button",
+      "date_first_run": "2026-08-10"
+    },
+    {
+      "id": "meta-muse-code-agentic-coding-muse-spark-1-2",
+      "url": "https://medium.com/@davidakpovi/ai-news-week-of-august-3-9-2026-8dfa677ffca3",
+      "title": "Meta launches Muse Code agentic coding assistant",
+      "date_first_run": "2026-08-10"
+    },
+    {
+      "id": "bytedance-seedance-2-5-api-30s-video-synced-audio",
+      "url": "https://kie.ai/blog/seedance-2-5-release-deep-dive",
+      "title": "ByteDance opens Seedance 2.5 API: 30s video with synced audio",
+      "date_first_run": "2026-08-10"
     }
   ]
 }
