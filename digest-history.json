@@ -1061,6 +1061,72 @@
    "url": "https://finance.yahoo.com/news/south-koreas-lee-wants-military-061609709.html",
    "title": "South Korea launches $3.52B chip fund",
    "date_first_run": "2026-08-11"
+  },
+  {
+   "id": "nvidia-500b-wall-street-ai-financing-alliance",
+   "url": "https://www.wsj.com/business/deals/nvidia-wall-street-firms-strike-ai-financing-deal-targeting-500-billion-c50377db",
+   "title": "Nvidia $500B Wall Street AI-infra financing alliance",
+   "date_first_run": "2026-08-12"
+  },
+  {
+   "id": "river-ai-1-1b-babuschkin-open-weights-custom",
+   "url": "https://www.reuters.com/technology/xai-co-founders-startup-river-ai-raises-11-billion-expand-custom-ai-tools-2026-08-11/",
+   "title": "xAI co-founder River AI raises $1.1B",
+   "date_first_run": "2026-08-12"
+  },
+  {
+   "id": "riot-platforms-9-1b-anthropic-20yr-compute",
+   "url": "https://techstartups.com/2026/08/11/top-tech-news-today-august-11-2026-anthropic-intel-meta-openai-nvidia-unitree-more/",
+   "title": "Riot Platforms $9.1B 20-yr Anthropic compute deal",
+   "date_first_run": "2026-08-12"
+  },
+  {
+   "id": "openai-gpt-5-6-cyber-daybreak-defenders",
+   "url": "https://techstartups.com/2026/08/11/top-tech-news-today-august-11-2026-anthropic-intel-meta-openai-nvidia-unitree-more/",
+   "title": "OpenAI launches GPT-5.6-Cyber + Daybreak",
+   "date_first_run": "2026-08-12"
+  },
+  {
+   "id": "uk-backs-cosine-sovereign-ai-30-person",
+   "url": "https://techstartups.com/2026/08/11/top-tech-news-today-august-11-2026-anthropic-intel-meta-openai-nvidia-unitree-more/",
+   "title": "UK backs 30-person Cosine sovereign AI",
+   "date_first_run": "2026-08-12"
+  },
+  {
+   "id": "pyra-nick-blair-defense-200m-raise",
+   "url": "https://techstartups.com/2026/08/11/top-tech-news-today-august-11-2026-anthropic-intel-meta-openai-nvidia-unitree-more/",
+   "title": "Nick Blair's Pyra seeks ~$200M defense",
+   "date_first_run": "2026-08-12"
+  },
+  {
+   "id": "unitree-ipo-retail-8000x-oversubscribed",
+   "url": "https://techstartups.com/2026/08/11/top-tech-news-today-august-11-2026-anthropic-intel-meta-openai-nvidia-unitree-more/",
+   "title": "Unitree IPO retail tranche >8000x oversubscribed",
+   "date_first_run": "2026-08-12"
+  },
+  {
+   "id": "uk-courts-ban-meta-smart-glasses-recording",
+   "url": "https://techstartups.com/2026/08/11/top-tech-news-today-august-11-2026-anthropic-intel-meta-openai-nvidia-unitree-more/",
+   "title": "UK courts ban Meta camera smart glasses",
+   "date_first_run": "2026-08-12"
+  },
+  {
+   "id": "openai-ethics-chief-bakalar-departs",
+   "url": "https://techstartups.com/2026/08/11/top-tech-news-today-august-11-2026-anthropic-intel-meta-openai-nvidia-unitree-more/",
+   "title": "OpenAI head of ethics Chloe Bakalar departs",
+   "date_first_run": "2026-08-12"
+  },
+  {
+   "id": "anthropic-invisible-watermarks-claude-text-c2pa",
+   "url": "https://techstartups.com/2026/08/10/anthropic-is-adding-invisible-watermarks-to-claudes-ai-generated-text-that-can-be-detected-even-after-you-copy-and-paste-it/",
+   "title": "Anthropic invisible watermarks for Claude text/images",
+   "date_first_run": "2026-08-12"
+  },
+  {
+   "id": "manus-independent-meta-deal-unwind-tencent",
+   "url": "https://www.cnbc.com/2026/08/11/manus-china-meta-acquisition.html",
+   "title": "Manus goes independent as China unwinds Meta deal",
+   "date_first_run": "2026-08-12"
   }
  ]
 }
