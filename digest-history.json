@@ -189,7 +189,7 @@
   {
    "id": "moonshot-kimi-k3-open-weights-release",
    "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-   "title": "Kimi K3 open weights released — largest open model ever",
+   "title": "Kimi K3 open weights released \u2014 largest open model ever",
    "date_first_run": "2026-07-27"
   },
   {
@@ -897,7 +897,7 @@
   {
    "id": "samsung-zhbm-skhynix-hbf-fms2026-memory-bottleneck",
    "url": "https://www.distillintelligence.com/briefings/semiconductors-ai-chips-2026-08-07",
-   "title": "Memory makers race to break AI bandwidth wall — zHBM/HBF/CXL-PNM",
+   "title": "Memory makers race to break AI bandwidth wall \u2014 zHBM/HBF/CXL-PNM",
    "date_first_run": "2026-08-08"
   },
   {
@@ -921,7 +921,7 @@
   {
    "id": "vc-funding-roundup-aug6-2026-moove-250m",
    "url": "https://techstartups.com/2026/08/06/venture-capital-startup-funding-roundup-august-6-2026",
-   "title": "AI VC funding roundup Aug 6 — Moove $250M",
+   "title": "AI VC funding roundup Aug 6 \u2014 Moove $250M",
    "date_first_run": "2026-08-08"
   },
   {
@@ -1127,6 +1127,90 @@
    "url": "https://www.cnbc.com/2026/08/11/manus-china-meta-acquisition.html",
    "title": "Manus goes independent as China unwinds Meta deal",
    "date_first_run": "2026-08-12"
+  },
+  {
+   "id": "taiwan-near-autonomous-ai-cyberattack-nuclear-energy",
+   "url": "https://www.theregister.com/security/2026/08/12/near-autonomous_ai_agents_attack_taiwans/",
+   "title": "&lsquo;Near-autonomous&rsquo; AI agents attacked Taiwan&rsquo;s nuclear safety agency and energy grid",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "google-gemini-1b-mau",
+   "url": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+   "title": "Google&rsquo;s Gemini app crosses 1 billion monthly active users",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "nvidia-nemotron-4-1t-open-weight-race",
+   "url": "https://www.cnbc.com/2026/08/12/meta-nvidia-open-weight-ai-race-china.html",
+   "title": "Nvidia builds a 1-trillion-parameter Nemotron 4 as Meta and Nvidia &lsquo;plant a firm flag&rsquo; in open weights",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "openai-gpt-5-6-luna-terra-price-cut-sol-fast",
+   "url": "https://www.buildfastwithai.com/blogs/ai-news-today-august-12-2026",
+   "title": "OpenAI cuts GPT-5.6 Luna and Terra prices, adds a Fast mode for Sol",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "anthropic-courts-investors-blockbuster-ipo",
+   "url": "https://www.wsj.com/tech/ai/anthropic-tries-to-shore-up-investor-confidence-ahead-of-blockbuster-ipo-0ff736ad",
+   "title": "Anthropic courts investors ahead of a potential fall IPO",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "lovable-400m-13-3b-vibe-coding",
+   "url": "https://www.wsj.com/tech/ai/lovable-raises-400-million-13-billion-valuation",
+   "title": "Vibe-coding startup Lovable raises $400M at a $13.3B valuation",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "ibm-together-ai-240m-inference-cluster",
+   "url": "https://www.reuters.com/technology/ibm-together-ai-nvidia-inference-cluster-2026-08-12/",
+   "title": "IBM and Together AI sign $240M deal for an Nvidia-powered inference cluster",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "blacksmith-45m-series-b-code-testing",
+   "url": "https://techcrunch.com/2026/08/12/blacksmith-raises-45-million-series-b/",
+   "title": "AI code-testing startup Blacksmith raises $45M as valuation jumps ~10x",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "foxconn-q2-2026-35pct-ai-servers-half-revenue",
+   "url": "https://www.reuters.com/technology/foxconn-q2-2026-profit-ai-servers-2026-08-12/",
+   "title": "Foxconn profit jumps 35% as AI servers pass half of revenue",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "intel-stock-offering-expands-20b",
+   "url": "https://www.buildfastwithai.com/blogs/ai-news-today-august-12-2026",
+   "title": "Intel expands its stock offering to $20 billion",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "ai-arms-race-1300-researchers-warning",
+   "url": "https://www.theguardian.com/technology/2026/aug/12/ai-researchers-warn-arms-race-safety",
+   "title": "1,300+ AI researchers warn the global &lsquo;arms race&rsquo; is outrunning safety",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "safe-open-secure-ai-alliance-rogue-agent-reporting",
+   "url": "https://www.axios.com/2026/08/12/open-secure-ai-alliance-safe-agent-incident-reporting",
+   "title": "Nvidia, Cisco and CrowdStrike back a framework for reporting rogue-AI-agent incidents",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "runtimewire-ai-newsroom-scoops",
+   "url": "https://www.wired.com/story/runtimewire-ai-newsroom-scoops/",
+   "title": "AI-run newsroom &lsquo;RuntimeWire&rsquo; is starting to scoop human reporters",
+   "date_first_run": "2026-08-13"
+  },
+  {
+   "id": "india-it-services-ai-threat-ft",
+   "url": "https://www.ft.com/content/india-it-services-ai-threat-2026",
+   "title": "AI threatens the headcount model behind India&rsquo;s IT-services giants",
+   "date_first_run": "2026-08-13"
   }
  ]
 }
