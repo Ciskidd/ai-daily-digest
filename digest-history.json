@@ -1,258 +1,6 @@
 {
   "seen": [
     {
-      "id": "moonshot-kimi-k3-open-weights-release",
-      "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-      "title": "Kimi K3 open weights released \u2014 largest open model ever",
-      "date_first_run": "2026-07-27"
-    },
-    {
-      "id": "claude-opus-5-shipped-followup",
-      "url": "https://thursdai.news/releases/2026-07",
-      "title": "Claude Opus 5 ships at $5/$25, Sonnet 5 promo pricing",
-      "date_first_run": "2026-07-27"
-    },
-    {
-      "id": "boston-dynamics-google-gemini-robotics-spot-orbit",
-      "url": "https://thursdai.news/releases/2026-07",
-      "title": "Boston Dynamics integrates Gemini Robotics-ER 1.6 into Spot/Orbit",
-      "date_first_run": "2026-07-27"
-    },
-    {
-      "id": "bigtech-q2-2026-earnings-week-capex-revolt",
-      "url": "https://fortune.com/2026/07/26/big-tech-earnings-meta-microsoft-apple-amazon-market-revolt-ai-spending/",
-      "title": "Big Tech Q2 earnings week amid $725B capex revolt",
-      "date_first_run": "2026-07-27"
-    },
-    {
-      "id": "qualcomm-datacenter-ramp-hyperscaler-focus",
-      "url": "https://www.cnbc.com/2026/06/24/qualcomm-data-center-cpu-meta.html",
-      "title": "Qualcomm data-center ramp in focus ahead of fiscal Q3",
-      "date_first_run": "2026-07-27"
-    },
-    {
-      "id": "nvidia-tsmc-ai-fab-design-manufacturing",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
-      "title": "NVIDIA and TSMC bring AI into the fab",
-      "date_first_run": "2026-07-27"
-    },
-    {
-      "id": "tsmc-july-2026-revenue-45pct-30pct-growth",
-      "url": "https://benzinga.com/z/40278362",
-      "title": "TSMC July revenue +45%, reaffirms >30% 2026 growth",
-      "date_first_run": "2026-07-27"
-    },
-    {
-      "id": "house-letter-lutnick-ai-export-controls-legal-basis",
-      "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition",
-      "title": "House members press Lutnick on AI-chip export legal basis",
-      "date_first_run": "2026-07-27"
-    },
-    {
-      "id": "china-beijing-ai-chip-curbs-alibaba-bytedance-talks",
-      "url": "https://www.benzinga.com/markets/tech/26/07/60569812/alibaba-bytedance-join-regulatory-talks-as-beijing-tightens-grip-with-sweeping-ai-chip-export-curbs-report",
-      "title": "Beijing tightens grip; Alibaba, ByteDance in regulatory talks",
-      "date_first_run": "2026-07-27"
-    },
-    {
-      "id": "nvidia-250b-openai-ohio-datacenter-backstop",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
-      "title": "Nvidia weighs $250B backstop for OpenAI Ohio campus",
-      "date_first_run": "2026-07-28"
-    },
-    {
-      "id": "nvidia-invests-safe-superintelligence-ssi",
-      "url": "https://www.wsj.com/tech/ai/nvidia-bets-on-ilya-sutskevers-new-ai-lab-to-expand-compute-reach-f95596e8",
-      "title": "Nvidia invests in Sutskever's SSI",
-      "date_first_run": "2026-07-28"
-    },
-    {
-      "id": "open-secure-ai-alliance-huggingface-breach",
-      "url": "https://techstartups.com/2026/07/27/nvidia-microsoft-and-palantir-launch-open-secure-ai-alliance-to-help-defend-against-ai-powered-cyberattacks-after-hugging-face-hack/",
-      "title": "Open Secure AI Alliance formed after HF breach",
-      "date_first_run": "2026-07-28"
-    },
-    {
-      "id": "qualcomm-double-digit-price-hikes-september-2026",
-      "url": "https://semiconductorpackagingnews.com/",
-      "title": "Qualcomm plans double-digit chip price hikes from Sept",
-      "date_first_run": "2026-07-28"
-    },
-    {
-      "id": "google-pixel-11-price-hike-ram-crisis",
-      "url": "https://www.theverge.com/",
-      "title": "Google confirms Pixel 11 price hikes on RAM crunch",
-      "date_first_run": "2026-07-28"
-    },
-    {
-      "id": "ai-companies-washington-lobbying-surge-openai-2-22m",
-      "url": "https://www.ft.com/",
-      "title": "AI firms sharply increase Washington lobbying; OpenAI $2.22M H1",
-      "date_first_run": "2026-07-28"
-    },
-    {
-      "id": "monday-com-20pct-layoffs-ai-platform-pivot",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/mondaycom-layoffs",
-      "title": "Monday.com cuts ~20% staff in AI platform pivot",
-      "date_first_run": "2026-07-28"
-    },
-    {
-      "id": "encord-zander-labs-brainwave-robot-training-data",
-      "url": "https://techcrunch.com/",
-      "title": "Encord/Zander Labs test brain-wave data for robot training",
-      "date_first_run": "2026-07-28"
-    },
-    {
-      "id": "elio-21m-ai-sensing-funding",
-      "url": "https://www.photonics.com/",
-      "title": "Elio raises $21M for AI-era sensing hardware",
-      "date_first_run": "2026-07-28"
-    },
-    {
-      "id": "zhipu-1gw-all-domestic-chip-datacenter",
-      "url": "https://winbuzzer.com/2026/07/22/zai-reportedly-starts-chinese-chip-data-center-with-1gw-desi-xcxwbn/",
-      "title": "Zhipu completes 1GW all-domestic-chip data center",
-      "date_first_run": "2026-07-28"
-    },
-    {
-      "id": "baidu-kunlun-m100-inference-chip-waic",
-      "url": "https://seekingalpha.com/news/4521128-chinas-baidu-sets-stage-for-new-ai-chips-at-its-annual-tech-event",
-      "title": "Baidu Kunlun M100 inference chip targets H20",
-      "date_first_run": "2026-07-28"
-    },
-    {
-      "id": "cadence-q2-2026-beat-record-8-1b-backlog",
-      "url": "https://www.benzinga.com/markets/earnings/26/07/60712626/cadence-design-systems-beats-q2-estimates-raises-2026-outlook",
-      "title": "Cadence Q2 beat & raise, record $8.1B backlog",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "amd-core-scientific-2-5gw-capacity-deal",
-      "url": "https://www.reuters.com/",
-      "title": "AMD secures up to 2.5GW from Core Scientific",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "nvidia-50b-texas-datacenter-lease-own-chips",
-      "url": "https://www.ft.com/",
-      "title": "Nvidia backs ~$50B Texas data-center lease",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "global-ai-chip-selloff-datacenter-returns",
-      "url": "https://www.ft.com/content/f8c03b5b-e194-4236-82c3-389b6f5dd7ae",
-      "title": "Global AI chip selloff deepens on returns doubts",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "amazon-200b-2026-ai-capex-global-500-top",
-      "url": "https://fortune.com/ranking/global500/",
-      "title": "Amazon ~$200B AI capex tops Global 500",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "verizon-google-1b-dark-fiber-deal",
-      "url": "https://arstechnica.com/",
-      "title": "Verizon ~$1B dark-fiber deal with Google",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "visa-7pct-layoffs-ai-efficiency",
-      "url": "https://techstartups.com/2026/07/28/visa-to-lay-off-7-of-workforce-cutting-2600-jobs-as-payments-giant-restructures-amid-ai-driven-efficiency-push/",
-      "title": "Visa cuts ~7% (2,600) in AI restructuring",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "agility-robotics-fremont-hub-ipo",
-      "url": "https://www.globenewswire.com/",
-      "title": "Agility Robotics opens Fremont hub; IPO referenced",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "dario-amodei-anthropic-open-weights-clarify",
-      "url": "https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic/",
-      "title": "Amodei clarifies Anthropic never backed open-weights ban",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "huang-open-weights-letter-50-signatories",
-      "url": "https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic/",
-      "title": "Open-weights letter doubles to 50 signatories (follow-up)",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "openai-breach-fbi-timeline-9day-followup",
-      "url": "https://securityaffairs.com/196120/ai/reuters-openai-agent-hacked-hugging-face-for-days-before-being-detected.html",
-      "title": "OpenAI breach: FBI knew first, 9-day gap (follow-up)",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "microsoft-ai-security-tools-exposure-detection",
-      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
-      "title": "Microsoft unveils AI security tools",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "claude-chats-google-bing-search-indexed",
-      "url": "https://arstechnica.com/",
-      "title": "Shared Claude chats indexed in Google/Bing",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "china-domestic-duv-lithography-mass-production",
-      "url": "https://techstartups.com/2026/07/27/china-begins-mass-production-of-homegrown-duv-lithography-machines-in-major-chip-breakthrough/",
-      "title": "China mass-produces domestic DUV lithography",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "cxmt-shanghai-ipo-466pct-debut",
-      "url": "https://www.marketwatch.com/",
-      "title": "CXMT surges 466% on Shanghai debut (follow-up)",
-      "date_first_run": "2026-07-29"
-    },
-    {
-      "id": "qualcomm-q3-fy2026-earnings-memory-guidance-price-hikes",
-      "url": "https://www.cnbc.com/2026/07/29/qualcomm-qcom-earnings-report-q3-2026-.html",
-      "title": "Qualcomm Q3 beats revenue, guides light on memory, Sept 1 price hikes",
-      "date_first_run": "2026-07-30"
-    },
-    {
-      "id": "microsoft-q4-fy2026-earnings-azure-43-capex-held",
-      "url": "https://www.cnbc.com/2026/07/29/microsofts-ai-spending-guide-is-music-to-our-ears-quieting-the-bears-for-now.html",
-      "title": "Microsoft +8% on Azure +43%, capex held steady",
-      "date_first_run": "2026-07-30"
-    },
-    {
-      "id": "meta-q2-2026-earnings-margin-collapse-capex-floor-130b",
-      "url": "https://www.home.saxo/content/articles/equities/msft-meta-preview-27072026",
-      "title": "Meta Q2 margin collapse, capex floor lifted to $130B, stock sells off",
-      "date_first_run": "2026-07-30"
-    },
-    {
-      "id": "skhynix-q2-2026-record-profit-557pct-hbm4-miss",
-      "url": "https://www.tradingkey.com/analysis/stocks/more/262060080-sk-hynix-q2-financial-report-profit-surges-why-stock-plunge-tradingkey",
-      "title": "SK Hynix profit +557% record, stock -10% on HBM4 slip",
-      "date_first_run": "2026-07-30"
-    },
-    {
-      "id": "pacing-the-frontier-1200-ai-workers-slowdown-statement",
-      "url": "https://fortune.com/2026/07/29/anthropic-deepmind-openai-meta-washington-ai-slowdown-plan/",
-      "title": "1,200+ AI workers 'Pacing the Frontier' ask Washington for slowdown plan",
-      "date_first_run": "2026-07-30"
-    },
-    {
-      "id": "moonshot-ai-3-5b-round-35b-valuation",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/china-s-moonshot-ai-passes-funding-goal-to-hit-35-billion-value",
-      "title": "Moonshot AI closes $3.5B round at $35B valuation",
-      "date_first_run": "2026-07-30"
-    },
-    {
-      "id": "tencent-hunyuan-angelspec-open-source-speculative-decoding",
-      "url": "https://damodev.csdn.net/6a695381662f9a54cb9571cf.html",
-      "title": "Tencent Hunyuan open-sources AngelSpec speculative-decoding stack",
-      "date_first_run": "2026-07-30"
-    },
-    {
       "id": "google-deepmind-gemini-robotics-2-whole-body",
       "url": "",
       "title": "Google DeepMind unveils Gemini Robotics 2 - one policy controls a full humanoid",
@@ -1181,6 +929,54 @@
       "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/11/2003862265",
       "title": "China 97% of H1 humanoid-robot shipments; Unitree A-share",
       "date_first_run": "2026-08-16"
+    },
+    {
+      "id": "binance-agent-os-ai-agents-live-crypto-trading",
+      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "title": "Binance Agent OS lets AI agents trade crypto via MCP subaccounts",
+      "date_first_run": "2026-08-21"
+    },
+    {
+      "id": "openai-chatgpt-for-teens-age-prediction-auto-enroll",
+      "url": "https://openai.com/index/chatgpt-for-teens/",
+      "title": "OpenAI launches ChatGPT for Teens with age prediction auto-routing under-18s",
+      "date_first_run": "2026-08-21"
+    },
+    {
+      "id": "texas-student-rogue-ai-agent-github-supply-chain-reuters",
+      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/08/20/how-a-texas-student-blew-the-whistle-on-a-rogue-ai-hacking-attempt-reuters-exclusive/",
+      "title": "Texas student exposes rogue AI agent's GitHub supply-chain attack (Reuters exclusive)",
+      "date_first_run": "2026-08-21"
+    },
+    {
+      "id": "cisa-ray-rce-kev-microsoft-cosnitch-copilot-patch",
+      "url": "https://www.axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy",
+      "title": "CISA adds Ray RCE to KEV; Microsoft patches CoSnitch Copilot flaw",
+      "date_first_run": "2026-08-21"
+    },
+    {
+      "id": "dario-amodei-crisis-of-trust-pew-ai-too-fast",
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "title": "Amodei: AI backlash a 'crisis of trust'; Pew finds 63% say AI too fast",
+      "date_first_run": "2026-08-21"
+    },
+    {
+      "id": "linear-ai-authors-half-issues-dev-time-rising",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-august-21-2026",
+      "title": "Linear: AI authors ~half of issues, PRs tripled, dev time still rising",
+      "date_first_run": "2026-08-21"
+    },
+    {
+      "id": "nvidia-q2-fy27-earnings-preview-broadcom-marvell-cluster",
+      "url": "https://www.fool.com/investing/2026/08/19/great-news-for-nvidia-stock-amd-stock-micron-stock/",
+      "title": "Nvidia Q2 FY27 earnings Aug 26 preview; Broadcom/Marvell cluster",
+      "date_first_run": "2026-08-21"
+    },
+    {
+      "id": "china-domestic-ai-chip-share-56pct-government-procurement",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/china-certifies-nine-domestic-ai-chips-for-government-procurement",
+      "title": "China domestic AI accelerators seen at 56% share; nine certified for gov procurement",
+      "date_first_run": "2026-08-21"
     }
   ]
 }
