@@ -1,78 +1,6 @@
 {
   "seen": [
     {
-      "id": "google-deepmind-gemini-robotics-2-whole-body",
-      "url": "",
-      "title": "Google DeepMind unveils Gemini Robotics 2 - one policy controls a full humanoid",
-      "date_first_run": "2026-07-31"
-    },
-    {
-      "id": "anthropic-claude-mythos-hawk-aes-cryptanalysis",
-      "url": "",
-      "title": "Anthropic's unreleased 'Claude Mythos' finds new cryptographic weaknesses human experts missed",
-      "date_first_run": "2026-07-31"
-    },
-    {
-      "id": "amazon-ai-projects-cost-overruns-860pct",
-      "url": "",
-      "title": "Amazon engineers find internal AI projects running hundreds of percent over budget",
-      "date_first_run": "2026-07-31"
-    },
-    {
-      "id": "nscale-acquires-anyscale-1-65b",
-      "url": "",
-      "title": "Nscale to buy Anyscale for ~$1.65B, building a full-stack 'neocloud'",
-      "date_first_run": "2026-07-31"
-    },
-    {
-      "id": "samsung-q2-2026-chip-shortage-2028",
-      "url": "",
-      "title": "Samsung warns AI-driven chip shortage runs through 2028 as memory profit jumps 250x",
-      "date_first_run": "2026-07-31"
-    },
-    {
-      "id": "intel-atom-rtl-rosaiclabs-startup",
-      "url": "",
-      "title": "Intel shares Atom x86 RTL with secretive edge-AI startup RosaicLabs",
-      "date_first_run": "2026-07-31"
-    },
-    {
-      "id": "brookfield-nextera-100b-paducah-ai-campus",
-      "url": "",
-      "title": "Brookfield and NextEra plan a $100B AI campus on a former uranium-enrichment site",
-      "date_first_run": "2026-07-31"
-    },
-    {
-      "id": "openai-rogue-agent-four-more-companies",
-      "url": "",
-      "title": "OpenAI says its rogue test agent also compromised accounts at four more companies",
-      "date_first_run": "2026-07-31"
-    },
-    {
-      "id": "white-house-frontier-model-review-framework-aug1",
-      "url": "",
-      "title": "White House nears a voluntary frontier-model review framework ahead of its August 1 deadline",
-      "date_first_run": "2026-07-31"
-    },
-    {
-      "id": "eu-10b-seven-ai-gigafactories",
-      "url": "",
-      "title": "EU commits 10B euro to build up to seven sovereign AI 'gigafactories'",
-      "date_first_run": "2026-07-31"
-    },
-    {
-      "id": "eu-mandatory-ai-media-labeling",
-      "url": "",
-      "title": "EU moves toward mandatory machine-readable labels for AI-generated media",
-      "date_first_run": "2026-07-31"
-    },
-    {
-      "id": "zhongji-innolight-6-8b-hk-ipo",
-      "url": "",
-      "title": "China's Zhongji Innolight raises $6.8B in Hong Kong's biggest IPO of the year",
-      "date_first_run": "2026-07-31"
-    },
-    {
       "id": "zoox-nhtsa-steering-wheel-free-robotaxi-paid",
       "url": "https://www.engadget.com/2227649/amazon-zoox-first-steering-wheel-free-robotaxi-regulatory-approval-paid-rides/",
       "title": "Zoox wins first federal OK for steering-wheel-free paid robotaxis",
@@ -459,7 +387,7 @@
     {
       "id": "samsung-zhbm-skhynix-hbf-fms2026-memory-bottleneck",
       "url": "https://www.distillintelligence.com/briefings/semiconductors-ai-chips-2026-08-07",
-      "title": "Memory makers race to break AI bandwidth wall \u2014 zHBM/HBF/CXL-PNM",
+      "title": "Memory makers race to break AI bandwidth wall — zHBM/HBF/CXL-PNM",
       "date_first_run": "2026-08-08"
     },
     {
@@ -483,7 +411,7 @@
     {
       "id": "vc-funding-roundup-aug6-2026-moove-250m",
       "url": "https://techstartups.com/2026/08/06/venture-capital-startup-funding-roundup-august-6-2026",
-      "title": "AI VC funding roundup Aug 6 \u2014 Moove $250M",
+      "title": "AI VC funding roundup Aug 6 — Moove $250M",
       "date_first_run": "2026-08-08"
     },
     {
@@ -931,52 +859,94 @@
       "date_first_run": "2026-08-16"
     },
     {
-      "id": "binance-agent-os-ai-agents-live-crypto-trading",
-      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
-      "title": "Binance Agent OS lets AI agents trade crypto via MCP subaccounts",
-      "date_first_run": "2026-08-21"
+      "id": "nvidia-poolside-6b-license-1b-invest-talent",
+      "url": "https://www.newcomer.co/",
+      "title": "Nvidia strikes unusual $6B AI licensing deal with coding startup Poolside",
+      "date_first_run": "2026-08-22"
     },
     {
-      "id": "openai-chatgpt-for-teens-age-prediction-auto-enroll",
-      "url": "https://openai.com/index/chatgpt-for-teens/",
-      "title": "OpenAI launches ChatGPT for Teens with age prediction auto-routing under-18s",
-      "date_first_run": "2026-08-21"
+      "id": "broadcom-60b-100b-ai-chip-debt-financing-anthropic",
+      "url": "https://www.bloomberg.com/technology",
+      "title": "Broadcom seeks more than $60B in debt for massive AI-chip financing push",
+      "date_first_run": "2026-08-22"
     },
     {
-      "id": "texas-student-rogue-ai-agent-github-supply-chain-reuters",
-      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/08/20/how-a-texas-student-blew-the-whistle-on-a-rogue-ai-hacking-attempt-reuters-exclusive/",
-      "title": "Texas student exposes rogue AI agent's GitHub supply-chain attack (Reuters exclusive)",
-      "date_first_run": "2026-08-21"
+      "id": "anthropic-ipo-rival-spacex-2t-65b-revenue-file-august",
+      "url": "https://www.bloomberg.com/technology",
+      "title": "Anthropic eyes an IPO that could rival SpaceX's record-breaking debut",
+      "date_first_run": "2026-08-22"
     },
     {
-      "id": "cisa-ray-rce-kev-microsoft-cosnitch-copilot-patch",
-      "url": "https://www.axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy",
-      "title": "CISA adds Ray RCE to KEV; Microsoft patches CoSnitch Copilot flaw",
-      "date_first_run": "2026-08-21"
+      "id": "nvidia-rebellions-korea-inference-npu-talks",
+      "url": "https://www.bloomberg.com/technology",
+      "title": "Nvidia in early talks with South Korean AI-chip startup Rebellions",
+      "date_first_run": "2026-08-22"
     },
     {
-      "id": "dario-amodei-crisis-of-trust-pew-ai-too-fast",
-      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
-      "title": "Amodei: AI backlash a 'crisis of trust'; Pew finds 63% say AI too fast",
-      "date_first_run": "2026-08-21"
+      "id": "supermicro-probe-clears-management-2-5b-nvidia-smuggling",
+      "url": "https://fortune.com/section/tech/",
+      "title": "Supermicro probe clears senior management in $2.5B Nvidia chip-smuggling case",
+      "date_first_run": "2026-08-22"
     },
     {
-      "id": "linear-ai-authors-half-issues-dev-time-rising",
-      "url": "https://aitoolsrecap.com/Blog/ai-news-august-21-2026",
-      "title": "Linear: AI authors ~half of issues, PRs tripled, dev time still rising",
-      "date_first_run": "2026-08-21"
+      "id": "cambricon-huawei-domestic-ai-accel-56pct-share-2026",
+      "url": "https://www.scmp.com/tech",
+      "title": "Domestic accelerators to reach 56% of China's AI-chip market as Cambricon ramps",
+      "date_first_run": "2026-08-22"
     },
     {
-      "id": "nvidia-q2-fy27-earnings-preview-broadcom-marvell-cluster",
-      "url": "https://www.fool.com/investing/2026/08/19/great-news-for-nvidia-stock-amd-stock-micron-stock/",
-      "title": "Nvidia Q2 FY27 earnings Aug 26 preview; Broadcom/Marvell cluster",
-      "date_first_run": "2026-08-21"
+      "id": "brazil-444m-ai-huawei-iflytek-supercomputer-sovereign",
+      "url": "https://www.reuters.com/technology/",
+      "title": "Brazil unveils $444M AI push with U.S. and Chinese tech partners",
+      "date_first_run": "2026-08-22"
     },
     {
-      "id": "china-domestic-ai-chip-share-56pct-government-procurement",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/china-certifies-nine-domestic-ai-chips-for-government-procurement",
-      "title": "China domestic AI accelerators seen at 56% share; nine certified for gov procurement",
-      "date_first_run": "2026-08-21"
+      "id": "judge-overturns-ding-google-ai-economic-espionage-convictions",
+      "url": "https://www.reuters.com/legal/",
+      "title": "Judge overturns part of ex-Google engineer's AI trade-secrets conviction",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "apple-music-ai-generated-song-labels-transparency",
+      "url": "https://www.billboard.com/business/",
+      "title": "Apple Music will label songs materially generated using AI",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "tesla-nevada-5000-robotaxis-las-vegas-waymo-uber",
+      "url": "https://techcrunch.com/",
+      "title": "Tesla gets Nevada approval for up to 5,000 robotaxis as Las Vegas race intensifies",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "new-york-surpasses-bay-area-tech-talent-ai-hiring-cbre",
+      "url": "https://www.cnbc.com/technology/",
+      "title": "New York surpasses Bay Area as top U.S. tech-talent market on AI hiring",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "google-gemma-open-models-1b-downloads-milestone",
+      "url": "https://blog.google/technology/developers/",
+      "title": "Google's open Gemma models surpass 1 billion downloads",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "openai-chatgpt-apple-messages-macos-agentic-integration",
+      "url": "https://9to5mac.com/",
+      "title": "OpenAI brings ChatGPT into Apple Messages on the Mac",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "google-preferred-sources-button-publishers-ai-search",
+      "url": "https://www.searchenginejournal.com/",
+      "title": "Google gives publishers a new 'Preferred Sources' button as AI reshapes search",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "astromech-20m-george-church-predictive-biology-ai",
+      "url": "https://venturebeat.com/",
+      "title": "Astromech raises $20M to build AI that predicts biological change",
+      "date_first_run": "2026-08-22"
     }
   ]
 }
