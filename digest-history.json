@@ -781,27 +781,99 @@
       "date_first_run": "2026-08-16"
     },
     {
-      "id": "nvidia-poolside-6b-license-acquihire",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-pay-poolside-6-billion-181448803.html",
-      "title": "Nvidia Strikes a $6B \u201cAcqui-License\u201d With AI Coding Startup Poolside",
-      "date_first_run": "2026-08-23"
+      "id": "nvidia-poolside-6b-license-1b-invest-talent",
+      "url": "https://www.newcomer.co/",
+      "title": "Nvidia strikes unusual $6B AI licensing deal with coding startup Poolside",
+      "date_first_run": "2026-08-22"
     },
     {
-      "id": "broadcom-60b-100b-debt-spv-anthropic-ai-chips",
-      "url": "https://www.cnbc.com/video/2026/08/21/broadcom-backed-spv-tapping-debt-market-for-70-billion-to-support-ai-buildout-sources.html",
-      "title": "Broadcom Seeks $60B+ in Debt \u2014 Up to $100B \u2014 to Finance AI Chips",
-      "date_first_run": "2026-08-23"
+      "id": "broadcom-60b-100b-ai-chip-debt-financing-anthropic",
+      "url": "https://www.bloomberg.com/technology",
+      "title": "Broadcom seeks more than $60B in debt for massive AI-chip financing push",
+      "date_first_run": "2026-08-22"
     },
     {
-      "id": "anthropic-ipo-spacex-scale-file-end-august-65b-revenue",
-      "url": "https://techstartups.com/2026/08/21/anthropic-eyes-2-trillion-valuation-in-ipo-that-could-top-spacex-as-biggest-ever/",
-      "title": "Anthropic Preps a SpaceX-Scale IPO \u2014 Could File as Soon as End of August",
-      "date_first_run": "2026-08-23"
+      "id": "anthropic-ipo-rival-spacex-2t-65b-revenue-file-august",
+      "url": "https://www.bloomberg.com/technology",
+      "title": "Anthropic eyes an IPO that could rival SpaceX's record-breaking debut",
+      "date_first_run": "2026-08-22"
     },
     {
-      "id": "google-gemma-1-billion-downloads",
-      "url": "https://techstartups.com/2026/08/21/top-tech-news-today-august-21-2026-anthropic-apple-broadcom-google-nvidia-openai-tesla-more/",
-      "title": "Google's Open Gemma Models Cross 1 Billion Downloads",
+      "id": "nvidia-rebellions-korea-inference-npu-talks",
+      "url": "https://www.bloomberg.com/technology",
+      "title": "Nvidia in early talks with South Korean AI-chip startup Rebellions",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "supermicro-probe-clears-management-2-5b-nvidia-smuggling",
+      "url": "https://fortune.com/section/tech/",
+      "title": "Supermicro probe clears senior management in $2.5B Nvidia chip-smuggling case",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "cambricon-huawei-domestic-ai-accel-56pct-share-2026",
+      "url": "https://www.scmp.com/tech",
+      "title": "Domestic accelerators to reach 56% of China's AI-chip market as Cambricon ramps",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "brazil-444m-ai-huawei-iflytek-supercomputer-sovereign",
+      "url": "https://www.reuters.com/technology/",
+      "title": "Brazil unveils $444M AI push with U.S. and Chinese tech partners",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "judge-overturns-ding-google-ai-economic-espionage-convictions",
+      "url": "https://www.reuters.com/legal/",
+      "title": "Judge overturns part of ex-Google engineer's AI trade-secrets conviction",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "apple-music-ai-generated-song-labels-transparency",
+      "url": "https://www.billboard.com/business/",
+      "title": "Apple Music will label songs materially generated using AI",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "tesla-nevada-5000-robotaxis-las-vegas-waymo-uber",
+      "url": "https://techcrunch.com/",
+      "title": "Tesla gets Nevada approval for up to 5,000 robotaxis as Las Vegas race intensifies",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "new-york-surpasses-bay-area-tech-talent-ai-hiring-cbre",
+      "url": "https://www.cnbc.com/technology/",
+      "title": "New York surpasses Bay Area as top U.S. tech-talent market on AI hiring",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "google-gemma-open-models-1b-downloads-milestone",
+      "url": "https://blog.google/technology/developers/",
+      "title": "Google's open Gemma models surpass 1 billion downloads",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "openai-chatgpt-apple-messages-macos-agentic-integration",
+      "url": "https://9to5mac.com/",
+      "title": "OpenAI brings ChatGPT into Apple Messages on the Mac",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "google-preferred-sources-button-publishers-ai-search",
+      "url": "https://www.searchenginejournal.com/",
+      "title": "Google gives publishers a new 'Preferred Sources' button as AI reshapes search",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "astromech-20m-george-church-predictive-biology-ai",
+      "url": "https://venturebeat.com/",
+      "title": "Astromech raises $20M to build AI that predicts biological change",
+      "date_first_run": "2026-08-22"
+    },
+    {
+      "id": "inherent-faraday-27b-outperforms-frontier-research-replication",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "title": "Inherent's 27B 'Faraday' Agent Beats Claude Opus 4.8 and GPT-5.5 at Replicating Research",
       "date_first_run": "2026-08-23"
     },
     {
@@ -823,45 +895,33 @@
       "date_first_run": "2026-08-23"
     },
     {
-      "id": "new-york-surpasses-bay-area-tech-talent-cbre",
-      "url": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html",
-      "title": "New York Overtakes the Bay Area as Top US Tech-Talent Market",
+      "id": "experian-credit-scores-chatgpt-uk-first",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/experian-lets-uk-consumers-check-credit-through-chatgpt/",
+      "title": "Experian Brings Personalised Credit Scores Into ChatGPT \u2014 a UK First",
       "date_first_run": "2026-08-23"
     },
     {
-      "id": "nvidia-rebellions-korea-inference-npu-talks",
-      "url": "https://techstartups.com/2026/08/21/top-tech-news-today-august-21-2026-anthropic-apple-broadcom-google-nvidia-openai-tesla-more/",
-      "title": "Nvidia in Early Talks With Korean Inference-Chip Startup Rebellions",
+      "id": "aws-bedrock-cross-region-inference-gpt-5-6",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+      "title": "AWS Adds Cross-Region Inference for OpenAI's GPT-5.6 on Bedrock",
       "date_first_run": "2026-08-23"
     },
     {
-      "id": "supermicro-probe-clears-management-nvidia-server-smuggling",
-      "url": "https://techstartups.com/2026/08/21/top-tech-news-today-august-21-2026-anthropic-apple-broadcom-google-nvidia-openai-tesla-more/",
-      "title": "Supermicro Probe Clears Senior Management in $2.5B Chip-Diversion Case",
+      "id": "adobe-firefly-three-ai-audio-tools",
+      "url": "https://www.techradar.com/pro/adobe-firefly-just-added-3-ai-audio-tools-for-creators-and-marketers-i-tested-them-all-to-see-if-theyre-any-good",
+      "title": "Adobe Firefly Adds Three AI Audio Tools for Creators and Marketers",
       "date_first_run": "2026-08-23"
     },
     {
-      "id": "apple-music-ai-generated-song-labels",
-      "url": "https://techstartups.com/2026/08/21/top-tech-news-today-august-21-2026-anthropic-apple-broadcom-google-nvidia-openai-tesla-more/",
-      "title": "Apple Music Will Label Songs 'Materially Generated Using AI'",
+      "id": "youtube-creators-higgsfield-ai-money-backlash",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+      "title": "YouTube Creators Face Backlash Over Undisclosed Higgsfield AI Promotions",
       "date_first_run": "2026-08-23"
     },
     {
-      "id": "ex-google-engineer-ding-espionage-conviction-overturned",
-      "url": "https://techstartups.com/2026/08/21/top-tech-news-today-august-21-2026-anthropic-apple-broadcom-google-nvidia-openai-tesla-more/",
-      "title": "Judge Overturns Part of Ex-Google Engineer's AI Trade-Secrets Conviction",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "openai-chatgpt-apple-messages-mac-integration",
-      "url": "https://techstartups.com/2026/08/21/top-tech-news-today-august-21-2026-anthropic-apple-broadcom-google-nvidia-openai-tesla-more/",
-      "title": "OpenAI Brings ChatGPT Into Apple Messages on the Mac",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "brazil-444m-ai-huawei-iflytek-supercomputer",
-      "url": "https://techstartups.com/2026/08/21/top-tech-news-today-august-21-2026-anthropic-apple-broadcom-google-nvidia-openai-tesla-more/",
-      "title": "Brazil Unveils $444M AI Push \u2014 Including a Huawei/iFlytek Supercomputer",
+      "id": "openai-gpt-image-2-transparent-background",
+      "url": "https://m.ithome.com/html/992722.htm",
+      "title": "OpenAI's GPT-Image-2 Can Now Generate Images With No Background",
       "date_first_run": "2026-08-23"
     }
   ]
