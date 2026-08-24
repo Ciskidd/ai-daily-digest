@@ -1,48 +1,6 @@
 {
   "seen": [
     {
-      "id": "eu-ai-act-article50-transparency-obligations-live",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
-      "title": "EU AI Act Article 50 transparency obligations enforceable Aug 2",
-      "date_first_run": "2026-08-02"
-    },
-    {
-      "id": "openai-astra-multi-agent-model-preview-senators",
-      "url": "https://the-decoder.com/openai-is-reportedly-building-astra-a-model-family-designed-to-work-on-problems-for-hours-or-days/",
-      "title": "OpenAI previews Astra multi-agent model family",
-      "date_first_run": "2026-08-02"
-    },
-    {
-      "id": "california-sb942-genai-provenance-operative",
-      "url": "https://datamatters.sidley.com/",
-      "title": "California SB 942 gen-AI provenance operative Aug 2",
-      "date_first_run": "2026-08-02"
-    },
-    {
-      "id": "google-cancels-ai-studio-mobile-app-into-gemini",
-      "url": "https://9to5google.com/2026/07/31/gemini-ai-studio-app/",
-      "title": "Google cancels AI Studio mobile app, folds into Gemini",
-      "date_first_run": "2026-08-02"
-    },
-    {
-      "id": "unit42-deepseek-hermes-agent-knaithe-autonomous-attack",
-      "url": "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/",
-      "title": "Unit 42 DeepSeek Hermes Agent autonomous attack campaign",
-      "date_first_run": "2026-08-02"
-    },
-    {
-      "id": "samsung-skhynix-memory-makers-90b-cash-surge-ai",
-      "url": "https://www.sammyfans.com/2026/07/31/ai-boom-drives-samsung-sk-hynix-and-other-memory-makers-to-90-billion-cash-surge/",
-      "title": "Memory makers $90B cash surge on AI/HBM demand",
-      "date_first_run": "2026-08-02"
-    },
-    {
-      "id": "deepseek-v4-flash-0731-exits-preview",
-      "url": "https://llm-stats.com/llm-updates",
-      "title": "DeepSeek V4 Flash 0731 exits preview at $0.14/M",
-      "date_first_run": "2026-08-02"
-    },
-    {
       "id": "openai-astra-ten-advances-math-lean-proofs",
       "url": "https://openai.com/index/ten-advances-in-mathematics/",
       "title": "OpenAI Astra: 10 open math problems solved, Lean proofs, ~$2,000 (follow-up)",
@@ -309,7 +267,7 @@
     {
       "id": "samsung-zhbm-skhynix-hbf-fms2026-memory-bottleneck",
       "url": "https://www.distillintelligence.com/briefings/semiconductors-ai-chips-2026-08-07",
-      "title": "Memory makers race to break AI bandwidth wall \u2014 zHBM/HBF/CXL-PNM",
+      "title": "Memory makers race to break AI bandwidth wall — zHBM/HBF/CXL-PNM",
       "date_first_run": "2026-08-08"
     },
     {
@@ -333,7 +291,7 @@
     {
       "id": "vc-funding-roundup-aug6-2026-moove-250m",
       "url": "https://techstartups.com/2026/08/06/venture-capital-startup-funding-roundup-august-6-2026",
-      "title": "AI VC funding roundup Aug 6 \u2014 Moove $250M",
+      "title": "AI VC funding roundup Aug 6 — Moove $250M",
       "date_first_run": "2026-08-08"
     },
     {
@@ -897,7 +855,7 @@
     {
       "id": "experian-credit-scores-chatgpt-uk-first",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/experian-lets-uk-consumers-check-credit-through-chatgpt/",
-      "title": "Experian Brings Personalised Credit Scores Into ChatGPT \u2014 a UK First",
+      "title": "Experian Brings Personalised Credit Scores Into ChatGPT — a UK First",
       "date_first_run": "2026-08-23"
     },
     {
@@ -923,6 +881,36 @@
       "url": "https://m.ithome.com/html/992722.htm",
       "title": "OpenAI's GPT-Image-2 Can Now Generate Images With No Background",
       "date_first_run": "2026-08-23"
+    },
+    {
+      "id": "nvidia-15pct-ai-server-price-hike-memory-costs",
+      "url": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html",
+      "title": "Nvidia Warns Customers of 15%+ AI-Server Price Hikes as Memory Costs Soar",
+      "date_first_run": "2026-08-24"
+    },
+    {
+      "id": "stripe-acquires-openrouter-8b",
+      "url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-openrouter",
+      "title": "Stripe to Buy OpenRouter for $8B",
+      "date_first_run": "2026-08-24"
+    },
+    {
+      "id": "anthropic-ipo-filing-ai-backlash-risk-factor",
+      "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+      "title": "Anthropic's IPO Filing Will List AI Backlash as a Risk Factor",
+      "date_first_run": "2026-08-24"
+    },
+    {
+      "id": "broadcom-ai-debt-70b-blackstone-apollo-followup",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/broadcom-seeks-more-than-60-billion-in-latest-ai-debt-deal",
+      "title": "Broadcom AI-Compute Debt Deal Swells Toward $70B",
+      "date_first_run": "2026-08-24"
+    },
+    {
+      "id": "marvell-google-12-2b-warrant-custom-chip-tpu",
+      "url": "https://www.cnbc.com/2026/08/19/marvell-google-ai-chips.html",
+      "title": "Marvell Hands Google a $12.2B Share Warrant in Custom-Chip Pact",
+      "date_first_run": "2026-08-24"
     }
   ]
 }
