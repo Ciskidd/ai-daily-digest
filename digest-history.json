@@ -565,10 +565,52 @@
       "date_first_run": "2026-08-16"
     },
     {
-      "id": "investor.nvidia.com/news/press-release-details/2026/nvidia-announces-financial-results-for-second-quarter-fiscal-2027|nvidia-q2-fy27-earnings-96b-70pct-fy28-guide",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
-      "title": "Nvidia Q2 FY27 earnings $96.2B, 70% FY28 guide",
-      "date_first_run": "2026-08-28"
+      "id": "nvidia-q2-fy27-earnings-96b-datacenter-89b",
+      "url": "https://www.sec.gov/archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+      "title": "NVIDIA Q2 FY27: $96.2B revenue, Data Center $89B, Q3 guide $108B",
+      "date_first_run": "2026-08-27"
+    },
+    {
+      "id": "openai-huggingface-breach-official-report-41-servers",
+      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "title": "OpenAI publishes official report on the Hugging Face breach",
+      "date_first_run": "2026-08-27"
+    },
+    {
+      "id": "zhipu-glm-5-3-flash-mit-open-weights-1m-context",
+      "url": "https://www.explainx.ai/blog/glm-5-3-flash-ox-alpha-official-launch-august-2026",
+      "title": "Zhipu GLM-5.3-Flash \u2014 320B-A18B, 1M context, MIT license",
+      "date_first_run": "2026-08-27"
+    },
+    {
+      "id": "alibaba-qwen3-8-flash-125b-cost-efficient",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/alibaba-releases-smaller-cost-effective-qwen-ai-model",
+      "title": "Alibaba releases Qwen3.8-Flash, smaller cheaper flagship",
+      "date_first_run": "2026-08-27"
+    },
+    {
+      "id": "intel-hot-chips-2026-diamond-rapids-crescent-island-wildcat-lake",
+      "url": "https://newsroom.intel.com/client-computing/intel-outlines-architectures-for-agentic-ai-at-hot-chips-2026",
+      "title": "Intel details three agentic-AI architectures at Hot Chips 2026",
+      "date_first_run": "2026-08-27"
+    },
+    {
+      "id": "samsung-galaxy-s26-fe-exynos-2500-no-snapdragon",
+      "url": "https://www.engadget.com/2245288/samsung-galaxy-unpacked-s26-fe-live-blog/",
+      "title": "Samsung Galaxy S26 FE ships with Exynos 2500, no Snapdragon",
+      "date_first_run": "2026-08-27"
+    },
+    {
+      "id": "salesforce-anthropic-claudeforce-partnership",
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+      "title": "Salesforce and Anthropic launch Claudeforce",
+      "date_first_run": "2026-08-27"
+    },
+    {
+      "id": "openai-chatgpt-for-teachers-expansion-55-districts",
+      "url": "https://9to5mac.com/2026/08/26/free-chatgpt-for-teachers-expansion/",
+      "title": "OpenAI expands free ChatGPT for Teachers to 55 districts",
+      "date_first_run": "2026-08-27"
     },
     {
       "id": "cnbc.com/2026/08/27/nvidia-hugging-face-acquisition.html|nvidia-acquire-hugging-face-12-9b",
@@ -583,19 +625,19 @@
       "date_first_run": "2026-08-28"
     },
     {
+      "id": "tomshardware.com/samsung-sk-hynix-warn-memory-shortages-past-2027|samsung-skhynix-memory-shortage-past-2027-hbm4-yield80",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond-as-hbm-demand-explodes-customers-already-reserving-supply-years-ahead-while-the-wider-dram-market-begins-to-tighten",
+      "title": "Samsung SK Hynix warn memory shortage past 2027 HBM4",
+      "date_first_run": "2026-08-28"
+    },
+    {
       "id": "techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation|instinct-250m-series-b-2-5b-valuation",
       "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
       "title": "Instinct raises $250M Series B at $2.5B",
       "date_first_run": "2026-08-28"
     },
     {
-      "id": "tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond|samsung-skhynix-memory-shortage-past-2027-hbm4",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond-as-hbm-demand-explodes-customers-already-reserving-supply-years-ahead-while-the-wider-dram-market-begins-to-tighten",
-      "title": "Samsung SK Hynix warn memory shortage past 2027 HBM4",
-      "date_first_run": "2026-08-28"
-    },
-    {
-      "id": "sammyfans.com/2026/08/25/qualcomm-teases-the-worlds-first-5ghz-mobile-cpu-ahead-of-snapdragon-summit-2026|qualcomm-5ghz-oryon-snapdragon-summit",
+      "id": "sammyfans.com/2026/08/25/qualcomm-teases-worlds-first-5ghz-mobile-cpu|qualcomm-5ghz-oryon-snapdragon-summit",
       "url": "https://www.sammyfans.com/2026/08/25/qualcomm-teases-the-worlds-first-5ghz-mobile-cpu-ahead-of-snapdragon-summit-2026/",
       "title": "Qualcomm teases first 5GHz Oryon mobile CPU",
       "date_first_run": "2026-08-28"
@@ -607,7 +649,7 @@
       "date_first_run": "2026-08-28"
     },
     {
-      "id": "techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai|rogue-ai-open-letter-100-companies",
+      "id": "techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai|rogue-ai-open-letter-100-companies-aug27",
       "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
       "title": "100+ companies open letter rogue AI cyber defense",
       "date_first_run": "2026-08-28"
@@ -616,12 +658,6 @@
       "id": "techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck|hugging-face-microduck-399-robot",
       "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
       "title": "Hugging Face launches $399 Microduck RL robot",
-      "date_first_run": "2026-08-28"
-    },
-    {
-      "id": "testingcatalog.com/z-ai-launches-glm-5-3-flash-under-mit-license|zhipu-glm-5-3-flash-ox-alpha-chinese-gpus",
-      "url": "https://www.testingcatalog.com/z-ai-launches-glm-5-3-flash-under-mit-license/",
-      "title": "Zhipu GLM-5.3-Flash matches Opus 4.8 Chinese GPUs",
       "date_first_run": "2026-08-28"
     }
   ]

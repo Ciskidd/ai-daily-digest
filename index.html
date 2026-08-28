@@ -131,7 +131,7 @@ footer b{color:var(--ink)}
 
 <div class="topbar">
   <span class="brand">Cisco's AI Digest</span>
-  <span class="meta" id="metaLine">Fri Aug 28, 2026 · 10 stories</span>
+  <span class="meta" id="metaLine">Fri Aug 28, 2026 · 8 stories</span>
   <button class="drawer-btn" id="drawerBtn" aria-label="Table of contents">☰ Contents</button>
   <nav>
     <a href="#top3">Top 3</a>
@@ -139,7 +139,6 @@ footer b{color:var(--ink)}
     <a href="#semis">Semis</a>
     <a href="#policy">Policy</a>
     <a href="#tools">Tools</a>
-    <a href="#china">China</a>
   </nav>
 </div>
 
@@ -156,16 +155,14 @@ footer b{color:var(--ink)}
 <div class="wrap">
   <aside class="rail" id="rail">
     <h4>In this edition</h4>
-    <a href="#s-nvda-earn">Nvidia's $96B quarter</a>
     <a href="#s-nvda-hf">Nvidia buys Hugging Face</a>
     <a href="#s-anthropic">Anthropic's $45B compute deal</a>
-    <a href="#s-instinct">Instinct raises $250M</a>
     <a href="#s-hbm">Memory shortage past 2027</a>
+    <a href="#s-instinct">Instinct raises $250M</a>
     <a href="#s-oryon">Qualcomm's 5GHz Oryon</a>
     <a href="#s-android">Android's memory crunch</a>
     <a href="#s-letter">Rogue-AI open letter</a>
     <a href="#s-microduck">Hugging Face Microduck</a>
-    <a href="#s-glm">Zhipu GLM-5.3-Flash</a>
   </aside>
 
   <main class="main">
@@ -174,7 +171,7 @@ footer b{color:var(--ink)}
       <div class="dateline">Friday, August 28, 2026 · The AI &amp; Semiconductor Morning Brief</div>
     </div>
 
-    <p class="oneliner">Nvidia printed a $96 billion quarter and moved to buy Hugging Face while Anthropic locked in $45 billion of compute — but the binding constraint on the whole boom is now memory, and it's reaching all the way down to your phone.</p>
+    <p class="oneliner">Nvidia moved to buy Hugging Face and Anthropic locked in $45 billion of compute — but the binding constraint on the whole boom is now memory, and the squeeze is reaching all the way down to your phone.</p>
 
     <div class="filters" id="filters">
       <button class="chip" data-f="all" aria-pressed="true">All</button>
@@ -190,28 +187,9 @@ footer b{color:var(--ink)}
     <section class="sec top3" id="top3">
       <h2>Top 3 Today</h2>
 
-      <article class="card" id="s-nvda-earn" data-tags="qc-headwind bullish" tabindex="-1">
-        <h3><span class="rank">1.</span>Nvidia's $96.2B quarter and a 70% growth guide say AI capex is still accelerating</h3>
-        <div class="byline"><span>NVIDIA Investor Relations</span><span>· Aug 26</span><span class="badge top">Why #1: sets the tape for the whole sector</span></div>
-        <p class="summary">Nvidia reported Q2 FY27 revenue of <b>$96.2B</b> (up 106% YoY, 18% QoQ), with data-center revenue of $89.0B — 92% of the total and up 117% YoY. GAAP EPS was $2.46 on 75% gross margins. It guided Q3 to ~$108B and previewed <b>~70% revenue growth for FY28</b>, calling itself supply-constrained with demand "much higher" than it can deliver. The one blemish: management flagged gross-margin pressure from rising HBM and memory costs.</p>
-        <p class="why"><b>Why it matters:</b> This is the single clearest read on whether AI infrastructure spend is still compounding — and the answer, into 2028, is yes.</p>
-        <div class="panels">
-          <div class="panel p-red">
-            <span class="lab">Qualcomm Angle · Headwind</span>
-            <p>Nvidia's supply-constrained, margin-squeezing appetite for HBM/DRAM is exactly what drains memory away from Snapdragon handsets and X-series PCs, lifting Qualcomm's bill-of-materials. It also underlines the cloud-inference gravity that Qualcomm's on-device bet has to push against.</p>
-          </div>
-          <div class="panel p-green">
-            <span class="lab">Investor Angle · Bullish (chips) / Mixed (broad)</span>
-            <p>Demand, not spend: a supply-constrained 70% FY28 guide is genuinely new upside for the compute stack. But the memory-cost margin slump signals value migrating toward HBM makers (SK Hynix, Micron) and power/cooling. Much of NVDA is priced.<span class="nia">Not investment advice.</span></p>
-          </div>
-        </div>
-        <a class="orig-link" href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx" target="_blank">Read on NVIDIA IR →</a>
-        <p class="also">Also: <a href="https://finance.biggo.com/news/US_NVDA_2026-08-26" target="_blank">BigGo (earnings call)</a>, <a href="https://247wallst.com/cards/nvidia-q2-2027-earnings-nvda-01m0zw3hstde6rb2mt0kwj6d2c" target="_blank">24/7 Wall St.</a></p>
-      </article>
-
       <article class="card" id="s-nvda-hf" data-tags="" tabindex="-1">
-        <h3><span class="rank">2.</span>Nvidia agrees to buy Hugging Face for $12.9B, moving up the stack into open models</h3>
-        <div class="byline"><span>CNBC</span><span>· Aug 27</span><span class="badge top">Why #2: a structural land-grab on AI distribution</span></div>
+        <h3><span class="rank">1.</span>Nvidia agrees to buy Hugging Face for $12.9B, moving up the stack into open models</h3>
+        <div class="byline"><span>CNBC</span><span>· Aug 27</span><span class="badge top">Why #1: a structural land-grab on AI distribution</span></div>
         <p class="summary">The Information reported — with CNBC, Fortune and Tom's Hardware confirming — that Nvidia has agreed to acquire <b>Hugging Face</b>, the GitHub-like hub for open-source models, for <b>$12.9B</b>. The deal would hand Nvidia the default distribution point for open models, whose users overwhelmingly run inference on Nvidia GPUs. Reports caution the agreement isn't yet signed and could still fall apart.</p>
         <p class="why"><b>Why it matters:</b> Nvidia extending from silicon into the open-model developer funnel is a defensive moat against the custom-ASIC threat from its biggest customers.</p>
         <div class="panels">
@@ -229,8 +207,8 @@ footer b{color:var(--ink)}
       </article>
 
       <article class="card" id="s-anthropic" data-tags="bullish" tabindex="-1">
-        <h3><span class="rank">3.</span>Anthropic commits $45B to Nscale for 460MW of Vera Rubin compute ahead of its IPO</h3>
-        <div class="byline"><span>CNBC</span><span>· Aug 26</span><span class="badge top">Why #3: eleven-figure demand conviction</span></div>
+        <h3><span class="rank">2.</span>Anthropic commits $45B to Nscale for 460MW of Vera Rubin compute ahead of its IPO</h3>
+        <div class="byline"><span>CNBC</span><span>· Aug 26</span><span class="badge top">Why #2: eleven-figure demand conviction</span></div>
         <p class="summary">Anthropic agreed to spend roughly <b>$45B over six years</b> renting about <b>460MW</b> of Nvidia Vera Rubin capacity from Nscale's flagship data center in Mason County, West Virginia, expected online at the end of 2027. It follows a $10B Volta deal in Norway earlier this month and comes as Anthropic preps an <b>October IPO</b> at a rumored $2T+ valuation, having filed confidentially with the SEC in June.</p>
         <p class="why"><b>Why it matters:</b> A pre-IPO lab locking in multiyear compute at this scale is a demand signal, not caution — and another brick in the AI-infrastructure buildout.</p>
         <div class="panels">
@@ -245,6 +223,24 @@ footer b{color:var(--ink)}
         </div>
         <a class="orig-link" href="https://www.cnbc.com/2026/08/26/anthropic-and-nscale-strike-45-billion-cloud-deal-sources-say.html" target="_blank">Read on CNBC →</a>
         <p class="also">Also: <a href="https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/" target="_blank">TechCrunch</a>, <a href="https://www.bloomberg.com/news/articles/2026-08-26/anthropic-to-pay-nscale-45-billion-for-ai-computing-power" target="_blank">Bloomberg 🔒</a></p>
+      </article>
+
+      <article class="card" id="s-hbm" data-tags="qc-headwind bearish" tabindex="-1">
+        <h3><span class="rank">3.</span>Samsung and SK Hynix warn AI memory shortages could run past 2027</h3>
+        <div class="byline"><span>Tom's Hardware</span><span>· Aug 27</span><span class="badge top">Why #3: memory is now the AI bottleneck</span></div>
+        <p class="summary">Both memory giants warned that AI-driven shortages could persist beyond 2027, with HBM <b>sold out through 2026</b>. Samsung's HBM4 yield reportedly hit ~80% early, sharpening the fight for Nvidia and AMD supply; SK Hynix still leads with ~54% HBM4 share and two-thirds of Vera Rubin's HBM allocation. The knock-on: producers are shifting capacity to HBM, tightening DRAM/NAND enough that analysts see the <b>PC market shrinking up to 9% and smartphones up to 5%</b> in 2026.</p>
+        <p class="why"><b>Why it matters:</b> Memory, not logic, is now the AI bottleneck — and it's re-pricing every device category.</p>
+        <div class="panels">
+          <div class="panel p-red">
+            <span class="lab">Qualcomm Angle · Headwind</span>
+            <p>An explicit forecast of a ~5% smartphone and ~9% PC contraction driven by memory scarcity hits Snapdragon handset and X-series unit volumes and margins directly. This is core supply-chain risk, not a second-order effect.</p>
+          </div>
+          <div class="panel p-red">
+            <span class="lab">Investor Angle · Bullish memory / Bearish device OEMs</span>
+            <p>Pricing power flows to SK Hynix, Micron and Samsung; margin and volume pain flows to memory-heavy device makers. Structural and multi-year, and only partly priced outside the memory names.<span class="nia">Not investment advice.</span></p>
+          </div>
+        </div>
+        <a class="orig-link" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond-as-hbm-demand-explodes-customers-already-reserving-supply-years-ahead-while-the-wider-dram-market-begins-to-tighten" target="_blank">Read on Tom's Hardware →</a>
       </article>
     </section>
 
@@ -275,24 +271,6 @@ footer b{color:var(--ink)}
     <!-- ================= SEMIS & HARDWARE ================= -->
     <section class="sec" id="semis">
       <h2>Semis &amp; Hardware</h2>
-
-      <article class="card" id="s-hbm" data-tags="qc-headwind bearish" tabindex="-1">
-        <h3>Samsung and SK Hynix warn AI memory shortages could run past 2027</h3>
-        <div class="byline"><span>Tom's Hardware</span><span>· late Aug</span></div>
-        <p class="summary">Both memory giants warned that AI-driven shortages could persist beyond 2027, with HBM <b>sold out through 2026</b>. Samsung's HBM4 yield reportedly hit ~80% early, sharpening the fight for Nvidia and AMD supply; SK Hynix still leads with ~54% HBM4 share and two-thirds of Vera Rubin's HBM allocation. The knock-on: producers are shifting capacity to HBM, tightening DRAM/NAND enough that analysts see the <b>PC market shrinking up to 9% and smartphones up to 5%</b> in 2026.</p>
-        <p class="why"><b>Why it matters:</b> Memory, not logic, is now the AI bottleneck — and it's re-pricing every device category.</p>
-        <div class="panels">
-          <div class="panel p-red">
-            <span class="lab">Qualcomm Angle · Headwind</span>
-            <p>An explicit forecast of a ~5% smartphone and ~9% PC contraction driven by memory scarcity hits Snapdragon handset and X-series unit volumes and margins directly. This is core supply-chain risk, not a second-order effect.</p>
-          </div>
-          <div class="panel p-red">
-            <span class="lab">Investor Angle · Bullish memory / Bearish device OEMs</span>
-            <p>Pricing power flows to SK Hynix, Micron and Samsung; margin and volume pain flows to memory-heavy device makers. Structural and multi-year, and only partly priced outside the memory names.<span class="nia">Not investment advice.</span></p>
-          </div>
-        </div>
-        <a class="orig-link" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond-as-hbm-demand-explodes-customers-already-reserving-supply-years-ahead-while-the-wider-dram-market-begins-to-tighten" target="_blank">Read on Tom's Hardware →</a>
-      </article>
 
       <article class="card" id="s-oryon" data-tags="qc-tailwind" tabindex="-1">
         <h3>Qualcomm teases the world's first 5GHz mobile CPU ahead of Snapdragon Summit</h3>
@@ -339,7 +317,7 @@ footer b{color:var(--ink)}
       <article class="card" id="s-letter" data-tags="" tabindex="-1">
         <h3>OpenAI, Anthropic, Google and 100+ firms call for coordinated defense against rogue AI</h3>
         <div class="byline"><span>TechCrunch</span><span>· Aug 27</span></div>
-        <p class="summary">More than a hundred companies — OpenAI, Anthropic, Google and Microsoft, plus security firms CrowdStrike, Okta and Fortinet and major financial and infrastructure players — signed an open letter urging public and private sectors to work together to defend against AI-enabled cyber threats.</p>
+        <p class="summary">More than a hundred companies — OpenAI, Anthropic, Google and Microsoft, plus security firms CrowdStrike, Okta and Fortinet and major financial and infrastructure players — signed an open letter urging public and private sectors to work together to defend against AI-enabled cyber threats. It follows this month's Open Secure AI Alliance effort on agent-incident reporting, widening the coalition.</p>
         <p class="why"><b>Why it matters:</b> A rare cross-industry alignment framing AI security as infrastructure risk — usually a precursor to standards and regulation.</p>
         <div class="panels">
           <div class="panel p-slate">
@@ -378,43 +356,15 @@ footer b{color:var(--ink)}
       </article>
     </section>
 
-    <!-- ================= CHINA WATCH ================= -->
-    <section class="sec" id="china">
-      <h2>China Watch</h2>
-
-      <article class="card" id="s-glm" data-tags="china bearish" tabindex="-1">
-        <h3>Zhipu's GLM-5.3-Flash matches Claude Opus 4.8 — trained entirely on Chinese GPUs</h3>
-        <div class="byline">
-          <span>testingcatalog</span><span>· Aug 26</span>
-          <span class="badge cn">译 Translated from Chinese · 智谱 (Zhipu / Z.ai)</span>
-          <span class="badge cnx">CN Exclusive</span>
-        </div>
-        <p class="summary">Zhipu confirmed the mystery "Ox Alpha" model as <b>GLM-5.3-Flash</b>, a 320B-total / 18B-active multimodal MoE that scored <b>57</b> on the Artificial Analysis intelligence index — matching Anthropic's Claude Opus 4.8 and beating DeepSeek's V4 Pro (53). It's <b>MIT-licensed</b> with weights on Hugging Face, priced at ~$0.15/$0.50 per million tokens (a tenth of flagship GLM-5.3), and was reportedly trained and served <b>entirely on domestic Chinese GPUs</b> at 100 trillion tokens/day. Zhipu's stock rose ~9% intraday.</p>
-        <p class="cn-head">智谱确认「Ox Alpha」即 GLM-5.3-Flash，性能对标 Claude Opus 4.8，全程国产 GPU 训练</p>
-        <p class="why"><b>Why it matters:</b> A frontier-matching Chinese open model at a tenth the price — on domestic silicon — compresses the US lead on both cost and compute independence.</p>
-        <div class="panels">
-          <div class="panel p-slate">
-            <span class="lab">Qualcomm Angle · Watch (second-order)</span>
-            <p>Cheap models with small active-parameter counts are exactly what makes on-device/edge inference viable — a tailwind for Qualcomm's NPU thesis if they distill to phones. But "Chinese-GPU-only" also flags a maturing domestic silicon stack that competes with Western edge chips over time.</p>
-          </div>
-          <div class="panel p-red">
-            <span class="lab">Investor Angle · Mixed / Bearish (US labs)</span>
-            <p>Renewed price/performance pressure on OpenAI and Anthropic margins, and another sign export controls aren't stalling Chinese capability. Bullish the "inference gets commoditized" thesis.<span class="nia">Not investment advice.</span></p>
-          </div>
-        </div>
-        <a class="orig-link" href="https://www.testingcatalog.com/z-ai-launches-glm-5-3-flash-under-mit-license/" target="_blank">Read on testingcatalog →</a>
-        <p class="also">Also: <a href="https://wccftech.com/zhipu-z-ai-unmasks-the-mystery-ox-alpha-model-as-glm-5-3-flash-revealing-that-it-was-run-entirely-on-chinese-gpus-while-serving-100-trillion-tokens-day/" target="_blank">Wccftech</a></p>
-      </article>
-    </section>
-
   </main>
 </div>
 
 <footer>
   <p><b>Cisco's AI Digest</b> — generated Fri Aug 28, 2026, 06:30 PT.</p>
-  <p><b>Sources checked:</b> NVIDIA IR, CNBC, TechCrunch, Bloomberg, Fortune, Tom's Hardware, testingcatalog, Wccftech, Sammy Fans, Exhibit, BigGo, PYMNTS, plus scans of Reuters, The Information, The Verge, Ars Technica, QbitAI (量子位), Jiqizhixin (机器之心).</p>
-  <p><b>Sources that failed / returned no fresh dated permalink:</b> QbitAI and Jiqizhixin homepages (no article-level Aug 27–28 permalinks surfaced); a Pew "34% use AI for health" item was dropped for lack of a verified primary permalink.</p>
-  <p><b>Duplicate suppression:</b> 0 stories suppressed as already-seen this run (dedup history spans Aug 7–16; the digest last published Aug 17, so today's Aug 26–28 stories are all new). <b>Dropped for missing source URL:</b> 1 (Pew health-chatbot survey).</p>
+  <p><b>Sources checked:</b> CNBC, TechCrunch, Bloomberg, Fortune, Tom's Hardware, Sammy Fans, Exhibit, PYMNTS, NVIDIA IR, plus scans of Reuters, The Information, The Verge, Ars Technica, SCMP, 36Kr (36氪), QbitAI (量子位), Jiqizhixin (机器之心).</p>
+  <p><b>Sources that failed / returned no fresh dated permalink:</b> QbitAI and Jiqizhixin (no article-level Aug 27–28 permalinks surfaced); a Pew "34% use AI for health" item was dropped for lack of a verified primary permalink.</p>
+  <p><b>China Watch:</b> no fresh, unseen Chinese story cleared the bar today — the day's marquee item, Zhipu's GLM-5.3-Flash, already ran in the Aug 27 edition, and DeepSeek-V4/Ascend and Schneider power items were older continuations.</p>
+  <p><b>Duplicate suppression:</b> 2 stories suppressed as already-published — Nvidia's Q2 FY27 earnings and Zhipu GLM-5.3-Flash both ran in the Aug 27 edition. <b>Dropped for missing source URL:</b> 1 (Pew health-chatbot survey). All 8 items above are genuinely new since the last edition.</p>
   <p style="margin-top:14px; font-style:italic;">Analysis is generated commentary, not financial advice. Ratings are editorial heuristics for a Qualcomm-and-AI-exposed reader.</p>
 </footer>
 
