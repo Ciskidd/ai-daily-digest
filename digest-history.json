@@ -1,54 +1,6 @@
 {
   "seen": [
     {
-      "id": "meta-muse-glimmer-30b-open-apache-laptop",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/meta-releases-muse-glimmer-ai-model-people-can-run-on-their-laptop",
-      "title": "Meta releases Muse Glimmer, 30B open model that runs on a laptop",
-      "date_first_run": "2026-08-10"
-    },
-    {
-      "id": "openai-first-device-donut-smart-speaker-loveform",
-      "url": "https://openai.com/news/",
-      "title": "OpenAI first device leaks: donut-shaped ~$350 smart speaker with Jony Ive",
-      "date_first_run": "2026-08-10"
-    },
-    {
-      "id": "atoms-kalanick-physical-ai-1-7b-a16z-tiger",
-      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
-      "title": "Kalanick's Atoms raises $1.7B, week's biggest round",
-      "date_first_run": "2026-08-10"
-    },
-    {
-      "id": "cathedral-160m-military-cyber-sequoia-a16z",
-      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
-      "title": "Cathedral raises $160M for U.S. military cyber",
-      "date_first_run": "2026-08-10"
-    },
-    {
-      "id": "us-federal-5b-15-agencies-ai-research",
-      "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-08-07-ai-washington-report-august-2026-edition",
-      "title": "Administration commits $5B+ across 15+ agencies to embed AI in research",
-      "date_first_run": "2026-08-10"
-    },
-    {
-      "id": "openai-gpt-5-6-luna-default-free-go-think-button",
-      "url": "https://www.gulftoday.ae/news/2026/08/08/openai-introduces-new-chatgpt-updates-to-improve-responses",
-      "title": "OpenAI makes GPT-5.6 Luna default for Free/Go, adds Think button",
-      "date_first_run": "2026-08-10"
-    },
-    {
-      "id": "meta-muse-code-agentic-coding-muse-spark-1-2",
-      "url": "https://medium.com/@davidakpovi/ai-news-week-of-august-3-9-2026-8dfa677ffca3",
-      "title": "Meta launches Muse Code agentic coding assistant",
-      "date_first_run": "2026-08-10"
-    },
-    {
-      "id": "bytedance-seedance-2-5-api-30s-video-synced-audio",
-      "url": "https://kie.ai/blog/seedance-2-5-release-deep-dive",
-      "title": "ByteDance opens Seedance 2.5 API: 30s video with synced audio",
-      "date_first_run": "2026-08-10"
-    },
-    {
       "id": "anthropic-macquarie-gic-theseus-datacenter-jv",
       "url": "https://www.bloomberg.com/news/articles/2026-08-10/anthropic-macquarie-and-gic-form-venture-for-ai-data-centers",
       "title": "Anthropic, Macquarie, GIC form Theseus data-center venture",
@@ -519,7 +471,7 @@
     {
       "id": "experian-credit-scores-chatgpt-uk-first",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/experian-lets-uk-consumers-check-credit-through-chatgpt/",
-      "title": "Experian Brings Personalised Credit Scores Into ChatGPT \u2014 a UK First",
+      "title": "Experian Brings Personalised Credit Scores Into ChatGPT — a UK First",
       "date_first_run": "2026-08-23"
     },
     {
@@ -629,6 +581,42 @@
       "url": "https://www.scmp.com/tech/big-tech/article/china-bci-commercial-implant",
       "title": "China moves brain-computer interfaces toward commercial use after landmark implant",
       "date_first_run": "2026-08-31"
+    },
+    {
+      "id": "eu-chatgpt-vlose-dsa-designation-first-ai-chatbot",
+      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/08/31/chatgpt-becomes-first-ai-chatbot-to-face-tougher-eu-rules/",
+      "title": "EU Designates ChatGPT a &lsquo;Very Large Online Search Engine&rsquo; &mdash; the First AI Chatbot Under the DSA&rsquo;s Toughest Tier",
+      "date_first_run": "2026-09-01"
+    },
+    {
+      "id": "pentagon-genai-mil-chatgpt-grok-added-claude-absent",
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "title": "Pentagon Wires ChatGPT and Grok Into GenAI.mil for 3M Personnel &mdash; Claude Still Absent After Its Court Win",
+      "date_first_run": "2026-09-01"
+    },
+    {
+      "id": "openai-chatgpt-ads-1b-run-rate-global-selfserve",
+      "url": "https://digiday.com/media-buying/openais-chatgpt-ads-business-hits-1-billion-run-rate-as-europe-gets-self-serve-access/",
+      "title": "OpenAI Says ChatGPT Ads Hit a $1B Annualized Run Rate in Under 200 Days",
+      "date_first_run": "2026-09-01"
+    },
+    {
+      "id": "salesforce-anthropic-claudeforce-claude-default-agentforce-slack",
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+      "title": "Salesforce and Anthropic Launch &lsquo;Claudeforce,&rsquo; Making Claude the Default Reasoning Engine Across the Stack",
+      "date_first_run": "2026-09-01"
+    },
+    {
+      "id": "microsoft-humain-ai-pc-copilot-bundle-leap-2026",
+      "url": "https://www.prnewswire.com/news-releases/microsoft-and-humain-expand-strategic-collaboration-at-leap-2026-with-new-enterprise-ai-offering-and-ai-pc-302865157.html",
+      "title": "Microsoft and HUMAIN Unveil an AI PC and a Copilot Bundle Targeting 1M Enterprise Users at LEAP 2026",
+      "date_first_run": "2026-09-01"
+    },
+    {
+      "id": "x-takes-down-200k-china-linked-bots-anti-data-center",
+      "url": "https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/",
+      "title": "X Takes Down a ~200,000-Account China-Linked Bot Farm Pushing Anti&ndash;Data-Center Content",
+      "date_first_run": "2026-09-01"
     }
   ]
 }
