@@ -1,54 +1,6 @@
 {
   "seen": [
     {
-      "id": "anthropic-macquarie-gic-theseus-datacenter-jv",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/anthropic-macquarie-and-gic-form-venture-for-ai-data-centers",
-      "title": "Anthropic, Macquarie, GIC form Theseus data-center venture",
-      "date_first_run": "2026-08-11"
-    },
-    {
-      "id": "sony-tsmc-6-4b-image-sensor-fab-kumamoto-japan",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/sony-tsmc-to-invest-6-4-billion-in-joint-chip-plant-in-japan",
-      "title": "Sony and TSMC to invest $6.4B in Japan image-sensor plant",
-      "date_first_run": "2026-08-11"
-    },
-    {
-      "id": "agibot-overtakes-unitree-top-humanoid-vendor-h1-2026",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3363544/agibot-overtakes-unitree-top-global-humanoid-robot-vendor-first-half-amid-ipo-push",
-      "title": "AgiBot overtakes Unitree as top humanoid robot vendor",
-      "date_first_run": "2026-08-11"
-    },
-    {
-      "id": "qwen3-8-max-open-weights-huggingface-modelscope",
-      "url": "https://www.scmp.com/tech/article/3362738/alibabas-ai-model-qwen38-max-made-widely-accessible-ahead-open-weights-release",
-      "title": "Alibaba to open-weight Qwen3.8-Max",
-      "date_first_run": "2026-08-11"
-    },
-    {
-      "id": "google-let-google-call-agentic-shopping-calls-stores",
-      "url": "https://m.gsmarena.com/newscomm-70290.php",
-      "title": "Google agentic AI calls stores and buys things",
-      "date_first_run": "2026-08-11"
-    },
-    {
-      "id": "corma-60m-seed-ai-cyber-defense-sequoia",
-      "url": "https://techstartups.com/2026/08/10/venture-capital-startup-funding-roundup-august-10-2026-accel-coatue-management-general-atlantic-khosla-ventures-sequoia-capital-more/",
-      "title": "Corma emerges from stealth with $60M for AI cyber defense",
-      "date_first_run": "2026-08-11"
-    },
-    {
-      "id": "cambridge-aerospace-300m-series-c-anti-drone",
-      "url": "https://techstartups.com/2026/08/10/venture-capital-startup-funding-roundup-august-10-2026-accel-coatue-management-general-atlantic-khosla-ventures-sequoia-capital-more/",
-      "title": "Cambridge Aerospace raises $300M Series C for anti-drone",
-      "date_first_run": "2026-08-11"
-    },
-    {
-      "id": "south-korea-3-52b-chip-fund-materials-fabless",
-      "url": "https://finance.yahoo.com/news/south-koreas-lee-wants-military-061609709.html",
-      "title": "South Korea launches $3.52B chip fund",
-      "date_first_run": "2026-08-11"
-    },
-    {
       "id": "nvidia-500b-wall-street-ai-financing-alliance",
       "url": "https://www.wsj.com/business/deals/nvidia-wall-street-firms-strike-ai-financing-deal-targeting-500-billion-c50377db",
       "title": "Nvidia $500B Wall Street AI-infra financing alliance",
@@ -471,7 +423,7 @@
     {
       "id": "experian-credit-scores-chatgpt-uk-first",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/experian-lets-uk-consumers-check-credit-through-chatgpt/",
-      "title": "Experian Brings Personalised Credit Scores Into ChatGPT — a UK First",
+      "title": "Experian Brings Personalised Credit Scores Into ChatGPT \u2014 a UK First",
       "date_first_run": "2026-08-23"
     },
     {
@@ -617,6 +569,90 @@
       "url": "https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/",
       "title": "X Takes Down a ~200,000-Account China-Linked Bot Farm Pushing Anti&ndash;Data-Center Content",
       "date_first_run": "2026-09-01"
+    },
+    {
+      "id": "openai-astra-critical-cyber-preparedness-threshold",
+      "url": "https://openai.com/index/path-to-astra/",
+      "title": "OpenAI's Astra becomes the first model rated 'Critical' for cyber",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "anthropic-claude-fable-5-1-mythos-5-1-release",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "title": "Anthropic ships Claude Fable 5.1 and Mythos 5.1 \u2014 cheaper, stronger on agentic work",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "anthropic-lambda-35b-nvidia-cloud-deal-hut8",
+      "url": "https://www.wsj.com/tech/ai/anthropic-signs-35-billion-cloud-deal-backed-by-nvidia-f12622f1",
+      "title": "Anthropic signs reported $35B cloud deal for Nvidia capacity",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "google-gemini-3-8-flash-skimaki-coding",
+      "url": "https://www.wsj.com/tech/ai/new-google-ai-model-said-to-narrow-gap-on-coding-ability-264c6052",
+      "title": "Google readies Gemini 3.8 Flash, said to narrow the coding gap on Anthropic",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "google-gemini-agentic-video-multimodal",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
+      "title": "Google adds 'Agentic Video' to Gemini \u2014 goal-directed video inspection",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "meta-muse-voice-transcribe-streaming-asr",
+      "url": "https://research.meta.ai/blog/introducing-muse-voice-transcribe",
+      "title": "Meta releases Muse Voice Transcribe, a streaming speech-to-text model",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "cognition-1b-raise-47b-valuation-coding-agent",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-billion-value",
+      "title": "Cognition set to raise ~$1B at a $47B valuation",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "adobe-humain-saudi-4b-firefly-sovereign",
+      "url": "https://www.arabnews.com/media/adobe-to-offer-free-access-to-ai-tools-in-saudi-arabia-in-4-billion-deal-2656465",
+      "title": "Adobe strikes $4B-plus Saudi deal to give citizens free Firefly access",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "sb-energy-ipo-sbe-openai-dependent",
+      "url": "https://www.cnbc.com/2026/09/01/sb-energy-ipo-softbank-open-ai-nvidia.html",
+      "title": "SoftBank's SB Energy files to IPO as an AI power-and-campus builder",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "air-security-50m-ai-agent-firewall",
+      "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+      "title": "AIR raises $50M to vet the skills and add-ons AI agents use",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "lyte-165m-raise-1-6b-robotics-apple-faceid",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/lyte-closes-165-million-round-bringing-ai-startup-s-valuation-to-1-6-billion",
+      "title": "Lyte raises $165M, tripling valuation to $1.6B for AI robotics",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "dell-fiscal-q2-2027-ai-server-revenue",
+      "url": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html",
+      "title": "Dell posts $46.97B quarter, lifts AI-server outlook to $74B",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "california-26-ai-social-media-bills-newsom",
+      "url": "https://www.nbcnews.com/politics/politics-news/california-democrats-pass-20-bills-curtail-ai-social-media-rcna595536",
+      "title": "California legislature passes 26 AI and social-media bills",
+      "date_first_run": "2026-09-02"
+    },
+    {
+      "id": "google-pics-ai-prompt-image-canva-competitor",
+      "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+      "title": "Google launches 'Pics,' a prompt-first answer to Canva",
+      "date_first_run": "2026-09-02"
     }
   ]
 }
