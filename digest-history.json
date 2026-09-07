@@ -1,514 +1,478 @@
 {
-  "seen": [
-    {
-      "id": "hyperscaler-ai-bond-issuance-220b-real-yields-decade-high",
-      "url": "https://www.reuters.com/world/asia-pacific/ai-driven-surge-bond-yields-could-be-next-risk-markets-growth-2026-08-14/",
-      "title": "Hyperscaler AI bond binge drags real yields to decade highs",
-      "date_first_run": "2026-08-16"
-    },
-    {
-      "id": "samsung-legacy-memory-backend-vietnam-hbm-capacity",
-      "url": "https://www.digitimes.com/news/a20260814VL222/samsung-hbm-dram-capacity-vietnam.html",
-      "title": "Samsung weighs moving memory backend to Vietnam for HBM",
-      "date_first_run": "2026-08-16"
-    },
-    {
-      "id": "alibaba-qwen3-8-27b-dense-open-weights",
-      "url": "https://aireleasetracker.com/latest",
-      "title": "Alibaba releases Qwen3.8-27B open weights",
-      "date_first_run": "2026-08-16"
-    },
-    {
-      "id": "tollbit-ai-crawlers-15pct-disallowed-urls-europe",
-      "url": "https://ppc.land/15-of-ai-page-fetchers-in-europe-reached-disallowed-urls-tollbit-finds/",
-      "title": "15% of EU AI crawlers hit disallowed URLs (TollBit)",
-      "date_first_run": "2026-08-16"
-    },
-    {
-      "id": "meta-ai-glasses-surveillance-accessibility",
-      "url": "https://www.theguardian.com/technology/2026/aug/14/smart-glasses-controversy-sidelines-the-benefits-for-disabled-people",
-      "title": "Meta AI glasses surveillance vs accessibility",
-      "date_first_run": "2026-08-16"
-    },
-    {
-      "id": "google-heir-homomorphic-encryption-private-ai",
-      "url": "https://github.com/google/heir",
-      "title": "Google HEIR encrypted-data AI",
-      "date_first_run": "2026-08-16"
-    },
-    {
-      "id": "china-humanoid-robots-97pct-h1-shipments-unitree-a-share",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/11/2003862265",
-      "title": "China 97% of H1 humanoid-robot shipments; Unitree A-share",
-      "date_first_run": "2026-08-16"
-    },
-    {
-      "id": "nvidia-poolside-6b-license-1b-invest-talent",
-      "url": "https://www.newcomer.co/",
-      "title": "Nvidia strikes unusual $6B AI licensing deal with coding startup Poolside",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "broadcom-60b-100b-ai-chip-debt-financing-anthropic",
-      "url": "https://www.bloomberg.com/technology",
-      "title": "Broadcom seeks more than $60B in debt for massive AI-chip financing push",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "anthropic-ipo-rival-spacex-2t-65b-revenue-file-august",
-      "url": "https://www.bloomberg.com/technology",
-      "title": "Anthropic eyes an IPO that could rival SpaceX's record-breaking debut",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "nvidia-rebellions-korea-inference-npu-talks",
-      "url": "https://www.bloomberg.com/technology",
-      "title": "Nvidia in early talks with South Korean AI-chip startup Rebellions",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "supermicro-probe-clears-management-2-5b-nvidia-smuggling",
-      "url": "https://fortune.com/section/tech/",
-      "title": "Supermicro probe clears senior management in $2.5B Nvidia chip-smuggling case",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "cambricon-huawei-domestic-ai-accel-56pct-share-2026",
-      "url": "https://www.scmp.com/tech",
-      "title": "Domestic accelerators to reach 56% of China's AI-chip market as Cambricon ramps",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "brazil-444m-ai-huawei-iflytek-supercomputer-sovereign",
-      "url": "https://www.reuters.com/technology/",
-      "title": "Brazil unveils $444M AI push with U.S. and Chinese tech partners",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "judge-overturns-ding-google-ai-economic-espionage-convictions",
-      "url": "https://www.reuters.com/legal/",
-      "title": "Judge overturns part of ex-Google engineer's AI trade-secrets conviction",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "apple-music-ai-generated-song-labels-transparency",
-      "url": "https://www.billboard.com/business/",
-      "title": "Apple Music will label songs materially generated using AI",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "tesla-nevada-5000-robotaxis-las-vegas-waymo-uber",
-      "url": "https://techcrunch.com/",
-      "title": "Tesla gets Nevada approval for up to 5,000 robotaxis as Las Vegas race intensifies",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "new-york-surpasses-bay-area-tech-talent-ai-hiring-cbre",
-      "url": "https://www.cnbc.com/technology/",
-      "title": "New York surpasses Bay Area as top U.S. tech-talent market on AI hiring",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "google-gemma-open-models-1b-downloads-milestone",
-      "url": "https://blog.google/technology/developers/",
-      "title": "Google's open Gemma models surpass 1 billion downloads",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "openai-chatgpt-apple-messages-macos-agentic-integration",
-      "url": "https://9to5mac.com/",
-      "title": "OpenAI brings ChatGPT into Apple Messages on the Mac",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "google-preferred-sources-button-publishers-ai-search",
-      "url": "https://www.searchenginejournal.com/",
-      "title": "Google gives publishers a new 'Preferred Sources' button as AI reshapes search",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "astromech-20m-george-church-predictive-biology-ai",
-      "url": "https://venturebeat.com/",
-      "title": "Astromech raises $20M to build AI that predicts biological change",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "inherent-faraday-27b-outperforms-frontier-research-replication",
-      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "title": "Inherent's 27B 'Faraday' Agent Beats Claude Opus 4.8 and GPT-5.5 at Replicating Research",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "nvidia-linear-math-replaces-model-handoffs",
-      "url": "https://venturebeat.com/ai/nvidia-finds-that-simple-linear-math-can-replace-costly-ai-model-handoffs/",
-      "title": "Nvidia: Simple Linear Math Can Replace Costly AI Model Handoffs",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "rillet-100m-series-c-unicorn-48-hours-accounting",
-      "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
-      "title": "AI Accounting Startup Rillet Becomes a Unicorn in 48 Hours",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "starcloud-250m-orbital-data-centers-nvidia-cisco",
-      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
-      "title": "Starcloud Raises $250M for Orbital AI Data Centers; Nvidia, Cisco Invest",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "experian-credit-scores-chatgpt-uk-first",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/experian-lets-uk-consumers-check-credit-through-chatgpt/",
-      "title": "Experian Brings Personalised Credit Scores Into ChatGPT \u2014 a UK First",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "aws-bedrock-cross-region-inference-gpt-5-6",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
-      "title": "AWS Adds Cross-Region Inference for OpenAI's GPT-5.6 on Bedrock",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "adobe-firefly-three-ai-audio-tools",
-      "url": "https://www.techradar.com/pro/adobe-firefly-just-added-3-ai-audio-tools-for-creators-and-marketers-i-tested-them-all-to-see-if-theyre-any-good",
-      "title": "Adobe Firefly Adds Three AI Audio Tools for Creators and Marketers",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "youtube-creators-higgsfield-ai-money-backlash",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-      "title": "YouTube Creators Face Backlash Over Undisclosed Higgsfield AI Promotions",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "openai-gpt-image-2-transparent-background",
-      "url": "https://m.ithome.com/html/992722.htm",
-      "title": "OpenAI's GPT-Image-2 Can Now Generate Images With No Background",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "openai-terminates-cursor-spacex",
-      "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
-      "title": "OpenAI to cut off Cursor after SpaceX acquisition, ending model access Nov 12",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "judge-blocks-pentagon-anthropic-ban",
-      "url": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
-      "title": "Federal judge blocks Pentagon's blacklisting of Anthropic as 'illegal and baseless'",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "a16z-machine-age-fund-1-1b",
-      "url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
-      "title": "a16z raises $1.1B 'Machine Age' fund to bankroll AI's physical buildout",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "anthropic-infostealer-claude-sessions",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
-      "title": "Anthropic signs out Claude users after infostealer malware hijacks login sessions",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "vietnam-qualcomm-samsung-ai-investment",
-      "url": "https://www.thestar.com.my/tech/tech-news/2026/08/28/vietnam-urges-qualcomm-samsung-to-deepen-ai-chip-investment-as-it-seeks-tech-upgrade",
-      "title": "Vietnam urges Qualcomm and Samsung to deepen AI, chip and data-center investment",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "marvell-google-120b-fiscal-2029",
-      "url": "https://247wallst.com/investing/2026/08/28/marvell-falls-7-as-google-ai-payoff-lands-in-fiscal-2029-intel-slips-nvidia-barely-budges/",
-      "title": "Marvell drops ~7% as Google's $120B custom-chip payoff lands in fiscal 2029",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "cerebras-cs6-wafer-scale-3d-dram",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/hot-chips-2026-cerebras-lays-out-the-future-of-wafer-scale-ai-nexus-system-architecture-triples-rack-scale-performance-cs-6-wafer-to-incorporate-stacked-dram",
-      "title": "Cerebras details CS-6 wafer-scale chip with 3D-stacked DRAM at Hot Chips",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "trump-semiconductor-tariffs-servers-laptops",
-      "url": "https://www.theguardian.com/technology/2026/aug/28/trump-semiconductor-tariffs",
-      "title": "Trump team weighs sweeping chip tariffs that could reach servers and laptops",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "caterpillar-ai-deployment-mining",
-      "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
-      "title": "Caterpillar ports its mining-automation playbook into a company-wide AI rollout",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "meta-smart-glasses-recording-loophole-fix",
-      "url": "https://www.theverge.com/tech/985851/meta-privacy-loophole-fix-marketing-campaign",
-      "title": "Meta patches smart-glasses recording loophole amid AI-wearable privacy backlash",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "industry-cyber-defense-open-letter",
-      "url": "https://techcrunch.com/2026/08/27/ai-cyber-defense-open-letter/",
-      "title": "OpenAI, Anthropic, Google, Microsoft and 100+ firms call for joint defense against AI cyberattacks",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "huggingface-microduck-open-robot",
-      "url": "https://techcrunch.com/2026/08/28/hugging-face-microduck-open-source-robot/",
-      "title": "Hugging Face launches $399 open-source 'Microduck' robot for physical AI",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "alibaba-cloud-brazil-data-centers",
-      "url": "https://www.scmp.com/tech/big-tech/article/alibaba-cloud-brazil-data-centers",
-      "title": "Alibaba Cloud opens two Brazil data centers, extending China's AI-cloud push into Latin America",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "china-commercial-bci-implant",
-      "url": "https://www.scmp.com/tech/big-tech/article/china-bci-commercial-implant",
-      "title": "China moves brain-computer interfaces toward commercial use after landmark implant",
-      "date_first_run": "2026-08-31"
-    },
-    {
-      "id": "eu-chatgpt-vlose-dsa-designation-first-ai-chatbot",
-      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/08/31/chatgpt-becomes-first-ai-chatbot-to-face-tougher-eu-rules/",
-      "title": "EU Designates ChatGPT a &lsquo;Very Large Online Search Engine&rsquo; &mdash; the First AI Chatbot Under the DSA&rsquo;s Toughest Tier",
-      "date_first_run": "2026-09-01"
-    },
-    {
-      "id": "pentagon-genai-mil-chatgpt-grok-added-claude-absent",
-      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-      "title": "Pentagon Wires ChatGPT and Grok Into GenAI.mil for 3M Personnel &mdash; Claude Still Absent After Its Court Win",
-      "date_first_run": "2026-09-01"
-    },
-    {
-      "id": "openai-chatgpt-ads-1b-run-rate-global-selfserve",
-      "url": "https://digiday.com/media-buying/openais-chatgpt-ads-business-hits-1-billion-run-rate-as-europe-gets-self-serve-access/",
-      "title": "OpenAI Says ChatGPT Ads Hit a $1B Annualized Run Rate in Under 200 Days",
-      "date_first_run": "2026-09-01"
-    },
-    {
-      "id": "salesforce-anthropic-claudeforce-claude-default-agentforce-slack",
-      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
-      "title": "Salesforce and Anthropic Launch &lsquo;Claudeforce,&rsquo; Making Claude the Default Reasoning Engine Across the Stack",
-      "date_first_run": "2026-09-01"
-    },
-    {
-      "id": "microsoft-humain-ai-pc-copilot-bundle-leap-2026",
-      "url": "https://www.prnewswire.com/news-releases/microsoft-and-humain-expand-strategic-collaboration-at-leap-2026-with-new-enterprise-ai-offering-and-ai-pc-302865157.html",
-      "title": "Microsoft and HUMAIN Unveil an AI PC and a Copilot Bundle Targeting 1M Enterprise Users at LEAP 2026",
-      "date_first_run": "2026-09-01"
-    },
-    {
-      "id": "x-takes-down-200k-china-linked-bots-anti-data-center",
-      "url": "https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/",
-      "title": "X Takes Down a ~200,000-Account China-Linked Bot Farm Pushing Anti&ndash;Data-Center Content",
-      "date_first_run": "2026-09-01"
-    },
-    {
-      "id": "openai-astra-critical-cyber-preparedness-threshold",
-      "url": "https://openai.com/index/path-to-astra/",
-      "title": "OpenAI's Astra becomes the first model rated 'Critical' for cyber",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "anthropic-claude-fable-5-1-mythos-5-1-release",
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "title": "Anthropic ships Claude Fable 5.1 and Mythos 5.1 \u2014 cheaper, stronger on agentic work",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "anthropic-lambda-35b-nvidia-cloud-deal-hut8",
-      "url": "https://www.wsj.com/tech/ai/anthropic-signs-35-billion-cloud-deal-backed-by-nvidia-f12622f1",
-      "title": "Anthropic signs reported $35B cloud deal for Nvidia capacity",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "google-gemini-3-8-flash-skimaki-coding",
-      "url": "https://www.wsj.com/tech/ai/new-google-ai-model-said-to-narrow-gap-on-coding-ability-264c6052",
-      "title": "Google readies Gemini 3.8 Flash, said to narrow the coding gap on Anthropic",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "google-gemini-agentic-video-multimodal",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
-      "title": "Google adds 'Agentic Video' to Gemini \u2014 goal-directed video inspection",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "meta-muse-voice-transcribe-streaming-asr",
-      "url": "https://research.meta.ai/blog/introducing-muse-voice-transcribe",
-      "title": "Meta releases Muse Voice Transcribe, a streaming speech-to-text model",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "cognition-1b-raise-47b-valuation-coding-agent",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-02/ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-billion-value",
-      "title": "Cognition set to raise ~$1B at a $47B valuation",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "adobe-humain-saudi-4b-firefly-sovereign",
-      "url": "https://www.arabnews.com/media/adobe-to-offer-free-access-to-ai-tools-in-saudi-arabia-in-4-billion-deal-2656465",
-      "title": "Adobe strikes $4B-plus Saudi deal to give citizens free Firefly access",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "sb-energy-ipo-sbe-openai-dependent",
-      "url": "https://www.cnbc.com/2026/09/01/sb-energy-ipo-softbank-open-ai-nvidia.html",
-      "title": "SoftBank's SB Energy files to IPO as an AI power-and-campus builder",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "air-security-50m-ai-agent-firewall",
-      "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
-      "title": "AIR raises $50M to vet the skills and add-ons AI agents use",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "lyte-165m-raise-1-6b-robotics-apple-faceid",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-02/lyte-closes-165-million-round-bringing-ai-startup-s-valuation-to-1-6-billion",
-      "title": "Lyte raises $165M, tripling valuation to $1.6B for AI robotics",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "dell-fiscal-q2-2027-ai-server-revenue",
-      "url": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html",
-      "title": "Dell posts $46.97B quarter, lifts AI-server outlook to $74B",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "california-26-ai-social-media-bills-newsom",
-      "url": "https://www.nbcnews.com/politics/politics-news/california-democrats-pass-20-bills-curtail-ai-social-media-rcna595536",
-      "title": "California legislature passes 26 AI and social-media bills",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "google-pics-ai-prompt-image-canva-competitor",
-      "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
-      "title": "Google launches 'Pics,' a prompt-first answer to Canva",
-      "date_first_run": "2026-09-02"
-    },
-    {
-      "id": "nvidia-acquires-hugging-face-12-9b",
-      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-      "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
-      "date_first_run": "2026-09-04"
-    },
-    {
-      "id": "lenovo-thinkbook-snapdragon-x2-plus-ifa2026",
-      "url": "https://www.ubergizmo.com/2026/09/lenovo-thinkbook-14-gen-9-adds-snapdragon-x2-plus-with-an-80-tops-npu-and-26-hour-battery-claim/",
-      "title": "Lenovo ThinkBook 14 Gen 9 adds Snapdragon X2 Plus with 80-TOPS NPU at IFA 2026",
-      "date_first_run": "2026-09-04"
-    },
-    {
-      "id": "alibaba-qwen38-max-0902-codearena",
-      "url": "https://technode.com/2026/09/02/alibaba-upgrades-qwen38-max-with-new-0902-snapshot/",
-      "title": "Alibaba upgrades Qwen3.8-Max with a new 0902 snapshot",
-      "date_first_run": "2026-09-04"
-    },
-    {
-      "id": "doj-openai-fair-use-nyt-statement-of-interest",
-      "url": "https://news.bloomberglaw.com/ip-law/trump-administration-backs-openai-in-ny-times-copyright-suit",
-      "title": "DOJ backs OpenAI's fair-use defense in NYT copyright case",
-      "date_first_run": "2026-09-04"
-    },
-    {
-      "id": "crowdstrike-safemind-red-tempest-blue-solano",
-      "url": "https://siliconangle.com/2026/09/01/crowdstrike-builds-security-frontier-models-with-nvidia-and-opens-an-ai-lab/",
-      "title": "CrowdStrike debuts SafeMind, pairing Red Tempest with Blue Solano",
-      "date_first_run": "2026-09-04"
-    },
-    {
-      "id": "google-mrbeast-gemini-fitbit-deal",
-      "url": "https://9to5google.com/2026/09/02/google-mrbeast-fitbit-air-gemini-deal/",
-      "title": "Google signs MrBeast to multiyear Gemini and Fitbit deal",
-      "date_first_run": "2026-09-04"
-    },
-    {
-      "id": "uber-driver-unions-robotaxi-quota",
-      "url": "https://gizmodo.com/uber-fearing-getting-ubered-finally-sides-with-driver-unions-2000806928",
-      "title": "Uber sides with driver unions to slow robotaxi rollout",
-      "date_first_run": "2026-09-04"
-    },
-    {
-      "id": "anker-eufy-mindbase-local-ai-hub-ifa2026",
-      "url": "https://www.androidauthority.com/anker-mindbase-ai-smart-home-hub-3702979/",
-      "title": "Anker Eufy MindBase, a local AI home hub, debuts at IFA 2026",
-      "date_first_run": "2026-09-04"
-    },
-    {
-      "id": "meta-drops-ai-usage-reviews-hatch-agent",
-      "url": "https://www.digitaltrends.com/cool-tech/meta-is-changing-how-it-judges-employees-after-an-unusual-ai-experiment/",
-      "title": "Meta drops AI-usage performance reviews, pushes Hatch agent",
-      "date_first_run": "2026-09-04"
-    },
-    {
-      "id": "openai-gpt-6-astra-release",
-      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-      "title": "OpenAI releases GPT-6 Astra",
-      "date_first_run": "2026-09-06"
-    },
-    {
-      "id": "anthropic-claude-fermat-last-theorem-lean",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "title": "Claude formalizes Fermat's Last Theorem in Lean",
-      "date_first_run": "2026-09-06"
-    },
-    {
-      "id": "anthropic-2t-ipo-prospectus-labor-day",
-      "url": "https://www.fool.com/investing/2026/09/03/anthropic-planning-unveil-ipo-details-labor-day/",
-      "title": "Anthropic to unveil IPO prospectus after Labor Day",
-      "date_first_run": "2026-09-06"
-    },
-    {
-      "id": "artificial-analysis-intelligence-index-v4-2",
-      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
-      "title": "Artificial Analysis Intelligence Index v4.2",
-      "date_first_run": "2026-09-06"
-    },
-    {
-      "id": "ai-weekly-funding-shield-legora-nexthop",
-      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/",
-      "title": "Weekly AI funding: Shield AI, Legora, Nexthop",
-      "date_first_run": "2026-09-06"
-    },
-    {
-      "id": "anthropic-india-bengaluru-office",
-      "url": "https://seekingalpha.com/news/4552273-anthropic-opens-office-in-india-inks-new-partnerships-across-sectors",
-      "title": "Anthropic opens India office in Bengaluru",
-      "date_first_run": "2026-09-06"
-    },
-    {
-      "id": "qualcomm-snapdragon-summit-2026-teaser",
-      "url": "https://techgenyz.com/qualcomm-snapdragon-summit-2026-agentic-ai/",
-      "title": "Qualcomm teases Snapdragon Summit 2026",
-      "date_first_run": "2026-09-06"
-    },
-    {
-      "id": "qualcomm-snapdragon-price-hike-sept",
-      "url": "https://9to5google.com/2026/07/29/qualcomm-snapdragon-price-hike-september-2026/",
-      "title": "Qualcomm Snapdragon price hikes take effect Sept 1",
-      "date_first_run": "2026-09-06"
-    },
-    {
-      "id": "seattle-times-newsday-sue-openai-microsoft",
-      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "title": "Seattle Times, Newsday sue OpenAI and Microsoft",
-      "date_first_run": "2026-09-06"
-    },
-    {
-      "id": "us-eu-ai-regulation-divergence-g20",
-      "url": "https://www.aljazeera.com/news/2026/9/2/us-pushes-looser-approach-to-ai-regulation-while-eu-pushes-new-law",
-      "title": "US pushes looser AI rules while EU tightens",
-      "date_first_run": "2026-09-06"
-    },
-    {
-      "id": "openai-1200-agents-hugging-face-reports-open-letter",
-      "url": "https://fortune.com/2026/09/01/openais-reports-on-its-ai-agents-attack-on-hugging-face-should-be-ringing-alarm-bellsand-making-all-companies-rethink-how-they-secure-ai-agents/",
-      "title": "Reports detail 1,200 OpenAI agents colluding",
-      "date_first_run": "2026-09-06"
-    }
-  ]
+ "seen": [
+  {
+   "id": "nvidia-poolside-6b-license-1b-invest-talent",
+   "url": "https://www.newcomer.co/",
+   "title": "Nvidia strikes unusual $6B AI licensing deal with coding startup Poolside",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "broadcom-60b-100b-ai-chip-debt-financing-anthropic",
+   "url": "https://www.bloomberg.com/technology",
+   "title": "Broadcom seeks more than $60B in debt for massive AI-chip financing push",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "anthropic-ipo-rival-spacex-2t-65b-revenue-file-august",
+   "url": "https://www.bloomberg.com/technology",
+   "title": "Anthropic eyes an IPO that could rival SpaceX's record-breaking debut",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "nvidia-rebellions-korea-inference-npu-talks",
+   "url": "https://www.bloomberg.com/technology",
+   "title": "Nvidia in early talks with South Korean AI-chip startup Rebellions",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "supermicro-probe-clears-management-2-5b-nvidia-smuggling",
+   "url": "https://fortune.com/section/tech/",
+   "title": "Supermicro probe clears senior management in $2.5B Nvidia chip-smuggling case",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "cambricon-huawei-domestic-ai-accel-56pct-share-2026",
+   "url": "https://www.scmp.com/tech",
+   "title": "Domestic accelerators to reach 56% of China's AI-chip market as Cambricon ramps",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "brazil-444m-ai-huawei-iflytek-supercomputer-sovereign",
+   "url": "https://www.reuters.com/technology/",
+   "title": "Brazil unveils $444M AI push with U.S. and Chinese tech partners",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "judge-overturns-ding-google-ai-economic-espionage-convictions",
+   "url": "https://www.reuters.com/legal/",
+   "title": "Judge overturns part of ex-Google engineer's AI trade-secrets conviction",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "apple-music-ai-generated-song-labels-transparency",
+   "url": "https://www.billboard.com/business/",
+   "title": "Apple Music will label songs materially generated using AI",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "tesla-nevada-5000-robotaxis-las-vegas-waymo-uber",
+   "url": "https://techcrunch.com/",
+   "title": "Tesla gets Nevada approval for up to 5,000 robotaxis as Las Vegas race intensifies",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "new-york-surpasses-bay-area-tech-talent-ai-hiring-cbre",
+   "url": "https://www.cnbc.com/technology/",
+   "title": "New York surpasses Bay Area as top U.S. tech-talent market on AI hiring",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "google-gemma-open-models-1b-downloads-milestone",
+   "url": "https://blog.google/technology/developers/",
+   "title": "Google's open Gemma models surpass 1 billion downloads",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "openai-chatgpt-apple-messages-macos-agentic-integration",
+   "url": "https://9to5mac.com/",
+   "title": "OpenAI brings ChatGPT into Apple Messages on the Mac",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "google-preferred-sources-button-publishers-ai-search",
+   "url": "https://www.searchenginejournal.com/",
+   "title": "Google gives publishers a new 'Preferred Sources' button as AI reshapes search",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "astromech-20m-george-church-predictive-biology-ai",
+   "url": "https://venturebeat.com/",
+   "title": "Astromech raises $20M to build AI that predicts biological change",
+   "date_first_run": "2026-08-22"
+  },
+  {
+   "id": "inherent-faraday-27b-outperforms-frontier-research-replication",
+   "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+   "title": "Inherent's 27B 'Faraday' Agent Beats Claude Opus 4.8 and GPT-5.5 at Replicating Research",
+   "date_first_run": "2026-08-23"
+  },
+  {
+   "id": "nvidia-linear-math-replaces-model-handoffs",
+   "url": "https://venturebeat.com/ai/nvidia-finds-that-simple-linear-math-can-replace-costly-ai-model-handoffs/",
+   "title": "Nvidia: Simple Linear Math Can Replace Costly AI Model Handoffs",
+   "date_first_run": "2026-08-23"
+  },
+  {
+   "id": "rillet-100m-series-c-unicorn-48-hours-accounting",
+   "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
+   "title": "AI Accounting Startup Rillet Becomes a Unicorn in 48 Hours",
+   "date_first_run": "2026-08-23"
+  },
+  {
+   "id": "starcloud-250m-orbital-data-centers-nvidia-cisco",
+   "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+   "title": "Starcloud Raises $250M for Orbital AI Data Centers; Nvidia, Cisco Invest",
+   "date_first_run": "2026-08-23"
+  },
+  {
+   "id": "experian-credit-scores-chatgpt-uk-first",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/experian-lets-uk-consumers-check-credit-through-chatgpt/",
+   "title": "Experian Brings Personalised Credit Scores Into ChatGPT \u2014 a UK First",
+   "date_first_run": "2026-08-23"
+  },
+  {
+   "id": "aws-bedrock-cross-region-inference-gpt-5-6",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+   "title": "AWS Adds Cross-Region Inference for OpenAI's GPT-5.6 on Bedrock",
+   "date_first_run": "2026-08-23"
+  },
+  {
+   "id": "adobe-firefly-three-ai-audio-tools",
+   "url": "https://www.techradar.com/pro/adobe-firefly-just-added-3-ai-audio-tools-for-creators-and-marketers-i-tested-them-all-to-see-if-theyre-any-good",
+   "title": "Adobe Firefly Adds Three AI Audio Tools for Creators and Marketers",
+   "date_first_run": "2026-08-23"
+  },
+  {
+   "id": "youtube-creators-higgsfield-ai-money-backlash",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+   "title": "YouTube Creators Face Backlash Over Undisclosed Higgsfield AI Promotions",
+   "date_first_run": "2026-08-23"
+  },
+  {
+   "id": "openai-gpt-image-2-transparent-background",
+   "url": "https://m.ithome.com/html/992722.htm",
+   "title": "OpenAI's GPT-Image-2 Can Now Generate Images With No Background",
+   "date_first_run": "2026-08-23"
+  },
+  {
+   "id": "openai-terminates-cursor-spacex",
+   "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+   "title": "OpenAI to cut off Cursor after SpaceX acquisition, ending model access Nov 12",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "judge-blocks-pentagon-anthropic-ban",
+   "url": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
+   "title": "Federal judge blocks Pentagon's blacklisting of Anthropic as 'illegal and baseless'",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "a16z-machine-age-fund-1-1b",
+   "url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
+   "title": "a16z raises $1.1B 'Machine Age' fund to bankroll AI's physical buildout",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "anthropic-infostealer-claude-sessions",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+   "title": "Anthropic signs out Claude users after infostealer malware hijacks login sessions",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "vietnam-qualcomm-samsung-ai-investment",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/08/28/vietnam-urges-qualcomm-samsung-to-deepen-ai-chip-investment-as-it-seeks-tech-upgrade",
+   "title": "Vietnam urges Qualcomm and Samsung to deepen AI, chip and data-center investment",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "marvell-google-120b-fiscal-2029",
+   "url": "https://247wallst.com/investing/2026/08/28/marvell-falls-7-as-google-ai-payoff-lands-in-fiscal-2029-intel-slips-nvidia-barely-budges/",
+   "title": "Marvell drops ~7% as Google's $120B custom-chip payoff lands in fiscal 2029",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "cerebras-cs6-wafer-scale-3d-dram",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/hot-chips-2026-cerebras-lays-out-the-future-of-wafer-scale-ai-nexus-system-architecture-triples-rack-scale-performance-cs-6-wafer-to-incorporate-stacked-dram",
+   "title": "Cerebras details CS-6 wafer-scale chip with 3D-stacked DRAM at Hot Chips",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "trump-semiconductor-tariffs-servers-laptops",
+   "url": "https://www.theguardian.com/technology/2026/aug/28/trump-semiconductor-tariffs",
+   "title": "Trump team weighs sweeping chip tariffs that could reach servers and laptops",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "caterpillar-ai-deployment-mining",
+   "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+   "title": "Caterpillar ports its mining-automation playbook into a company-wide AI rollout",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "meta-smart-glasses-recording-loophole-fix",
+   "url": "https://www.theverge.com/tech/985851/meta-privacy-loophole-fix-marketing-campaign",
+   "title": "Meta patches smart-glasses recording loophole amid AI-wearable privacy backlash",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "industry-cyber-defense-open-letter",
+   "url": "https://techcrunch.com/2026/08/27/ai-cyber-defense-open-letter/",
+   "title": "OpenAI, Anthropic, Google, Microsoft and 100+ firms call for joint defense against AI cyberattacks",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "huggingface-microduck-open-robot",
+   "url": "https://techcrunch.com/2026/08/28/hugging-face-microduck-open-source-robot/",
+   "title": "Hugging Face launches $399 open-source 'Microduck' robot for physical AI",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "alibaba-cloud-brazil-data-centers",
+   "url": "https://www.scmp.com/tech/big-tech/article/alibaba-cloud-brazil-data-centers",
+   "title": "Alibaba Cloud opens two Brazil data centers, extending China's AI-cloud push into Latin America",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "china-commercial-bci-implant",
+   "url": "https://www.scmp.com/tech/big-tech/article/china-bci-commercial-implant",
+   "title": "China moves brain-computer interfaces toward commercial use after landmark implant",
+   "date_first_run": "2026-08-31"
+  },
+  {
+   "id": "eu-chatgpt-vlose-dsa-designation-first-ai-chatbot",
+   "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/08/31/chatgpt-becomes-first-ai-chatbot-to-face-tougher-eu-rules/",
+   "title": "EU Designates ChatGPT a &lsquo;Very Large Online Search Engine&rsquo; &mdash; the First AI Chatbot Under the DSA&rsquo;s Toughest Tier",
+   "date_first_run": "2026-09-01"
+  },
+  {
+   "id": "pentagon-genai-mil-chatgpt-grok-added-claude-absent",
+   "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+   "title": "Pentagon Wires ChatGPT and Grok Into GenAI.mil for 3M Personnel &mdash; Claude Still Absent After Its Court Win",
+   "date_first_run": "2026-09-01"
+  },
+  {
+   "id": "openai-chatgpt-ads-1b-run-rate-global-selfserve",
+   "url": "https://digiday.com/media-buying/openais-chatgpt-ads-business-hits-1-billion-run-rate-as-europe-gets-self-serve-access/",
+   "title": "OpenAI Says ChatGPT Ads Hit a $1B Annualized Run Rate in Under 200 Days",
+   "date_first_run": "2026-09-01"
+  },
+  {
+   "id": "salesforce-anthropic-claudeforce-claude-default-agentforce-slack",
+   "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+   "title": "Salesforce and Anthropic Launch &lsquo;Claudeforce,&rsquo; Making Claude the Default Reasoning Engine Across the Stack",
+   "date_first_run": "2026-09-01"
+  },
+  {
+   "id": "microsoft-humain-ai-pc-copilot-bundle-leap-2026",
+   "url": "https://www.prnewswire.com/news-releases/microsoft-and-humain-expand-strategic-collaboration-at-leap-2026-with-new-enterprise-ai-offering-and-ai-pc-302865157.html",
+   "title": "Microsoft and HUMAIN Unveil an AI PC and a Copilot Bundle Targeting 1M Enterprise Users at LEAP 2026",
+   "date_first_run": "2026-09-01"
+  },
+  {
+   "id": "x-takes-down-200k-china-linked-bots-anti-data-center",
+   "url": "https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/",
+   "title": "X Takes Down a ~200,000-Account China-Linked Bot Farm Pushing Anti&ndash;Data-Center Content",
+   "date_first_run": "2026-09-01"
+  },
+  {
+   "id": "openai-astra-critical-cyber-preparedness-threshold",
+   "url": "https://openai.com/index/path-to-astra/",
+   "title": "OpenAI's Astra becomes the first model rated 'Critical' for cyber",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "anthropic-claude-fable-5-1-mythos-5-1-release",
+   "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+   "title": "Anthropic ships Claude Fable 5.1 and Mythos 5.1 \u2014 cheaper, stronger on agentic work",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "anthropic-lambda-35b-nvidia-cloud-deal-hut8",
+   "url": "https://www.wsj.com/tech/ai/anthropic-signs-35-billion-cloud-deal-backed-by-nvidia-f12622f1",
+   "title": "Anthropic signs reported $35B cloud deal for Nvidia capacity",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "google-gemini-3-8-flash-skimaki-coding",
+   "url": "https://www.wsj.com/tech/ai/new-google-ai-model-said-to-narrow-gap-on-coding-ability-264c6052",
+   "title": "Google readies Gemini 3.8 Flash, said to narrow the coding gap on Anthropic",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "google-gemini-agentic-video-multimodal",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
+   "title": "Google adds 'Agentic Video' to Gemini \u2014 goal-directed video inspection",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "meta-muse-voice-transcribe-streaming-asr",
+   "url": "https://research.meta.ai/blog/introducing-muse-voice-transcribe",
+   "title": "Meta releases Muse Voice Transcribe, a streaming speech-to-text model",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "cognition-1b-raise-47b-valuation-coding-agent",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-02/ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-billion-value",
+   "title": "Cognition set to raise ~$1B at a $47B valuation",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "adobe-humain-saudi-4b-firefly-sovereign",
+   "url": "https://www.arabnews.com/media/adobe-to-offer-free-access-to-ai-tools-in-saudi-arabia-in-4-billion-deal-2656465",
+   "title": "Adobe strikes $4B-plus Saudi deal to give citizens free Firefly access",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "sb-energy-ipo-sbe-openai-dependent",
+   "url": "https://www.cnbc.com/2026/09/01/sb-energy-ipo-softbank-open-ai-nvidia.html",
+   "title": "SoftBank's SB Energy files to IPO as an AI power-and-campus builder",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "air-security-50m-ai-agent-firewall",
+   "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+   "title": "AIR raises $50M to vet the skills and add-ons AI agents use",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "lyte-165m-raise-1-6b-robotics-apple-faceid",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-02/lyte-closes-165-million-round-bringing-ai-startup-s-valuation-to-1-6-billion",
+   "title": "Lyte raises $165M, tripling valuation to $1.6B for AI robotics",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "dell-fiscal-q2-2027-ai-server-revenue",
+   "url": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html",
+   "title": "Dell posts $46.97B quarter, lifts AI-server outlook to $74B",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "california-26-ai-social-media-bills-newsom",
+   "url": "https://www.nbcnews.com/politics/politics-news/california-democrats-pass-20-bills-curtail-ai-social-media-rcna595536",
+   "title": "California legislature passes 26 AI and social-media bills",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "google-pics-ai-prompt-image-canva-competitor",
+   "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+   "title": "Google launches 'Pics,' a prompt-first answer to Canva",
+   "date_first_run": "2026-09-02"
+  },
+  {
+   "id": "nvidia-acquires-hugging-face-12-9b",
+   "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+   "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+   "date_first_run": "2026-09-04"
+  },
+  {
+   "id": "lenovo-thinkbook-snapdragon-x2-plus-ifa2026",
+   "url": "https://www.ubergizmo.com/2026/09/lenovo-thinkbook-14-gen-9-adds-snapdragon-x2-plus-with-an-80-tops-npu-and-26-hour-battery-claim/",
+   "title": "Lenovo ThinkBook 14 Gen 9 adds Snapdragon X2 Plus with 80-TOPS NPU at IFA 2026",
+   "date_first_run": "2026-09-04"
+  },
+  {
+   "id": "alibaba-qwen38-max-0902-codearena",
+   "url": "https://technode.com/2026/09/02/alibaba-upgrades-qwen38-max-with-new-0902-snapshot/",
+   "title": "Alibaba upgrades Qwen3.8-Max with a new 0902 snapshot",
+   "date_first_run": "2026-09-04"
+  },
+  {
+   "id": "doj-openai-fair-use-nyt-statement-of-interest",
+   "url": "https://news.bloomberglaw.com/ip-law/trump-administration-backs-openai-in-ny-times-copyright-suit",
+   "title": "DOJ backs OpenAI's fair-use defense in NYT copyright case",
+   "date_first_run": "2026-09-04"
+  },
+  {
+   "id": "crowdstrike-safemind-red-tempest-blue-solano",
+   "url": "https://siliconangle.com/2026/09/01/crowdstrike-builds-security-frontier-models-with-nvidia-and-opens-an-ai-lab/",
+   "title": "CrowdStrike debuts SafeMind, pairing Red Tempest with Blue Solano",
+   "date_first_run": "2026-09-04"
+  },
+  {
+   "id": "google-mrbeast-gemini-fitbit-deal",
+   "url": "https://9to5google.com/2026/09/02/google-mrbeast-fitbit-air-gemini-deal/",
+   "title": "Google signs MrBeast to multiyear Gemini and Fitbit deal",
+   "date_first_run": "2026-09-04"
+  },
+  {
+   "id": "uber-driver-unions-robotaxi-quota",
+   "url": "https://gizmodo.com/uber-fearing-getting-ubered-finally-sides-with-driver-unions-2000806928",
+   "title": "Uber sides with driver unions to slow robotaxi rollout",
+   "date_first_run": "2026-09-04"
+  },
+  {
+   "id": "anker-eufy-mindbase-local-ai-hub-ifa2026",
+   "url": "https://www.androidauthority.com/anker-mindbase-ai-smart-home-hub-3702979/",
+   "title": "Anker Eufy MindBase, a local AI home hub, debuts at IFA 2026",
+   "date_first_run": "2026-09-04"
+  },
+  {
+   "id": "meta-drops-ai-usage-reviews-hatch-agent",
+   "url": "https://www.digitaltrends.com/cool-tech/meta-is-changing-how-it-judges-employees-after-an-unusual-ai-experiment/",
+   "title": "Meta drops AI-usage performance reviews, pushes Hatch agent",
+   "date_first_run": "2026-09-04"
+  },
+  {
+   "id": "openai-gpt-6-astra-release",
+   "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+   "title": "OpenAI releases GPT-6 Astra",
+   "date_first_run": "2026-09-06"
+  },
+  {
+   "id": "anthropic-claude-fermat-last-theorem-lean",
+   "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+   "title": "Claude formalizes Fermat's Last Theorem in Lean",
+   "date_first_run": "2026-09-06"
+  },
+  {
+   "id": "anthropic-2t-ipo-prospectus-labor-day",
+   "url": "https://www.fool.com/investing/2026/09/03/anthropic-planning-unveil-ipo-details-labor-day/",
+   "title": "Anthropic to unveil IPO prospectus after Labor Day",
+   "date_first_run": "2026-09-06"
+  },
+  {
+   "id": "artificial-analysis-intelligence-index-v4-2",
+   "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
+   "title": "Artificial Analysis Intelligence Index v4.2",
+   "date_first_run": "2026-09-06"
+  },
+  {
+   "id": "ai-weekly-funding-shield-legora-nexthop",
+   "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/",
+   "title": "Weekly AI funding: Shield AI, Legora, Nexthop",
+   "date_first_run": "2026-09-06"
+  },
+  {
+   "id": "anthropic-india-bengaluru-office",
+   "url": "https://seekingalpha.com/news/4552273-anthropic-opens-office-in-india-inks-new-partnerships-across-sectors",
+   "title": "Anthropic opens India office in Bengaluru",
+   "date_first_run": "2026-09-06"
+  },
+  {
+   "id": "qualcomm-snapdragon-summit-2026-teaser",
+   "url": "https://techgenyz.com/qualcomm-snapdragon-summit-2026-agentic-ai/",
+   "title": "Qualcomm teases Snapdragon Summit 2026",
+   "date_first_run": "2026-09-06"
+  },
+  {
+   "id": "qualcomm-snapdragon-price-hike-sept",
+   "url": "https://9to5google.com/2026/07/29/qualcomm-snapdragon-price-hike-september-2026/",
+   "title": "Qualcomm Snapdragon price hikes take effect Sept 1",
+   "date_first_run": "2026-09-06"
+  },
+  {
+   "id": "seattle-times-newsday-sue-openai-microsoft",
+   "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+   "title": "Seattle Times, Newsday sue OpenAI and Microsoft",
+   "date_first_run": "2026-09-06"
+  },
+  {
+   "id": "us-eu-ai-regulation-divergence-g20",
+   "url": "https://www.aljazeera.com/news/2026/9/2/us-pushes-looser-approach-to-ai-regulation-while-eu-pushes-new-law",
+   "title": "US pushes looser AI rules while EU tightens",
+   "date_first_run": "2026-09-06"
+  },
+  {
+   "id": "openai-1200-agents-hugging-face-reports-open-letter",
+   "url": "https://fortune.com/2026/09/01/openais-reports-on-its-ai-agents-attack-on-hugging-face-should-be-ringing-alarm-bellsand-making-all-companies-rethink-how-they-secure-ai-agents/",
+   "title": "Reports detail 1,200 OpenAI agents colluding",
+   "date_first_run": "2026-09-06"
+  },
+  {
+   "id": "soundhound-completes-liveperson-acquisition",
+   "url": "https://finance.yahoo.com/technology/ai/articles/soundhound-ai-completes-acquisition-liveperson-132600164.html",
+   "title": "SoundHound closes LivePerson deal to build a voice-plus-messaging AI powerhouse",
+   "date_first_run": "2026-09-07"
+  }
+ ]
 }
