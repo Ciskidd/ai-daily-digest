@@ -473,6 +473,54 @@
    "url": "https://finance.yahoo.com/technology/ai/articles/soundhound-ai-completes-acquisition-liveperson-132600164.html",
    "title": "SoundHound closes LivePerson deal to build a voice-plus-messaging AI powerhouse",
    "date_first_run": "2026-09-07"
+  },
+  {
+   "id": "https://www.scmp.com/tech/policy/article/3366733/china-targets-fourfold-boost-ai-computing-capacity-2030-major-tech-push china-miit-9800-eflops-2030-compute-plan",
+   "url": "https://www.scmp.com/tech/policy/article/3366733/china-targets-fourfold-boost-ai-computing-capacity-2030-major-tech-push",
+   "title": "China MIIT 9,800 EFLOPS 2030 plan",
+   "date_first_run": "2026-09-08"
+  },
+  {
+   "id": "https://pytorch.org/blog/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ai-stack-at-pytorch-conference-china/ alibaba-cambricon-pytorch-foundation-platinum",
+   "url": "https://pytorch.org/blog/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ai-stack-at-pytorch-conference-china/",
+   "title": "Alibaba Cloud & Cambricon join PyTorch Foundation",
+   "date_first_run": "2026-09-08"
+  },
+  {
+   "id": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/ crusoe-3b-raise-30b-valuation-jane-street",
+   "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+   "title": "Crusoe raises $3B at $30B",
+   "date_first_run": "2026-09-08"
+  },
+  {
+   "id": "https://www.fool.com/investing/2026/09/05/cerebras-has-a-usd25-4-billion-backlog-and-one-openai-agreement-is-behind-much-of-it/ cerebras-25-4b-backlog-openai-finland-165mw",
+   "url": "https://www.fool.com/investing/2026/09/05/cerebras-has-a-usd25-4-billion-backlog-and-one-openai-agreement-is-behind-much-of-it/",
+   "title": "Cerebras $25.4B backlog + Finland 165MW",
+   "date_first_run": "2026-09-08"
+  },
+  {
+   "id": "https://bits-chips.com/article/tsmc-raises-2026-capex-to-as-much-as-64b/ tsmc-2026-capex-raised-60-64b",
+   "url": "https://bits-chips.com/article/tsmc-raises-2026-capex-to-as-much-as-64b/",
+   "title": "TSMC raises 2026 capex to $64B",
+   "date_first_run": "2026-09-08"
+  },
+  {
+   "id": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en eurohpc-lumi-ai-supercomputer-amd-mi430x",
+   "url": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en",
+   "title": "EuroHPC LUMI-AI AMD MI430X",
+   "date_first_run": "2026-09-08"
+  },
+  {
+   "id": "https://www.techpowerup.com/352285/cxmt-captures-10-of-the-global-dram-market-revenue-share cxmt-10pct-dram-share-hbm3e-lpddr6",
+   "url": "https://www.techpowerup.com/352285/cxmt-captures-10-of-the-global-dram-market-revenue-share?type=News",
+   "title": "CXMT 10% DRAM share, HBM3E, LPDDR6",
+   "date_first_run": "2026-09-08"
+  },
+  {
+   "id": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html ai-model-fatigue-frenetic-release-pace",
+   "url": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
+   "title": "AI model fatigue frenetic release pace",
+   "date_first_run": "2026-09-08"
   }
  ]
 }
