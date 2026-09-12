@@ -117,7 +117,7 @@
     {
       "id": "experian-credit-scores-chatgpt-uk-first",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/experian-lets-uk-consumers-check-credit-through-chatgpt/",
-      "title": "Experian Brings Personalised Credit Scores Into ChatGPT — a UK First",
+      "title": "Experian Brings Personalised Credit Scores Into ChatGPT \u2014 a UK First",
       "date_first_run": "2026-08-23"
     },
     {
@@ -273,7 +273,7 @@
     {
       "id": "anthropic-claude-fable-5-1-mythos-5-1-release",
       "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "title": "Anthropic ships Claude Fable 5.1 and Mythos 5.1 — cheaper, stronger on agentic work",
+      "title": "Anthropic ships Claude Fable 5.1 and Mythos 5.1 \u2014 cheaper, stronger on agentic work",
       "date_first_run": "2026-09-02"
     },
     {
@@ -291,7 +291,7 @@
     {
       "id": "google-gemini-agentic-video-multimodal",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
-      "title": "Google adds 'Agentic Video' to Gemini — goal-directed video inspection",
+      "title": "Google adds 'Agentic Video' to Gemini \u2014 goal-directed video inspection",
       "date_first_run": "2026-09-02"
     },
     {
@@ -523,52 +523,58 @@
       "date_first_run": "2026-09-08"
     },
     {
-      "id": "anthropic-threat-intelligence-report-sept-2026",
-      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-      "title": "Anthropic Sept 2026 threat intelligence report (GTG-20006, AI malware)",
-      "date_first_run": "2026-09-11"
+      "id": "openai-altman-open-to-slowing-frontier-ai",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff",
+      "title": "Altman tells OpenAI staff it's open to slowing cutting-edge AI",
+      "date_first_run": "2026-09-12"
     },
     {
-      "id": "openai-chatgpt-financial-services-launch",
-      "url": "https://qz.com/openai-chatgpt-financial-services-junior-bankers-091026",
-      "title": "OpenAI launches ChatGPT for Financial Services",
-      "date_first_run": "2026-09-11"
+      "id": "anthropic-distillation-alibaba-moonshot-deepseek-claude",
+      "url": "https://www.cnbc.com/2026/09/11/chinese-ai-labs-moonshot-deepseek-alibaba-anthropic.html",
+      "title": "Anthropic accuses Alibaba, Moonshot, DeepSeek of illicit distillation of Claude",
+      "date_first_run": "2026-09-12"
     },
     {
-      "id": "deepseek-v4-1-flash-release",
-      "url": "https://www.intelligentliving.co/deepseek-v41-flash-pricing-release/",
-      "title": "DeepSeek V4.1 Flash open-weight release, price cuts",
-      "date_first_run": "2026-09-11"
+      "id": "apple-a20-pro-32-core-neural-engine-iphone-18-pro",
+      "url": "https://www.macrumors.com/2026/09/09/apple-event-live-blog-september-2026/",
+      "title": "Apple A20 Pro doubles Neural Engine to 32 cores in iPhone 18 Pro",
+      "date_first_run": "2026-09-12"
     },
     {
-      "id": "openai-agents-api-public-beta",
-      "url": "https://openai.com/index/introducing-the-agents-api/",
-      "title": "OpenAI Agents API public beta",
-      "date_first_run": "2026-09-11"
+      "id": "positron-875m-series-c-5b-inference-chips",
+      "url": "https://siliconangle.com/2026/09/10/chipmaker-positron-nabs-875m-to-speed-up-inference-with-consumer-grade-memory/",
+      "title": "Positron raises $875M at $5B for memory-first inference chips",
+      "date_first_run": "2026-09-12"
     },
     {
-      "id": "google-gemini-windows-desktop-app",
-      "url": "https://9to5google.com/2026/09/10/gemini-windows-app/",
-      "title": "Google Gemini desktop app for Windows",
-      "date_first_run": "2026-09-11"
+      "id": "jacob-coxon-resigns-gambling-with-our-lives",
+      "url": "https://time.com/article/2026/09/09/ai-anthropic-openai-jacob-coxon/",
+      "title": "Jacob Coxon quits, warns industry is gambling with our lives",
+      "date_first_run": "2026-09-12"
     },
     {
-      "id": "california-ai-auditor-laws-sb813-ab1405",
-      "url": "https://qz.com/california-ai-independent-audit-laws-newsom-091026",
-      "title": "California enacts first US AI audit laws SB813 AB1405",
-      "date_first_run": "2026-09-11"
+      "id": "california-adams-law-sb1119-chatbot-child-safety",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "title": "Newsom signs Adam's Law SB 1119 AI chatbot child-safety rules",
+      "date_first_run": "2026-09-12"
     },
     {
-      "id": "meta-acquires-stilla-ai",
-      "url": "https://www.axios.com/2026/09/09/meta-acquires-swedish-ai-startup-stillaai",
-      "title": "Meta acquires Stilla.ai for business messaging agent",
-      "date_first_run": "2026-09-11"
+      "id": "openai-agents-api-public-beta-codex-harness",
+      "url": "https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/",
+      "title": "OpenAI opens Agents API public beta Codex harness as a service",
+      "date_first_run": "2026-09-12"
     },
     {
-      "id": "ai-funding-roundup-sept-10-2026",
-      "url": "https://techstartups.com/2026/09/10/startup-funding-news-today-september-10-2026-metacognition-ai-dyu-sinapisai-wyre-ai-more/",
-      "title": "AI funding roundup Sept 10 (Wyre, HeyDiga, Bynario)",
-      "date_first_run": "2026-09-11"
+      "id": "ant-visa-mastercard-know-your-agent-kya-framework",
+      "url": "https://www.pymnts.com/cybersecurity/2026/visa-mastercard-team-with-ant-know-your-agent-framework",
+      "title": "Ant International, Visa, Mastercard align on Know-Your-Agent standard",
+      "date_first_run": "2026-09-12"
+    },
+    {
+      "id": "ayar-labs-150m-cpo-650m-2026",
+      "url": "https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
+      "title": "Ayar Labs adds $150M for co-packaged optics, $650M 2026",
+      "date_first_run": "2026-09-12"
     }
   ]
 }
