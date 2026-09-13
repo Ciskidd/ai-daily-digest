@@ -1,96 +1,6 @@
 {
   "seen": [
     {
-      "id": "nvidia-poolside-6b-license-1b-invest-talent",
-      "url": "https://www.newcomer.co/",
-      "title": "Nvidia strikes unusual $6B AI licensing deal with coding startup Poolside",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "broadcom-60b-100b-ai-chip-debt-financing-anthropic",
-      "url": "https://www.bloomberg.com/technology",
-      "title": "Broadcom seeks more than $60B in debt for massive AI-chip financing push",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "anthropic-ipo-rival-spacex-2t-65b-revenue-file-august",
-      "url": "https://www.bloomberg.com/technology",
-      "title": "Anthropic eyes an IPO that could rival SpaceX's record-breaking debut",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "nvidia-rebellions-korea-inference-npu-talks",
-      "url": "https://www.bloomberg.com/technology",
-      "title": "Nvidia in early talks with South Korean AI-chip startup Rebellions",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "supermicro-probe-clears-management-2-5b-nvidia-smuggling",
-      "url": "https://fortune.com/section/tech/",
-      "title": "Supermicro probe clears senior management in $2.5B Nvidia chip-smuggling case",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "cambricon-huawei-domestic-ai-accel-56pct-share-2026",
-      "url": "https://www.scmp.com/tech",
-      "title": "Domestic accelerators to reach 56% of China's AI-chip market as Cambricon ramps",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "brazil-444m-ai-huawei-iflytek-supercomputer-sovereign",
-      "url": "https://www.reuters.com/technology/",
-      "title": "Brazil unveils $444M AI push with U.S. and Chinese tech partners",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "judge-overturns-ding-google-ai-economic-espionage-convictions",
-      "url": "https://www.reuters.com/legal/",
-      "title": "Judge overturns part of ex-Google engineer's AI trade-secrets conviction",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "apple-music-ai-generated-song-labels-transparency",
-      "url": "https://www.billboard.com/business/",
-      "title": "Apple Music will label songs materially generated using AI",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "tesla-nevada-5000-robotaxis-las-vegas-waymo-uber",
-      "url": "https://techcrunch.com/",
-      "title": "Tesla gets Nevada approval for up to 5,000 robotaxis as Las Vegas race intensifies",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "new-york-surpasses-bay-area-tech-talent-ai-hiring-cbre",
-      "url": "https://www.cnbc.com/technology/",
-      "title": "New York surpasses Bay Area as top U.S. tech-talent market on AI hiring",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "google-gemma-open-models-1b-downloads-milestone",
-      "url": "https://blog.google/technology/developers/",
-      "title": "Google's open Gemma models surpass 1 billion downloads",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "openai-chatgpt-apple-messages-macos-agentic-integration",
-      "url": "https://9to5mac.com/",
-      "title": "OpenAI brings ChatGPT into Apple Messages on the Mac",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "google-preferred-sources-button-publishers-ai-search",
-      "url": "https://www.searchenginejournal.com/",
-      "title": "Google gives publishers a new 'Preferred Sources' button as AI reshapes search",
-      "date_first_run": "2026-08-22"
-    },
-    {
-      "id": "astromech-20m-george-church-predictive-biology-ai",
-      "url": "https://venturebeat.com/",
-      "title": "Astromech raises $20M to build AI that predicts biological change",
-      "date_first_run": "2026-08-22"
-    },
-    {
       "id": "inherent-faraday-27b-outperforms-frontier-research-replication",
       "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
       "title": "Inherent's 27B 'Faraday' Agent Beats Claude Opus 4.8 and GPT-5.5 at Replicating Research",
@@ -575,6 +485,42 @@
       "url": "https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
       "title": "Ayar Labs adds $150M for co-packaged optics, $650M 2026",
       "date_first_run": "2026-09-12"
+    },
+    {
+      "id": "anthropic-uae-linked-claude-influence-op-report",
+      "url": "https://www.al-monitor.com/originals/2026/09/anthropic-says-uae-linked-ai-op-targeted-un-experts-over-sudan",
+      "title": "Anthropic disrupts UAE-linked influence op on Claude",
+      "date_first_run": "2026-09-13"
+    },
+    {
+      "id": "greynoise-papercut-ai-agents-440-instances",
+      "url": "https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
+      "title": "AI agents run PaperCut intrusion campaign, 440 instances",
+      "date_first_run": "2026-09-13"
+    },
+    {
+      "id": "fields-medalists-open-letter-ai-brute-force-math",
+      "url": "https://terrytao.wordpress.com/2026/09/12/after-math/",
+      "title": "25 Fields medalists open letter vs AI brute-force math",
+      "date_first_run": "2026-09-13"
+    },
+    {
+      "id": "anthropic-joe-benton-resigns-metr-safety",
+      "url": "https://www.freepressjournal.in/world/joe-benton-quits-anthropic-safety-team-warns-ai-race-could-pose-extinction-level-risks",
+      "title": "Joe Benton resigns Anthropic, joins METR",
+      "date_first_run": "2026-09-13"
+    },
+    {
+      "id": "moonshot-kimi-k2-8-preview-launch",
+      "url": "https://www.kucoin.com/news/flash/moonshot-kimi-k2-8-preview-model-fully-launched-performance-near-k3",
+      "title": "Moonshot Kimi K2.8 Preview launch",
+      "date_first_run": "2026-09-13"
+    },
+    {
+      "id": "openai-navier-stokes-millennium-solution",
+      "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+      "title": "OpenAI Navier-Stokes millennium solution claim",
+      "date_first_run": "2026-09-13"
     }
   ]
 }
