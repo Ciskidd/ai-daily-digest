@@ -1,60 +1,6 @@
 {
   "seen": [
     {
-      "id": "inherent-faraday-27b-outperforms-frontier-research-replication",
-      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "title": "Inherent's 27B 'Faraday' Agent Beats Claude Opus 4.8 and GPT-5.5 at Replicating Research",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "nvidia-linear-math-replaces-model-handoffs",
-      "url": "https://venturebeat.com/ai/nvidia-finds-that-simple-linear-math-can-replace-costly-ai-model-handoffs/",
-      "title": "Nvidia: Simple Linear Math Can Replace Costly AI Model Handoffs",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "rillet-100m-series-c-unicorn-48-hours-accounting",
-      "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
-      "title": "AI Accounting Startup Rillet Becomes a Unicorn in 48 Hours",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "starcloud-250m-orbital-data-centers-nvidia-cisco",
-      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
-      "title": "Starcloud Raises $250M for Orbital AI Data Centers; Nvidia, Cisco Invest",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "experian-credit-scores-chatgpt-uk-first",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/experian-lets-uk-consumers-check-credit-through-chatgpt/",
-      "title": "Experian Brings Personalised Credit Scores Into ChatGPT \u2014 a UK First",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "aws-bedrock-cross-region-inference-gpt-5-6",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
-      "title": "AWS Adds Cross-Region Inference for OpenAI's GPT-5.6 on Bedrock",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "adobe-firefly-three-ai-audio-tools",
-      "url": "https://www.techradar.com/pro/adobe-firefly-just-added-3-ai-audio-tools-for-creators-and-marketers-i-tested-them-all-to-see-if-theyre-any-good",
-      "title": "Adobe Firefly Adds Three AI Audio Tools for Creators and Marketers",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "youtube-creators-higgsfield-ai-money-backlash",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-      "title": "YouTube Creators Face Backlash Over Undisclosed Higgsfield AI Promotions",
-      "date_first_run": "2026-08-23"
-    },
-    {
-      "id": "openai-gpt-image-2-transparent-background",
-      "url": "https://m.ithome.com/html/992722.htm",
-      "title": "OpenAI's GPT-Image-2 Can Now Generate Images With No Background",
-      "date_first_run": "2026-08-23"
-    },
-    {
       "id": "openai-terminates-cursor-spacex",
       "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
       "title": "OpenAI to cut off Cursor after SpaceX acquisition, ending model access Nov 12",
@@ -183,7 +129,7 @@
     {
       "id": "anthropic-claude-fable-5-1-mythos-5-1-release",
       "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "title": "Anthropic ships Claude Fable 5.1 and Mythos 5.1 \u2014 cheaper, stronger on agentic work",
+      "title": "Anthropic ships Claude Fable 5.1 and Mythos 5.1 — cheaper, stronger on agentic work",
       "date_first_run": "2026-09-02"
     },
     {
@@ -201,7 +147,7 @@
     {
       "id": "google-gemini-agentic-video-multimodal",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
-      "title": "Google adds 'Agentic Video' to Gemini \u2014 goal-directed video inspection",
+      "title": "Google adds 'Agentic Video' to Gemini — goal-directed video inspection",
       "date_first_run": "2026-09-02"
     },
     {
@@ -521,6 +467,72 @@
       "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
       "title": "OpenAI Navier-Stokes millennium solution claim",
       "date_first_run": "2026-09-13"
+    },
+    {
+      "id": "cyber-ai-models-astra-critical-fairwind-mythos51",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "title": "Top labs cross into a cyber-capability arms race; OpenAI's Astra hits its first “Critical” threshold",
+      "date_first_run": "2026-09-14"
+    },
+    {
+      "id": "openai-gpt-live-1-api-yelp-voice",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "title": "OpenAI opens full-duplex GPT-Live-1 in the API at 5¢/min; Yelp deploys it after a million calls",
+      "date_first_run": "2026-09-14"
+    },
+    {
+      "id": "openai-chatgpt-financial-services-morgan-stanley-evercore",
+      "url": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html",
+      "title": "OpenAI launches ChatGPT for Financial Services, aimed at junior bankers' work",
+      "date_first_run": "2026-09-14"
+    },
+    {
+      "id": "instinct-1b-raise-10b-valuation-compute-crunch",
+      "url": "https://aiweekly.co/alerts/instinct-pursues-new-round-as-compute-crunch-caps-rollout",
+      "title": "Instinct in talks to raise up to $1B at a $10B valuation — to pay for compute",
+      "date_first_run": "2026-09-14"
+    },
+    {
+      "id": "meta-rebuilding-management-applied-ai-flat-org-reversal",
+      "url": "https://fortune.com/2026/09/12/meta-year-of-efficiency-managers-ai-investment/",
+      "title": "Meta quietly rebuilds management ranks in its Applied AI division",
+      "date_first_run": "2026-09-14"
+    },
+    {
+      "id": "qupital-300m-series-c-mufg-abs-ai-risk-engine",
+      "url": "https://www.manilatimes.net/2026/09/14/tmt-newswire/pr-newswire/qupital-raises-300m-in-series-c-led-by-m-capital-and-new-mufg-abs-financing-eyes-overseas-markets-and-ipo/2424128",
+      "title": "Qupital raises $300M to scale its AI credit-risk engine across Asia",
+      "date_first_run": "2026-09-14"
+    },
+    {
+      "id": "samsung-skhynix-dram-inventory-10-days-hbm4-shortage",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond-as-hbm-demand-explodes-customers-already-reserving-supply-years-ahead-while-the-wider-dram-market-begins-to-tighten",
+      "title": "Memory runs dry: Samsung and SK Hynix inventories fall below 10 days as HBM4 starves DRAM",
+      "date_first_run": "2026-09-14"
+    },
+    {
+      "id": "tsmc-august-2026-revenue-533-record-163b",
+      "url": "https://www.cnbc.com/2026/09/10/tsmc-august-revenue-chip-ai.html",
+      "title": "TSMC's August revenue jumps 53.3% to a record ~$16.3B on AI demand",
+      "date_first_run": "2026-09-14"
+    },
+    {
+      "id": "anthropic-sept-threat-report-cyber-incidents-frontier-safeguards",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "title": "Anthropic publishes September threat report, four cyber-incident assessments, and Enterprise Frontier Safeguards",
+      "date_first_run": "2026-09-14"
+    },
+    {
+      "id": "moonshot-kimi-police-report-founder-rumors-distillation",
+      "url": "https://beincrypto.com/kimi-k3-moonshot-police-report-distillation/",
+      "title": "Moonshot files a police report over founder-detention rumors sparked by Anthropic's distillation claims",
+      "date_first_run": "2026-09-14"
+    },
+    {
+      "id": "deepseek-shanghai-ipo-citic-underwriters-star-market",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3366948/chinese-ai-firm-deepseek-taps-underwriters-including-citic-securities-ipo-sources",
+      "title": "DeepSeek taps CITIC Securities and three others for a Shanghai STAR Market IPO",
+      "date_first_run": "2026-09-14"
     }
   ]
 }
